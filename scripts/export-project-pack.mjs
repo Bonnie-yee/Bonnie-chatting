@@ -4,7 +4,7 @@ import os from 'node:os';
 import {fileURLToPath} from 'node:url';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const output=path.join(os.homedir(),'Desktop','我的接话助手_GPT项目资料');
+const output=path.join(os.homedir(),'Desktop','邦尼🐰的🐶军师_GPT项目资料');
 const readJson=async name=>JSON.parse(await fs.readFile(path.join(root,'data/private',name),'utf8'));
 await fs.mkdir(output,{recursive:true,mode:0o700});
 const [core,groups,cases,approved,provided,reference]=await Promise.all(['author_style_core.json','author_reply_groups.json','annotated_cases.json','approved_generated_examples.json','user_provided_style_examples.json','reference_document.json'].map(readJson));
@@ -26,6 +26,6 @@ for(const directory of ['app','web','scripts','tests','config'])for(const name o
   const relative=directory+'/'+name;code+=`\n\n## ${relative}\n\n\`\`\`text\n${await fs.readFile(path.join(root,relative),'utf8')}\n\`\`\`\n`;
 }
 files['05_软件代码仅供维护.md']=code;
-files['README_怎么放进GPT项目.md']=`# 我的接话助手：GPT 项目导入\n\n使用自己的 ChatGPT 账号，创建一个新的私有项目，名字可用「我的接话助手」。\n\n1. 打开项目的指令设置，把「00_项目指令.txt」全文粘贴为项目指令。\n2. 向项目 Sources / 添加文件上传 01、02、03、04；05 是完整维护代码，可一并上传，日常接话不需要读取它。\n3. 在这个项目里为不同男生分别开聊天，直接发截图或最近几句，顺带说阶段和要求，如「第二阶段，含蓄地暗示约饭」。之后同一个人的情况在对应聊天里继续。\n4. 想要快答时选择账号可用的即时模式；不要求模型每次重读所有大文件或讲长解释。10秒是目标，不是外部服务的硬保证。\n\n项目能共享上传文件和指令；上传代码是提供维护资料，不等于把本机服务装在项目里执行。HTML 界面和本机程序继续在浏览器与 Mac 上运行。\n\n本人正向文字 ${core.user_message_count} 条，分 ${groups.length} 组；逐场景分析 ${cases.length} 组；已认可生成示例 ${approved.length} 组；参考全文 ${reference.paragraph_count} 段。ta 的发言不作为风格样本。\n\n资料依据：[OpenAI 官方 Projects 说明](https://learn.chatgpt.com/docs/projects)。后续有新的校正时，更新项目指令或重新上传对应资料。不要把资料放进其他人的账号，也不要共享这个私有项目。\n`;
+files['README_怎么放进GPT项目.md']=`# 邦尼🐰的🐶军师：GPT 项目导入\n\n使用自己的 ChatGPT 账号，创建一个新的私有项目，名字可用「邦尼🐰的🐶军师」。\n\n1. 打开项目的指令设置，把「00_项目指令.txt」全文粘贴为项目指令。\n2. 向项目 Sources / 添加文件上传 01、02、03、04；05 是完整维护代码，可一并上传，日常接话不需要读取它。\n3. 在这个项目里为不同男生分别开聊天，直接发截图或最近几句，顺带说阶段和要求，如「第二阶段，含蓄地暗示约饭」。之后同一个人的情况在对应聊天里继续。\n4. 想要快答时选择账号可用的即时模式；不要求模型每次重读所有大文件或讲长解释。10秒是目标，不是外部服务的硬保证。\n\n项目能共享上传文件和指令；上传代码是提供维护资料，不等于把本机服务装在项目里执行。HTML 界面和本机程序继续在浏览器与 Mac 上运行。\n\n本人正向文字 ${core.user_message_count} 条，分 ${groups.length} 组；逐场景分析 ${cases.length} 组；已认可生成示例 ${approved.length} 组；参考全文 ${reference.paragraph_count} 段。ta 的发言不作为风格样本。\n\n资料依据：[OpenAI 官方 Projects 说明](https://learn.chatgpt.com/docs/projects)。后续有新的校正时，更新项目指令或重新上传对应资料。不要把资料放进其他人的账号，也不要共享这个私有项目。\n`;
 for(const [name,text]of Object.entries(files)){const file=path.join(output,name);await fs.writeFile(file,text,{mode:0o600});await fs.chmod(file,0o600);}
 console.log(JSON.stringify({project_pack:output,files:Object.keys(files),author_groups:groups.length,author_messages:core.user_message_count,reference_paragraphs:reference.paragraph_count}));

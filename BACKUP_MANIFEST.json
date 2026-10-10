@@ -1,7 +1,9 @@
 {
   "date": "2026-10-10",
+  "product_name": "邦尼🐰的🐶军师",
   "owner": "Bonnie-yee",
   "visibility": "private",
+  "project_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/project",
   "excluded": [
     "OAuth credentials",
     "runtime sessions",
@@ -22,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9832,
-      "sha256": "5356ead37408d9e186b633f7cd863d94b6a29bef0c0edee67a08d9b242b33988"
+      "bytes": 10203,
+      "sha256": "2574efe555f7d1729108dfb9157a1eef75692047a123c773d39bc9ff76338b05"
     },
     {
       "path": "analysis/60个重点样本.md",
@@ -47,8 +49,8 @@
     },
     {
       "path": "analysis/六项修改校验.json",
-      "bytes": 1159,
-      "sha256": "61b74a9786aba6a91e4c436405f288e966781238e16b092cd77d9eaf629ac242"
+      "bytes": 1351,
+      "sha256": "db9e1dd7225b36fb9edf591bf9be1ba08540e3ad80c13d45b0eb4161a91310de"
     },
     {
       "path": "analysis/分析指标.json",
@@ -151,14 +153,14 @@
       "sha256": "bac8fd4690ca67e55cd23e5d58dafa99bf541e61ed1f89612034efac27ec36e8"
     },
     {
-      "path": "artifacts/我的接话助手.html",
-      "bytes": 348553,
-      "sha256": "65d5e11a320d4d6bdcebb2b3b7d559c8a533132eadc075f3ef1583b13e2ca195"
+      "path": "artifacts/邦尼🐰的🐶军师.html",
+      "bytes": 348555,
+      "sha256": "4ec8163e60f3d1efe3dc6bec3fbce453dfa33b9efe978694db126aea9de1a614"
     },
     {
       "path": "config/author_only_prompt.md",
-      "bytes": 5836,
-      "sha256": "dd4f0689b2bb089d455f3a9aab4992fe288427a9c2cf9418caf82d8530d0e609"
+      "bytes": 5841,
+      "sha256": "f10e728fd7502029224689af656bc5116482976cfaec0537c2507cbefa187e83"
     },
     {
       "path": "config/exclusions.json",
@@ -177,8 +179,8 @@
     },
     {
       "path": "config/system_prompt.md",
-      "bytes": 5836,
-      "sha256": "dd4f0689b2bb089d455f3a9aab4992fe288427a9c2cf9418caf82d8530d0e609"
+      "bytes": 5841,
+      "sha256": "f10e728fd7502029224689af656bc5116482976cfaec0537c2507cbefa187e83"
     },
     {
       "path": "data/private/annotated_cases.json",
@@ -197,8 +199,8 @@
     },
     {
       "path": "data/private/author_style_core.json",
-      "bytes": 6708,
-      "sha256": "02241d8d9a8c777f925561fcb7f8b636edb45ec9c226b7ebf56eaff3b40f6c53"
+      "bytes": 6758,
+      "sha256": "2b3f04dbec5a7dfcb0567cdc26b179666eff3638e8065d15b473d0c9b2e78e8a"
     },
     {
       "path": "data/private/client_preferences.json",
@@ -237,8 +239,8 @@
     },
     {
       "path": "dist/index.html",
-      "bytes": 8193,
-      "sha256": "b3c2af7165497e25b6bcf1d239b6d3b7d457344459af02c8483e115950ef49f3"
+      "bytes": 8190,
+      "sha256": "080ffdee1cdcc9ed0a5db9bd50ec92a12e7a72209341a9de22e0ac2f477f50f2"
     },
     {
       "path": "dist/style.css",
@@ -247,13 +249,13 @@
     },
     {
       "path": "gpt_project/00_项目指令.txt",
-      "bytes": 6852,
-      "sha256": "321a2c62747672d9511efde37c6f907b54940e3fb1b14135f09bca2f8a894126"
+      "bytes": 6857,
+      "sha256": "965f8f9514e3626f9ed8d2afd4799e83d03eaccb4f33d11d66140cab5cd1cc74"
     },
     {
       "path": "gpt_project/01_我的风格.md",
-      "bytes": 8302,
-      "sha256": "639ce4505ee439b9c26425795308f389bfeef40ca1ee6b1097527ad0e2e922a0"
+      "bytes": 8307,
+      "sha256": "a752557398d25a14b1dc870b9350eb8430ab5b797e65ded5ab8e79b0c7fa5d8f"
     },
     {
       "path": "gpt_project/02_我的回复样本.jsonl",
@@ -272,13 +274,13 @@
     },
     {
       "path": "gpt_project/05_软件代码仅供维护.md",
-      "bytes": 161150,
-      "sha256": "4b9a12cbaaec6c72029d3d40b06a60adc9cc2c83027ec822421190947476246c"
+      "bytes": 161185,
+      "sha256": "6d6512476cb8a100d824b1b377e6dc4ba93dba2d16dafb1a378e2151d73b15f9"
     },
     {
       "path": "gpt_project/README_怎么放进GPT项目.md",
-      "bytes": 1358,
-      "sha256": "b922703d622d9455cf13168c8e1b22a4f221e273fa18778f7c9ac1971e80f44a"
+      "bytes": 1368,
+      "sha256": "c397ae3c8dc6f8603fc3a59859733641df8dc626965de947891c9fa90951f488"
     },
     {
       "path": "package-lock.json",
@@ -292,8 +294,8 @@
     },
     {
       "path": "scripts/build-html.mjs",
-      "bytes": 2754,
-      "sha256": "5a4e85648a9b377282840c7fe1a27fa6df7e8049f7636c8f7256831f910c5046"
+      "bytes": 2759,
+      "sha256": "51f3324cc3663d9947bf67bede9de51ca4df5c40694b395242b7a65c842ae3e2"
     },
     {
       "path": "scripts/corpus.mjs",
@@ -302,13 +304,13 @@
     },
     {
       "path": "scripts/export-project-pack.mjs",
-      "bytes": 5940,
-      "sha256": "a965eb8f19806239b2940a0cd3c27fc8c672a63bfae5b1bf277d459675d759d0"
+      "bytes": 5955,
+      "sha256": "5cdf086c6ea96ded5f4c3be4def33481c9ecf2d764fe52b945b0fe3a1aaf8f86"
     },
     {
       "path": "scripts/launch.mjs",
-      "bytes": 1023,
-      "sha256": "181ae875716537076dd811f43db4bb04d2e7573cc4b8b7e6e975f7dc8f5d5f81"
+      "bytes": 1034,
+      "sha256": "e551f789d9b7f2f9594e50f99024105bc45a9fd55c5c407aa50b7d9933749f00"
     },
     {
       "path": "scripts/open.command",
@@ -352,8 +354,8 @@
     },
     {
       "path": "tests/html.test.mjs",
-      "bytes": 7788,
-      "sha256": "efa58985578c6788a061d54d4c7aa388acefbc919c11c323b54a92760e20d279"
+      "bytes": 7785,
+      "sha256": "6e506e9c3670ea65c6d726610b04e6a81132e2c8c1a15227e48fb438941200c5"
     },
     {
       "path": "web/app.js",
@@ -362,8 +364,8 @@
     },
     {
       "path": "web/index.html",
-      "bytes": 8193,
-      "sha256": "b3c2af7165497e25b6bcf1d239b6d3b7d457344459af02c8483e115950ef49f3"
+      "bytes": 8190,
+      "sha256": "080ffdee1cdcc9ed0a5db9bd50ec92a12e7a72209341a9de22e0ac2f477f50f2"
     },
     {
       "path": "web/style.css",
