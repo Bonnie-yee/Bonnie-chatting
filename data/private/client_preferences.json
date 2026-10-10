@@ -2,9 +2,10 @@
   "updated_at": "2026-10-10",
   "plan_reported_by_user": "Plus",
   "expected_account_email": "huangbaoyi03@gmail.com",
-  "current_codex_account_owned_by_user": false,
+  "current_codex_account_owned_by_user": true,
   "interface": "mobile_screenshot_or_paste",
   "integration": "independent_chatgpt_login",
   "reuse_existing_codex_credentials": false,
-  "paid_api_fallback": false
+  "paid_api_fallback": false,
+  "codex_ownership_source": "user_corrected_on_2026-10-10"
 }

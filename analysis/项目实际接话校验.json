@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "product_name": "邦尼🐰的🐶军师",
+  "project_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/project",
+  "account_owner_verified": "huangbaoyi03@gmail.com",
+  "plan_verified": "Plus",
+  "source_files_initially_uploaded": 7,
+  "instruction_saved": true,
+  "project_only_memory": true,
+  "private_owner_only_access_verified": true,
+  "real_chatgpt_generation_calls": 2,
+  "first_visible_text_observed_within_ms": 5365,
+  "complete_response_latency_not_measured": true,
+  "model_id_not_exposed_by_ui": true,
+  "ui_processing_mode": "即时",
+  "check": {
+    "input": "第二阶段。ta：我怎么感觉你每次都记得我喜欢吃什么。",
+    "output": [
+      "哈哈哈那你就当我记性好",
+      "不过也不是谁的口味都能记这么清楚的～"
+    ],
+    "verdict": "第二句把留白讲破，不作为正向样本",
+    "user_approved": false,
+    "correction": "第二阶段不补特殊待遇宣言；一句接住就收，不机械添加笑声或波浪号"
+  },
+  "source_files_uploaded": 8,
+  "latest_instruction_saved": true,
+  "latest_correction_file_uploaded": true,
+  "retest": {
+    "output": [
+      "那你就当我记性比较好咯"
+    ],
+    "completed_response_observed_by_ms": 16076,
+    "precise_completion_latency_not_measured": true,
+    "verdict": "没有追加直白的特殊待遇宣言，收句规则在此项复核中生效",
+    "user_approved": false
+  }
+}

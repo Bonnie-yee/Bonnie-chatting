@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10203,
-      "sha256": "2574efe555f7d1729108dfb9157a1eef75692047a123c773d39bc9ff76338b05"
+      "bytes": 10661,
+      "sha256": "5c9be24ffbc00b234276d2f3c41f182bd5738a4ffe53a59df2595503cac8e4a1"
     },
     {
       "path": "analysis/60个重点样本.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "analysis/六项修改校验.json",
-      "bytes": 1351,
-      "sha256": "db9e1dd7225b36fb9edf591bf9be1ba08540e3ad80c13d45b0eb4161a91310de"
+      "bytes": 1758,
+      "sha256": "96901cc3c7c4ef979eecede3a2f2f502c5c7aed96f63806933f42e58c2e5bd60"
     },
     {
       "path": "analysis/分析指标.json",
@@ -133,6 +133,11 @@
       "sha256": "11e82e2a9c4e6779f774f4ed2bb32d0fad67347910492f8a3abadbcd83a321a9"
     },
     {
+      "path": "analysis/项目实际接话校验.json",
+      "bytes": 1460,
+      "sha256": "8818b0d0b95a1c7c5e941bf3d530bbec854f9487bfce3223416304d6a00cd219"
+    },
+    {
       "path": "app/account.mjs",
       "bytes": 12818,
       "sha256": "b5146b8fb774450a97dc6fcb3f4eec2ffe543149a90336b563a099d81222a4b2"
@@ -154,13 +159,13 @@
     },
     {
       "path": "artifacts/邦尼🐰的🐶军师.html",
-      "bytes": 348555,
-      "sha256": "4ec8163e60f3d1efe3dc6bec3fbce453dfa33b9efe978694db126aea9de1a614"
+      "bytes": 349690,
+      "sha256": "8d9f53ddc561753d480491f17e39f829bc4c4504ebb2f78baee907da84bf01ab"
     },
     {
       "path": "config/author_only_prompt.md",
-      "bytes": 5841,
-      "sha256": "f10e728fd7502029224689af656bc5116482976cfaec0537c2507cbefa187e83"
+      "bytes": 6968,
+      "sha256": "497f4ee7c13a9c7f23856ca7cf28c3c83c7f93e3ffc772a8c3796eefae71e400"
     },
     {
       "path": "config/exclusions.json",
@@ -179,8 +184,8 @@
     },
     {
       "path": "config/system_prompt.md",
-      "bytes": 5841,
-      "sha256": "f10e728fd7502029224689af656bc5116482976cfaec0537c2507cbefa187e83"
+      "bytes": 6968,
+      "sha256": "497f4ee7c13a9c7f23856ca7cf28c3c83c7f93e3ffc772a8c3796eefae71e400"
     },
     {
       "path": "data/private/annotated_cases.json",
@@ -199,13 +204,13 @@
     },
     {
       "path": "data/private/author_style_core.json",
-      "bytes": 6758,
-      "sha256": "2b3f04dbec5a7dfcb0567cdc26b179666eff3638e8065d15b473d0c9b2e78e8a"
+      "bytes": 7893,
+      "sha256": "5e4d76eaa7e7b1dc38502febec39834c45dcfc8b56bd8af49022e0a4ba5c2a12"
     },
     {
       "path": "data/private/client_preferences.json",
-      "bytes": 336,
-      "sha256": "3dc2817e0a7f5cc23577013473c83254d239f77b9cf2a713b6bcbd72a2146804"
+      "bytes": 395,
+      "sha256": "72f68065ae8ca7fef76550862192c76479995873598b103b5b80d5dd6d256916"
     },
     {
       "path": "data/private/conversation.json",
@@ -249,13 +254,13 @@
     },
     {
       "path": "gpt_project/00_项目指令.txt",
-      "bytes": 6857,
-      "sha256": "965f8f9514e3626f9ed8d2afd4799e83d03eaccb4f33d11d66140cab5cd1cc74"
+      "bytes": 7984,
+      "sha256": "a94c5a37d28604d60b16050fb8fd04a198d11421b7364e6bf6eb2bace9d2d65b"
     },
     {
       "path": "gpt_project/01_我的风格.md",
-      "bytes": 8307,
-      "sha256": "a752557398d25a14b1dc870b9350eb8430ab5b797e65ded5ab8e79b0c7fa5d8f"
+      "bytes": 9434,
+      "sha256": "c7c7b1abd7e0b37f7d5e39864e688e7466a38544489ea9eaade21e786e155c3b"
     },
     {
       "path": "gpt_project/02_我的回复样本.jsonl",
@@ -274,13 +279,18 @@
     },
     {
       "path": "gpt_project/05_软件代码仅供维护.md",
-      "bytes": 161185,
-      "sha256": "6d6512476cb8a100d824b1b377e6dc4ba93dba2d16dafb1a378e2151d73b15f9"
+      "bytes": 163851,
+      "sha256": "c8b0ffcc5e4285c528c1d24daac1c94ed074f17831fe241e4ce8a3c8513705d4"
+    },
+    {
+      "path": "gpt_project/06_最新校正.txt",
+      "bytes": 1314,
+      "sha256": "a2181ea588e0a9f8f48185f187b947a6e24178a8c9554ec8f896c2ab3f005ae9"
     },
     {
       "path": "gpt_project/README_怎么放进GPT项目.md",
-      "bytes": 1368,
-      "sha256": "c397ae3c8dc6f8603fc3a59859733641df8dc626965de947891c9fa90951f488"
+      "bytes": 1412,
+      "sha256": "05846e7d666098b3568172add34c359de1365c182e6708efc809ae387ecec0fb"
     },
     {
       "path": "package-lock.json",
@@ -304,8 +314,8 @@
     },
     {
       "path": "scripts/export-project-pack.mjs",
-      "bytes": 5955,
-      "sha256": "5cdf086c6ea96ded5f4c3be4def33481c9ecf2d764fe52b945b0fe3a1aaf8f86"
+      "bytes": 6367,
+      "sha256": "35afe84b53f33dfcb1abf04fb242e427081e2a019984865604dcae84d4acdfd8"
     },
     {
       "path": "scripts/launch.mjs",
@@ -339,8 +349,8 @@
     },
     {
       "path": "source_documents/回复助手规则.md",
-      "bytes": 10625,
-      "sha256": "b12e6390648cbf5bd12562b9ddf0d6a4226f1a3cb0a19e0375c3ff67df98c93c"
+      "bytes": 11166,
+      "sha256": "fe2156c8a9aba9860062c9a6a3e2e1e01a55ee29ae61cbfc4a798400644c6683"
     },
     {
       "path": "tests/app.test.mjs",

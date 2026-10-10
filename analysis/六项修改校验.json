@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "status": "local_changes_verified_external_steps_in_progress",
+  "status": "html_and_gpt_project_ready_private_backup_final_sync_pending",
   "style": {
     "writer": "我",
     "original_messages": 1068,
@@ -45,5 +45,16 @@
   "product_name": "邦尼🐰的🐶军师",
   "github_url": "https://github.com/Bonnie-yee/jieyiju-personal-assistant",
   "github_backed_up": true,
-  "github_publish_private_verified": true
+  "github_publish_private_verified": true,
+  "gpt_project": {
+    "url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/project",
+    "owner_email_verified": true,
+    "instructions_saved": true,
+    "source_files_uploaded": 8,
+    "latest_correction_uploaded": true,
+    "private_owner_only": true,
+    "project_only_memory": true,
+    "real_generation_verified": true,
+    "complete_style_mastery_not_guaranteed": true
+  }
 }
