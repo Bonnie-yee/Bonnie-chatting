@@ -15,7 +15,7 @@
   "work_chat_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6aca54fc-055c-83ea-9f75-89ed88e7e989",
   "old_chats_preserved": true,
   "old_chats_not_claimed_converted": true,
-  "private_site_deployment": "appgdep_6aca1952f8c48191a1148e9522a2bede",
+  "private_site_deployment": "appgdep_6aca6605bf908191bca1ac2b8e86ac75",
   "github_feedback_verified_commit": "8e84a19b2efea4994b73ce15e5f7caf5c254071d",
   "mac_sync_installation": "installed_and_live_verified",
   "required_reasoning_effort": "xhigh",
@@ -29,5 +29,10 @@
   "mac_sync_label": "com.bonnie.chatting.sync",
   "github_workflow_first_run": "https://github.com/Bonnie-yee/Bonnie-chatting/actions/runs/38064033812",
   "github_workflow_first_run_status": "success",
-  "tests_passed": 46
+  "tests_passed": 46,
+  "private_site_version": 4,
+  "github_workflow_latest_run": "https://github.com/Bonnie-yee/Bonnie-chatting/actions/runs/38067570245",
+  "github_workflow_latest_run_status": "success",
+  "final_desktop_github_sha256_match": true,
+  "final_model_display_verified": "GPT-6.1 Sol 极高"
 }

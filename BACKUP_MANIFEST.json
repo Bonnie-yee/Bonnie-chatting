@@ -65,8 +65,8 @@
     },
     {
       "path": "analysis/工作模式与自动同步核验.json",
-      "bytes": 1620,
-      "sha256": "0c2df46eb4b2f548418b51da291052cc3a5b44e7e17d7469bba94fe8cd34dd21"
+      "bytes": 1906,
+      "sha256": "a796dd95da7e492bf85c68a585c9d866e1bdd8cfa38422acb218b9424bb78a5e"
     },
     {
       "path": "analysis/待核对_照片回复反转.json",
@@ -87,6 +87,11 @@
       "path": "analysis/撤回显示过滤核对.json",
       "bytes": 636,
       "sha256": "9bad00041354a80e991fbaa67d255ccd6d5a4a19f0a88a0c60a510d2bfe81d51"
+    },
+    {
+      "path": "analysis/最终一致性核对.json",
+      "bytes": 1751,
+      "sha256": "4d160a7d8865680c5a53948d82d48602e7f5c30456d3f21c23fb0c8ad3957c4e"
     },
     {
       "path": "analysis/检索回测.json",
