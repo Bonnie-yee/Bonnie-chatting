@@ -25,8 +25,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4084,
-      "sha256": "039a6cfbe2809085162a4ab3b1e88dc3310a3f27c4559258d9f4599b6a438d1c"
+      "bytes": 4302,
+      "sha256": "3d2be1cf8794aaf5d2fe0060f308e83085d67eb3523cdae9380cc3c1c3e86c0f"
     },
     {
       "path": "analysis/60个重点样本.md",
@@ -89,6 +89,11 @@
       "sha256": "9bad00041354a80e991fbaa67d255ccd6d5a4a19f0a88a0c60a510d2bfe81d51"
     },
     {
+      "path": "analysis/旧版本清理记录.json",
+      "bytes": 2126,
+      "sha256": "e3ae87ffe6f3096c2e0c1f1c74ebd20bcf002283f4616edb66c8cdc3357e15ad"
+    },
+    {
       "path": "analysis/最终一致性核对.json",
       "bytes": 1751,
       "sha256": "4d160a7d8865680c5a53948d82d48602e7f5c30456d3f21c23fb0c8ad3957c4e"
@@ -122,6 +127,11 @@
       "path": "analysis/独立密码网页入口.md",
       "bytes": 728,
       "sha256": "513bfabaa40032e0e50988589112f316f8efbe474eac81841c50d048239cc620"
+    },
+    {
+      "path": "analysis/独立密码网页核验.json",
+      "bytes": 463,
+      "sha256": "8ecbdb724d522acc405a742b4c0a560f9ce6a2add74dda57de767fe5cf756781"
     },
     {
       "path": "analysis/用户反馈_礼物夸奖与反馈空间.json",
@@ -200,18 +210,13 @@
     },
     {
       "path": "app/vault-relay.mjs",
-      "bytes": 1471,
-      "sha256": "4bef1e9b9996d1ab6655db274108fb037b50f067f79b8be7ceb1803e37f6d943"
+      "bytes": 1549,
+      "sha256": "ff8932961269ac25b9459808341bb78fc9566ad2674a1fca4b8e4256f278c07f"
     },
     {
       "path": "artifacts/邦尼🐰的🐶军师.html",
       "bytes": 377517,
       "sha256": "e140ec57ad27790033ba6b33c1aa8824649738e1ce176f28ec639144f271211a"
-    },
-    {
-      "path": "artifacts/邦尼🐰的🐶军师_云端.html",
-      "bytes": 390,
-      "sha256": "747c70851ceedc2c659460c25c0c2d41250ef6a35ee336d9c0c68f7e114827c6"
     },
     {
       "path": "config/author_only_prompt.md",
@@ -440,8 +445,8 @@
     },
     {
       "path": "mobile-site/dist/server/index.js",
-      "bytes": 444789,
-      "sha256": "f6a0339abff4e80279cc0310b6c297223496d7e7ffb81d4615339658a1ff1610"
+      "bytes": 444867,
+      "sha256": "bc3fe19d0ae8f6a8b6932fe57371a5743d1bd4bc91930952f5556f1e38de7c0c"
     },
     {
       "path": "mobile-site/dist/sw.js",
@@ -450,8 +455,8 @@
     },
     {
       "path": "mobile-site/worker/index.js",
-      "bytes": 444789,
-      "sha256": "f6a0339abff4e80279cc0310b6c297223496d7e7ffb81d4615339658a1ff1610"
+      "bytes": 444867,
+      "sha256": "bc3fe19d0ae8f6a8b6932fe57371a5743d1bd4bc91930952f5556f1e38de7c0c"
     },
     {
       "path": "package-lock.json",
@@ -615,8 +620,8 @@
     },
     {
       "path": "tests/password-site.test.mjs",
-      "bytes": 6947,
-      "sha256": "69b85bdd8e7453682807af62089c2468a385eaf55ffa9bc9df7d2d215e6a9194"
+      "bytes": 7031,
+      "sha256": "2282c670fb5a14b4d20a1f1e94a2a707da6b6d9c5aea72ed3d0830118819d5f2"
     },
     {
       "path": "tests/reference-filter.test.mjs",

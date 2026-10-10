@@ -51,3 +51,5 @@ data/private/、gpt_project/、source_documents/、artifacts/ 只在私人仓库
 无需 GPT 登录的完整私人参考： https://bonnie-bunny-vault-1011.eagerrobin8.chatgpt.site
 
 访问密码单独保存在桌面，不进入本仓库。网页使用服务器校验、有限尝试与加密内容；AI 回复仍由原 GPT 工作对话生成。原手机 Site 保持 owner-only。真实反馈通过固定云端 relay 同步，失败时保留 pending 并重试。维护资料见 `password-site/README.md`。
+
+桌面统一入口：`邦尼兔网页版.webloc`；离线 HTML 仅保留 `邦尼🐰的🐶军师.html`。旧桌面云端 HTML 和旧备份已移入废纸篓，清理记录在 `analysis/旧版本清理记录.json`。
