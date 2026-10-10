@@ -16,5 +16,8 @@
   "desktop_html_count": 1,
   "old_versions_moved_to_trash": 8,
   "configured_password_accepted": true,
-  "gpt_project_new_entry_via": "connected_bonnie_get_rules.password_website"
+  "gpt_project_new_entry_via": "connected_bonnie_get_rules.password_website",
+  "gpt_native_source_file_uploaded": "13_独立密码网页入口.md",
+  "gpt_native_total_sources": 15,
+  "original_style_sources_preserved": true
 }

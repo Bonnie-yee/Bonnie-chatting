@@ -65,8 +65,8 @@
     },
     {
       "path": "analysis/工作模式与自动同步核验.json",
-      "bytes": 1906,
-      "sha256": "a796dd95da7e492bf85c68a585c9d866e1bdd8cfa38422acb218b9424bb78a5e"
+      "bytes": 1973,
+      "sha256": "58c34180d43ddc9b407d5afc30077da407e1c877f62a8cd482a69bc3333163ee"
     },
     {
       "path": "analysis/待核对_照片回复反转.json",
@@ -130,8 +130,8 @@
     },
     {
       "path": "analysis/独立密码网页核验.json",
-      "bytes": 691,
-      "sha256": "84277caf92600bca3eaf1babcf51adb1dd583adc4132160ceb1fd18926c670e8"
+      "bytes": 840,
+      "sha256": "1fddd67b522e50a5caa742f5f5c83cf030b3a529b04bc9af67a59398a3b1ddb5"
     },
     {
       "path": "analysis/用户反馈_礼物夸奖与反馈空间.json",
