@@ -65,8 +65,8 @@
     },
     {
       "path": "analysis/工作模式与自动同步核验.json",
-      "bytes": 971,
-      "sha256": "dfb35968315d5d87aa8d0e321a7098e1cb4479082742afcc540aaaf2fe8fdb96"
+      "bytes": 1620,
+      "sha256": "0c2df46eb4b2f548418b51da291052cc3a5b44e7e17d7469bba94fe8cd34dd21"
     },
     {
       "path": "analysis/待核对_照片回复反转.json",
@@ -186,7 +186,7 @@
     {
       "path": "artifacts/邦尼🐰的🐶军师.html",
       "bytes": 374658,
-      "sha256": "7ebba5f2dfbf4d2ae53327a1d244496eddf8795b5d9572fa8f3ec9ccb8b15bb7"
+      "sha256": "872fc20b00854d50828530ea78719775df80a825753f48479a5c50af3af69e97"
     },
     {
       "path": "artifacts/邦尼🐰的🐶军师_云端.html",
@@ -255,8 +255,8 @@
     },
     {
       "path": "data/private/client_preferences.json",
-      "bytes": 1583,
-      "sha256": "a2d5da6892a19efd9930f2894ccd4cefebfc25269c72c4570d32531962a7ae52"
+      "bytes": 1842,
+      "sha256": "eb9172a40a127b54e82f457d10ee76975159b9233569856960e1ff22895aa733"
     },
     {
       "path": "data/private/conversation.json",
@@ -301,7 +301,7 @@
     {
       "path": "dist/standalone.html",
       "bytes": 374658,
-      "sha256": "7ebba5f2dfbf4d2ae53327a1d244496eddf8795b5d9572fa8f3ec9ccb8b15bb7"
+      "sha256": "872fc20b00854d50828530ea78719775df80a825753f48479a5c50af3af69e97"
     },
     {
       "path": "dist/style.css",
@@ -335,8 +335,8 @@
     },
     {
       "path": "gpt_project/05_软件代码仅供维护.md",
-      "bytes": 222573,
-      "sha256": "58cbb9f567be7223ecac8f909cb94e57e3782a8bdba45d23ac941ed68ef9b979"
+      "bytes": 222610,
+      "sha256": "f81988adc24b1a9290057ad7f8ab438a9613c33c7d589f001f4b779d29fa503f"
     },
     {
       "path": "gpt_project/06_最新校正.txt",
@@ -411,7 +411,7 @@
     {
       "path": "mobile-site/dist/index.html",
       "bytes": 375163,
-      "sha256": "af831244ebb9121db53d671a41ee4864b7147102279eaf31d38877056e3cac6c"
+      "sha256": "dcc4e314a79269d71010128cc0d2ffe634ef84abddc359d022a3857c0d2f4581"
     },
     {
       "path": "mobile-site/dist/manifest.webmanifest",
@@ -421,17 +421,17 @@
     {
       "path": "mobile-site/dist/server/index.js",
       "bytes": 440405,
-      "sha256": "b9405f2b11a6f190aed15a4b2cd95dee4d60aa451515b337578539ab82d3ebf6"
+      "sha256": "7f7c5c7ab5a07f6beb736f51f3a4f7f52b368f5c595cf39d99ce1d0de8c64b94"
     },
     {
       "path": "mobile-site/dist/sw.js",
       "bytes": 1423,
-      "sha256": "ef496d7fb7939e577ae56de2ef4360691cccd45ef90f5321072eff3541efe039"
+      "sha256": "d7df4e72afc77bc5392e05a5b9affef0cbc6c38328474d19eb3845339bb82ab8"
     },
     {
       "path": "mobile-site/worker/index.js",
       "bytes": 440405,
-      "sha256": "b9405f2b11a6f190aed15a4b2cd95dee4d60aa451515b337578539ab82d3ebf6"
+      "sha256": "7f7c5c7ab5a07f6beb736f51f3a4f7f52b368f5c595cf39d99ce1d0de8c64b94"
     },
     {
       "path": "package-lock.json",
@@ -450,8 +450,8 @@
     },
     {
       "path": "scripts/build-html.mjs",
-      "bytes": 3639,
-      "sha256": "0be45771da0959a64835f216687dda8ec3afb9ed780e91fe2c74030c3226d7ba"
+      "bytes": 3676,
+      "sha256": "6b3dc153a64176056159f54c9c8b66d35880b22c23845e7276be5bc3c4dd758a"
     },
     {
       "path": "scripts/build-mobile-site.mjs",

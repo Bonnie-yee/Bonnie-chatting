@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10",
+  "updated_at": "2026-10-11",
   "plan_reported_by_user": "Plus",
   "expected_account_email": "huangbaoyi03@gmail.com",
   "current_codex_account_owned_by_user": true,
@@ -30,5 +30,7 @@
   "memory_mode": "default",
   "memory_change_explicitly_approved": true,
   "required_reasoning_effort": "xhigh",
-  "reasoning_display_verified": "GPT-6.1 Sol 极高"
+  "reasoning_display_verified": "GPT-6.1 Sol 极高",
+  "practice_work_chat_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6aca5a3b-a068-83ea-a729-535bb44c2f95",
+  "reference_work_chat_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6aca5c2d-76cc-83ea-8b52-6844afd706f0"
 }

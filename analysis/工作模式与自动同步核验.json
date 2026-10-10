@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "same_project_id": "g-p-6ac9c47bbb348191a347feea9ab2d54c",
   "project_name": "Bonnie🐰Chatting",
   "memory_change": "default",
@@ -17,7 +17,17 @@
   "old_chats_not_claimed_converted": true,
   "private_site_deployment": "appgdep_6aca1952f8c48191a1148e9522a2bede",
   "github_feedback_verified_commit": "8e84a19b2efea4994b73ce15e5f7caf5c254071d",
-  "mac_sync_installation": "pending",
+  "mac_sync_installation": "installed_and_live_verified",
   "required_reasoning_effort": "xhigh",
-  "reasoning_display_verified": "GPT-6.1 Sol 极高"
+  "reasoning_display_verified": "GPT-6.1 Sol 极高",
+  "total_source_files": 14,
+  "original_sources_preserved": 11,
+  "supplementary_sources_added": 3,
+  "practice_work_chat_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6aca5a3b-a068-83ea-a729-535bb44c2f95",
+  "reference_work_chat_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6aca5c2d-76cc-83ea-8b52-6844afd706f0",
+  "reference_work_verified_paragraphs": 1283,
+  "mac_sync_label": "com.bonnie.chatting.sync",
+  "github_workflow_first_run": "https://github.com/Bonnie-yee/Bonnie-chatting/actions/runs/38064033812",
+  "github_workflow_first_run_status": "success",
+  "tests_passed": 46
 }
