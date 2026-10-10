@@ -125,13 +125,13 @@
     },
     {
       "path": "analysis/独立密码网页入口.md",
-      "bytes": 728,
-      "sha256": "513bfabaa40032e0e50988589112f316f8efbe474eac81841c50d048239cc620"
+      "bytes": 1018,
+      "sha256": "a8c410578dcf1631d3923cb5676b508c3ac94567bd434d2d2a1d724fc37a14bb"
     },
     {
       "path": "analysis/独立密码网页核验.json",
-      "bytes": 463,
-      "sha256": "8ecbdb724d522acc405a742b4c0a560f9ce6a2add74dda57de767fe5cf756781"
+      "bytes": 691,
+      "sha256": "84277caf92600bca3eaf1babcf51adb1dd583adc4132160ceb1fd18926c670e8"
     },
     {
       "path": "analysis/用户反馈_礼物夸奖与反馈空间.json",
@@ -185,8 +185,8 @@
     },
     {
       "path": "app/cloud-feedback.mjs",
-      "bytes": 8941,
-      "sha256": "6199de416a77af989fda97a7185d3adc8b29e98897abd4f9be186887250da1f2"
+      "bytes": 9230,
+      "sha256": "6a1fa3cb89a5d17e55524836a4f2771ad39c28ac5e4d0a207e6661294ac66c87"
     },
     {
       "path": "app/inference.mjs",
@@ -212,6 +212,11 @@
       "path": "app/vault-relay.mjs",
       "bytes": 1549,
       "sha256": "ff8932961269ac25b9459808341bb78fc9566ad2674a1fca4b8e4256f278c07f"
+    },
+    {
+      "path": "artifacts/邦尼兔网页版.webloc",
+      "bytes": 279,
+      "sha256": "a6d65f48c9847a9b6ee2494fba6df9cd9ff882e71d7e496355df7668c6c3305b"
     },
     {
       "path": "artifacts/邦尼🐰的🐶军师.html",
@@ -360,8 +365,8 @@
     },
     {
       "path": "gpt_project/05_软件代码仅供维护.md",
-      "bytes": 222610,
-      "sha256": "f81988adc24b1a9290057ad7f8ab438a9613c33c7d589f001f4b779d29fa503f"
+      "bytes": 253742,
+      "sha256": "f531ebada40286141b3bb791fb0174db0c7115b71e054a825bf5f5973cd36f10"
     },
     {
       "path": "gpt_project/06_最新校正.txt",
@@ -380,8 +385,8 @@
     },
     {
       "path": "gpt_project/09_参考全文编号版.txt",
-      "bytes": 75351,
-      "sha256": "0ecea46516cba503ad56e181c586a5d1ea62315ec738ad4ba6b9cbb581695205"
+      "bytes": 75352,
+      "sha256": "942a628bdf046cc7c8ec3ac35e40ab01aecd6ca3db18eb8278aa0f8dc5beb7f7"
     },
     {
       "path": "gpt_project/10_自动同步规则.md",
@@ -395,8 +400,13 @@
     },
     {
       "path": "gpt_project/12_参考全文当前版.txt",
-      "bytes": 75351,
-      "sha256": "0ecea46516cba503ad56e181c586a5d1ea62315ec738ad4ba6b9cbb581695205"
+      "bytes": 75352,
+      "sha256": "942a628bdf046cc7c8ec3ac35e40ab01aecd6ca3db18eb8278aa0f8dc5beb7f7"
+    },
+    {
+      "path": "gpt_project/13_独立密码网页入口.md",
+      "bytes": 1018,
+      "sha256": "a8c410578dcf1631d3923cb5676b508c3ac94567bd434d2d2a1d724fc37a14bb"
     },
     {
       "path": "gpt_project/README_怎么放进GPT项目.md",
@@ -445,8 +455,8 @@
     },
     {
       "path": "mobile-site/dist/server/index.js",
-      "bytes": 444867,
-      "sha256": "bc3fe19d0ae8f6a8b6932fe57371a5743d1bd4bc91930952f5556f1e38de7c0c"
+      "bytes": 445233,
+      "sha256": "b9d6c1c0390e9b858a1d563968f4cfbcae1a01beeefe8facd6ede081feb28630"
     },
     {
       "path": "mobile-site/dist/sw.js",
@@ -455,8 +465,8 @@
     },
     {
       "path": "mobile-site/worker/index.js",
-      "bytes": 444867,
-      "sha256": "bc3fe19d0ae8f6a8b6932fe57371a5743d1bd4bc91930952f5556f1e38de7c0c"
+      "bytes": 445233,
+      "sha256": "b9d6c1c0390e9b858a1d563968f4cfbcae1a01beeefe8facd6ede081feb28630"
     },
     {
       "path": "package-lock.json",
@@ -490,8 +500,8 @@
     },
     {
       "path": "password-site/dist/server/index.js",
-      "bytes": 450211,
-      "sha256": "6a964a92c295584707faeb93e8271a443ba497492cd9269861f5f8f0fa3e0a7d"
+      "bytes": 450500,
+      "sha256": "befc9f33f80ae12a29797f9bc9d811ce67aca93401132595b33bebff96144a58"
     },
     {
       "path": "password-site/vault-config.json",
@@ -500,13 +510,13 @@
     },
     {
       "path": "password-site/worker/index.js",
-      "bytes": 450211,
-      "sha256": "6a964a92c295584707faeb93e8271a443ba497492cd9269861f5f8f0fa3e0a7d"
+      "bytes": 450500,
+      "sha256": "befc9f33f80ae12a29797f9bc9d811ce67aca93401132595b33bebff96144a58"
     },
     {
       "path": "scripts/build-cloud-worker.mjs",
-      "bytes": 2338,
-      "sha256": "74ca673b57e11dee6624f5760119c67a5a61ba512fd6f695a652d87c5794bc38"
+      "bytes": 2396,
+      "sha256": "a6e2c8eb547feb5b1f9213cffe8e59ac88868dd361461ec5e1ca219ed995d485"
     },
     {
       "path": "scripts/build-html.mjs",
