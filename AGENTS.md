@@ -13,3 +13,5 @@ GPT 目标当前为 `Bonnie🐰Chatting`（原名 `Bonnie🐰的狗头军师`）
 用户要求优先 GPT-6.1 Sol 工作模式，保留原项目、全部聊天与来源、原说明。用户已明确同意将原项目记忆改为默认以使用 Work，并表示不能同时项目隔离就优先工作模式。不要未经确认改全账号隐私设置。新 Work 入口在 client_preferences.work_chat_url；旧 Chat 不能冒充已换成 Work。
 
 用户最新明确要求 GPT-6.1 Sol 极高（xhigh），不能只设极高而让自动模型滑块换成 Astra。应显式锁定 6.1 Sol 后选极高，实际界面已核对。此强度要求优先于先前的低推理速度默认。
+
+用户另行要求无需 GPT 账号的完整密码网页。password-site 是新站，使用加密内容与服务器密码证明校验；它的公共密码入口不代表原 mobile-site 可以改为公开。原站继续 owner-only。访问密码只保存在桌面的独立文件中，任何 Site secret、密码或密钥都不能进入 GitHub、代码、GPT 来源或备份包。新站用云端 relay 接收真实反馈，接话生成仍在原 GPT 工作对话。

@@ -229,6 +229,7 @@
     catch{$('cloud-sync-status').hidden=false;$('cloud-sync-status').textContent='当前显示已加载规则，联网后自动刷新。';}
   }
   window.addEventListener('focus',refreshCloudRules);
+  window.addEventListener('bonnie-cloud-rules',event=>{if(!knowledge?.passwordSite)return;const state=event.detail;if(!state||!Number.isSafeInteger(state.revision)||state.revision<knowledge.cloudRevision)return;knowledge.cloudRules=state.ownRules;knowledge.cloudPartnerRules=state.partnerRules;knowledge.cloudApproved=state.approvedExamples??[];knowledge.cloudRevision=state.revision;showCloudStatus();});
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshCloudRules();});
   async function init() {
     showCloudStatus();if(knowledge?.cloudSync&&knowledge.hosted)setInterval(()=>{if(!document.hidden)refreshCloudRules();},60000);

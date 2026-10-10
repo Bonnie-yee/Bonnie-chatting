@@ -2,7 +2,7 @@ name: Build private assistant after feedback
 on:
   push:
     branches: [main]
-    paths: ['sync/current_rules.json', 'app/cloud-feedback.mjs', 'web/**', 'config/**', 'scripts/build-*.mjs', '.github/workflows/feedback-sync.yml']
+    paths: ['sync/current_rules.json', 'app/**', 'web/**', 'config/**', 'scripts/build-*.mjs', '.github/workflows/feedback-sync.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -26,6 +26,8 @@ jobs:
         run: node scripts/build-html.mjs artifacts/邦尼🐰的🐶军师.html
       - name: Build mobile snapshot and private Worker
         run: node scripts/build-mobile-site.mjs artifacts/邦尼🐰的🐶军师.html
+      - name: Build password website snapshot
+        run: node scripts/build-password-site.mjs
       - name: Validate author boundaries and sync logic
         env:
           BONNIE_HTML_PATH: artifacts/邦尼🐰的🐶军师.html
@@ -40,7 +42,7 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           node scripts/write-backup-manifest.mjs
-          git add -f artifacts/邦尼🐰的🐶军师.html mobile-site/worker/index.js mobile-site/dist dist BACKUP_MANIFEST.json
+          git add -f artifacts/邦尼🐰的🐶军师.html mobile-site/worker/index.js mobile-site/dist password-site/worker/index.js password-site/dist dist BACKUP_MANIFEST.json
           if ! git diff --cached --quiet; then
             git commit -m "Build assistant backup from saved feedback"
             git pull --rebase origin main

@@ -1,0 +1,7 @@
+{
+  "salt": "XbItrj1jrVwJMokoU8tG4A==",
+  "iterations": 600000,
+  "kdf": "PBKDF2",
+  "hash": "SHA-256",
+  "encryption": "AES-GCM-256"
+}

@@ -44,3 +44,10 @@ app/cloud-feedback.mjs 是云端反馈与严格归属规则；web/cloud-worker.j
 data/private/、gpt_project/、source_documents/、artifacts/ 只在私人仓库备份。运行登录目录、密钥、微信数据库、Site 写凭据和 Codex 凭据均不进入备份。原有本机独立登录程序保留；其 OAuth 尚未连接，不挪用当前 Codex 登录，不增加付费模型 API 回退。
 
 上传的项目文件是提供来源，不等于运行其代码或训练模型权重。当前长期校正通过专用插件读取；模型只能在实际上下文里尽量模仿，不声称已完全复制本人。
+
+
+## 独立密码网页
+
+无需 GPT 登录的完整私人参考： https://bonnie-bunny-vault-1011.eagerrobin8.chatgpt.site
+
+访问密码单独保存在桌面，不进入本仓库。网页使用服务器校验、有限尝试与加密内容；AI 回复仍由原 GPT 工作对话生成。原手机 Site 保持 owner-only。真实反馈通过固定云端 relay 同步，失败时保留 pending 并重试。维护资料见 `password-site/README.md`。

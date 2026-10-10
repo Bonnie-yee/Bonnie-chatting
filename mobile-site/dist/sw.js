@@ -1,5 +1,5 @@
 'use strict';
-const CACHE='bonnie-private-reference-2e2afa1db227';
+const CACHE='bonnie-private-reference-17e1006e5ac6';
 const DOCUMENT='/__bonnie_cached_document__';
 async function remember(response) {
   const url=new URL(response.url);

@@ -25,12 +25,15 @@
   "required_model": "gpt-6.1-sol",
   "required_mode": "work",
   "cloud_sync_plugin_id": "plugin_asdk_app_sites_a2cf1bb06b508191b61e684cc878ad36",
-  "cloud_sync_revision": 5,
+  "cloud_sync_revision": 7,
   "work_chat_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6aca54fc-055c-83ea-9f75-89ed88e7e989",
   "memory_mode": "default",
   "memory_change_explicitly_approved": true,
   "required_reasoning_effort": "xhigh",
   "reasoning_display_verified": "GPT-6.1 Sol 极高",
   "practice_work_chat_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6aca5a3b-a068-83ea-a729-535bb44c2f95",
-  "reference_work_chat_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6aca5c2d-76cc-83ea-8b52-6844afd706f0"
+  "reference_work_chat_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6aca5c2d-76cc-83ea-8b52-6844afd706f0",
+  "password_site_url": "https://bonnie-bunny-vault-1011.eagerrobin8.chatgpt.site",
+  "password_site_project_id": "appgprj_6aca84a89d7881919fb6d8566c5a9408",
+  "password_site_access": "anonymous_encrypted_password_view"
 }

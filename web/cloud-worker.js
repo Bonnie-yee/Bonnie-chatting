@@ -1,5 +1,6 @@
 // Build embeds the static private app and the shared feedback module here.
 /*__FEEDBACK_MODULE__*/
+/*__RELAY_MODULE__*/
 const ASSETS=/*__ASSETS__*/null;
 const BASE=/*__BASE__*/null;
 const OWNER_EMAIL=/*__OWNER__*/null;
@@ -32,7 +33,7 @@ export default {
       if(body.method!=='tools/call')return error(id,-32601,'Unknown method');
       if(!owner(request))return json({error:'Owner sign-in required'},401);
       if(!toolsList.some(tool=>tool.name===body.params?.name))return error(id,-32602,'Unknown tool');
-      try{const value=await invokeCloudTool(body.params.name,body.params.arguments??{},env.BUCKET,BASE);return result(id,{content:[{type:'text',text:JSON.stringify(value)}],structuredContent:value,isError:false});}
+      try{const value=await invokeCloudTool(body.params.name,body.params.arguments??{},env.BUCKET,BASE);const sync=await relayPasswordSite(env,env.BUCKET);if(sync.status!=='not_configured')value.password_site_sync=sync;return result(id,{content:[{type:'text',text:JSON.stringify(value)}],structuredContent:value,isError:false});}
       catch(e){return result(id,{content:[{type:'text',text:String(e.message)}],isError:true});}
     }
     if(!['GET','HEAD'].includes(request.method))return json({error:'Method not allowed'},405);

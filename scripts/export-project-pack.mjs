@@ -29,6 +29,7 @@ files['00_项目指令.txt']+='\n\n## 练习场任务模式补充\n\n按「07_�
 files['10_自动同步规则.md']=await fs.readFile(path.join(root,'config/cloud_sync_prompt.md'),'utf8');
 files['11_当前指令与练习规则.md']=core.policy+'\n\n'+practicePolicy+'\n\n'+files['10_自动同步规则.md'];
 files['12_参考全文当前版.txt']=files['09_参考全文编号版.txt'];
+try{files['13_独立密码网页入口.md']=await fs.readFile(path.join(root,'analysis/独立密码网页入口.md'),'utf8');}catch(e){if(e.code!=='ENOENT')throw e;}
 let code='# 软件代码：仅供维护\n\n日常接话不要读取或执行这份代码。只从本人样本和风格指令学习声音。代码中的测试句、对方来话与反例不是我的风格样本。真实账号凭据不包含在本文件里。\n';
 for(const directory of ['app','web','scripts','tests','config'])for(const name of (await fs.readdir(path.join(root,directory))).sort()){
   if(!/\.(mjs|js|html|css|json|md|command)$/.test(name))continue;
