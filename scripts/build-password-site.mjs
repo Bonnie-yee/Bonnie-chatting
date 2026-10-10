@@ -10,8 +10,10 @@ html=html.replace(/<script>if\("serviceWorker" in navigator\)\{[\s\S]*?<\/script
 html=html.replace(/window\.REPLY_LOCAL_KNOWLEDGE=([\s\S]*?);<\/script>/,(_,text)=>{const d=JSON.parse(text);d.hosted=true;d.cloudSync=false;d.passwordSite=true;return 'window.REPLY_LOCAL_KNOWLEDGE='+JSON.stringify(d).replaceAll('<','\\u003c')+';</script>';});
 const feedback=(await fs.readFile(path.join(root,'app/cloud-feedback.mjs'),'utf8')).replaceAll('export ','');
 const vault=(await fs.readFile(path.join(root,'app/password-vault.mjs'),'utf8')).replace(/^import .*?;\n/gm,'').replaceAll('export ','');
+const client=await fs.readFile(path.join(root,'web/password-client.js'),'utf8');
+const lockPage=(await fs.readFile(path.join(root,'web/password-lock.html'),'utf8')).replace('/*__PASSWORD_CLIENT__*/',()=>client);
 let code=await fs.readFile(path.join(root,'web/password-worker.js'),'utf8');
-for(const [token,value] of [['/*__FEEDBACK_MODULE__*/',feedback],['/*__VAULT_MODULE__*/',vault],['/*__LOCK_PAGE__*/null',JSON.stringify(await fs.readFile(path.join(root,'web/password-lock.html'),'utf8'))],['/*__PRIVATE_HTML__*/null',JSON.stringify(html)],['/*__FALLBACK_STATE__*/null',await fs.readFile(path.join(root,'sync/current_rules.json'),'utf8')],['/*__SALT__*/null',JSON.stringify(config.salt)]])code=code.replace(token,()=>value);
+for(const [token,value] of [['/*__FEEDBACK_MODULE__*/',feedback],['/*__VAULT_MODULE__*/',vault],['/*__LOCK_PAGE__*/null',JSON.stringify(lockPage)],['/*__PRIVATE_HTML__*/null',JSON.stringify(html)],['/*__FALLBACK_STATE__*/null',await fs.readFile(path.join(root,'sync/current_rules.json'),'utf8')],['/*__SALT__*/null',JSON.stringify(config.salt)]])code=code.replace(token,()=>value);
 delete manifest.static;manifest.d1=null;manifest.r2='BUCKET';
 await fs.mkdir(path.join(site,'worker'),{recursive:true});await fs.mkdir(path.join(site,'dist/server'),{recursive:true});await fs.mkdir(path.join(site,'dist/.openai'),{recursive:true});
 await fs.writeFile(path.join(site,'worker/index.js'),code);await fs.writeFile(path.join(site,'dist/server/index.js'),code);

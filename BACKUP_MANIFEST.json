@@ -74,6 +74,11 @@
       "sha256": "fc547f36c2f18559f53560190b1421a6788a3fe0c5dc9c722eef22bf75a83246"
     },
     {
+      "path": "analysis/微信显示修复核验.json",
+      "bytes": 458,
+      "sha256": "6dbd7ef6db095c85650581b693e7ad5e91d4f4f901989bc8289c0eb517c7fcc6"
+    },
+    {
       "path": "analysis/想念对局与练习设计.md",
       "bytes": 4553,
       "sha256": "3ba9ebd85260d931b2a1df157d438d326397705aef732a80b093a39c0571dfad"
@@ -220,8 +225,8 @@
     },
     {
       "path": "artifacts/邦尼🐰的🐶军师.html",
-      "bytes": 377517,
-      "sha256": "e140ec57ad27790033ba6b33c1aa8824649738e1ce176f28ec639144f271211a"
+      "bytes": 377579,
+      "sha256": "ad3a2bb7a7f2105cb34165c29b68b5d20da0845784170b30c32b109b23a6dfff"
     },
     {
       "path": "config/author_only_prompt.md",
@@ -320,8 +325,8 @@
     },
     {
       "path": "dist/app.js",
-      "bytes": 26312,
-      "sha256": "3dd729a2dd20648d2eabeee270298c9629990124a5f37c137fbb30fa8c712eff"
+      "bytes": 26374,
+      "sha256": "6c0c6f88f8a9c65f6189533de19fae1ae8230bca883483a7b2938e33854e0e52"
     },
     {
       "path": "dist/index.html",
@@ -330,8 +335,8 @@
     },
     {
       "path": "dist/standalone.html",
-      "bytes": 377517,
-      "sha256": "e140ec57ad27790033ba6b33c1aa8824649738e1ce176f28ec639144f271211a"
+      "bytes": 377579,
+      "sha256": "ad3a2bb7a7f2105cb34165c29b68b5d20da0845784170b30c32b109b23a6dfff"
     },
     {
       "path": "dist/style.css",
@@ -445,8 +450,8 @@
     },
     {
       "path": "mobile-site/dist/index.html",
-      "bytes": 378022,
-      "sha256": "17e1006e5ac6b80e771af081cae5095788dfd6b9c5c00ae0dd65f50ddac7000a"
+      "bytes": 378084,
+      "sha256": "206a87f0cfe95251e82c453c09f7b2b2f50dbe41096ad3a4208ca9aa9fca992a"
     },
     {
       "path": "mobile-site/dist/manifest.webmanifest",
@@ -455,18 +460,18 @@
     },
     {
       "path": "mobile-site/dist/server/index.js",
-      "bytes": 445233,
-      "sha256": "b9d6c1c0390e9b858a1d563968f4cfbcae1a01beeefe8facd6ede081feb28630"
+      "bytes": 445295,
+      "sha256": "aa78dbe230a6a6fdeda71cc8aece0c23256ccaed426ebf95c7b754cac9bf94d1"
     },
     {
       "path": "mobile-site/dist/sw.js",
       "bytes": 1423,
-      "sha256": "7edc36a6c58eec7e8f9f9faf822c019ffefa93a37e677806d44e6c44cf053ffc"
+      "sha256": "09bdaf3d4d8afa7d549c0ede6ecc81b5d0e732b2c250a0c77d0bfffe9ce705ad"
     },
     {
       "path": "mobile-site/worker/index.js",
-      "bytes": 445233,
-      "sha256": "b9d6c1c0390e9b858a1d563968f4cfbcae1a01beeefe8facd6ede081feb28630"
+      "bytes": 445295,
+      "sha256": "aa78dbe230a6a6fdeda71cc8aece0c23256ccaed426ebf95c7b754cac9bf94d1"
     },
     {
       "path": "package-lock.json",
@@ -500,8 +505,8 @@
     },
     {
       "path": "password-site/dist/server/index.js",
-      "bytes": 450500,
-      "sha256": "befc9f33f80ae12a29797f9bc9d811ce67aca93401132595b33bebff96144a58"
+      "bytes": 451870,
+      "sha256": "7ba1a9043740f1557eada8517ae6e10cbfcd2aa18367969d7a9a5f5e90194f4f"
     },
     {
       "path": "password-site/vault-config.json",
@@ -510,8 +515,8 @@
     },
     {
       "path": "password-site/worker/index.js",
-      "bytes": 450500,
-      "sha256": "befc9f33f80ae12a29797f9bc9d811ce67aca93401132595b33bebff96144a58"
+      "bytes": 451870,
+      "sha256": "7ba1a9043740f1557eada8517ae6e10cbfcd2aa18367969d7a9a5f5e90194f4f"
     },
     {
       "path": "scripts/build-cloud-worker.mjs",
@@ -530,8 +535,8 @@
     },
     {
       "path": "scripts/build-password-site.mjs",
-      "bytes": 2549,
-      "sha256": "b74a7266b392c5342364a4d1a76d7d3966eeddc398de1074730aac8f9aea0bf6"
+      "bytes": 2703,
+      "sha256": "a529b9bd3d0b7c12ffc12ba9365064922148a7effa8f1f8bd57c8d4a73938990"
     },
     {
       "path": "scripts/corpus.mjs",
@@ -629,9 +634,14 @@
       "sha256": "c4c1eee2555bbc107dbfc1661ff3af8f8d94bcdd22493ec9c049dbb6eaedeedb"
     },
     {
+      "path": "tests/password-client.test.mjs",
+      "bytes": 3711,
+      "sha256": "a7e2f5ad1d677daaba7ea972d66a55b159741d1e7020f8f3c813cee4cfd928ce"
+    },
+    {
       "path": "tests/password-site.test.mjs",
-      "bytes": 7031,
-      "sha256": "2282c670fb5a14b4d20a1f1e94a2a707da6b6d9c5aea72ed3d0830118819d5f2"
+      "bytes": 7025,
+      "sha256": "37cee0c5c9d2722d9a87f71fed94c82c717b775c985d53434477b9c3413b8261"
     },
     {
       "path": "tests/reference-filter.test.mjs",
@@ -640,8 +650,8 @@
     },
     {
       "path": "web/app.js",
-      "bytes": 26312,
-      "sha256": "3dd729a2dd20648d2eabeee270298c9629990124a5f37c137fbb30fa8c712eff"
+      "bytes": 26374,
+      "sha256": "6c0c6f88f8a9c65f6189533de19fae1ae8230bca883483a7b2938e33854e0e52"
     },
     {
       "path": "web/cloud-worker.js",
@@ -659,9 +669,14 @@
       "sha256": "29f7c6568f415ceb0ec4973a8869e341f92c606a0921b64a14f645d7b054de1a"
     },
     {
+      "path": "web/password-client.js",
+      "bytes": 4865,
+      "sha256": "51c8428cc184636d5de933115e18fc6684bcde77c683d044c0884caaf2d8423a"
+    },
+    {
       "path": "web/password-lock.html",
-      "bytes": 6379,
-      "sha256": "7ab25b31241952bc029f5b1fca8e8c7792918142be928d8daf355efe78c724ac"
+      "bytes": 2807,
+      "sha256": "83a42c2eb213cb92bfa3f4fca7c0a656335530d5549028f0d8a376914e3871d7"
     },
     {
       "path": "web/password-worker.js",

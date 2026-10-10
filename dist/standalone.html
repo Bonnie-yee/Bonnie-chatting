@@ -281,7 +281,7 @@
     document.body.dataset.view=view;
     document.querySelectorAll('[data-view]').forEach(item=>{const selected=item.dataset.view===view;item.classList.toggle('selected',selected);item.setAttribute('aria-pressed',String(selected));});
   }
-  activateView(['reference','practice'].includes(location.hash.slice(1))?location.hash.slice(1):'reply');
+  activateView(['reference','practice'].includes(location.hash.slice(1))?location.hash.slice(1):knowledge?.passwordSite?'reference':'reply');
   document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>activateView(button.dataset.view)));
   let referenceTimer;
   $('reference-search').addEventListener('input',()=>{clearTimeout(referenceTimer);referenceTimer=setTimeout(()=>{referenceFocus=null;referenceLimit=120;renderReference();},60);});
@@ -313,7 +313,7 @@
   $('practice-show-reference').addEventListener('click',()=>{activateView('reference');$('reference-search').value='我没找你';referenceFocus=458;renderReference();});
   renderPractice();
   function showCloudStatus() {
-    const status=$('cloud-sync-status');if(!knowledge?.cloudSync)return;
+    const status=$('cloud-sync-status');if(!knowledge?.cloudSync&&!knowledge?.passwordSite)return;
     status.hidden=false;status.textContent='云端规则 · 第 '+knowledge.cloudRevision+' 版';
   }
   async function refreshCloudRules() {

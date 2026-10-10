@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-11",
+  "reported_client": "WeChat built-in browser",
+  "fix": "render decrypted app in the current document, default to full reference",
+  "iframe_used": false,
+  "blob_navigation_used": false,
+  "tests_passed": 54,
+  "search_and_full_context_tested": true,
+  "password_site_deployment": "appgdep_6acaa6ff34588191a0d9e5469a1f2e68",
+  "mainland_hong_kong_without_vpn": "not_yet_verified; free hosting and custom domain being evaluated"
+}
