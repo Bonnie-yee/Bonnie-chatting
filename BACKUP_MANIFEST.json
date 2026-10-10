@@ -10,8 +10,8 @@
     },
     {
       "path": ".github/workflows/feedback-sync.yml",
-      "bytes": 1835,
-      "sha256": "b01d5f3e6aefc28dad63416a3844847185b99268038e7f6860e1879bd0f290d5"
+      "bytes": 1905,
+      "sha256": "cc30ef3a839f4f275fff3b7535dbebdd23f07790f626e1eef090b7f0172536a8"
     },
     {
       "path": ".gitignore",
@@ -497,6 +497,11 @@
       "path": "scripts/sync-desktop.mjs",
       "bytes": 1595,
       "sha256": "6c9220625f756e36312f2e1049fcae8fa246474bac0638396756b281d79f2d65"
+    },
+    {
+      "path": "scripts/write-backup-manifest.mjs",
+      "bytes": 876,
+      "sha256": "334c4a2953597556cbb89291a10be74677be4e811045e626bccd20c31a65b3af"
     },
     {
       "path": "source_documents/reference_ta.docx",
