@@ -1,0 +1,195 @@
+{
+  "version": "2026-10-10",
+  "original_exchange": {
+    "source_type": "original_reference_context",
+    "user_confirmed_keep": true,
+    "rows": [
+      {
+        "source_index": 1382,
+        "speaker": "我",
+        "text": "问题出现了",
+        "date": "2026-06-02",
+        "time": "23:02:57"
+      },
+      {
+        "source_index": 1383,
+        "speaker": "ta",
+        "text": "就是就是 问题是你怎么不找我呢！",
+        "date": "2026-06-02",
+        "time": "23:09:19"
+      },
+      {
+        "source_index": 1384,
+        "speaker": "我",
+        "text": "那你怎么不找我呢",
+        "date": "2026-06-02",
+        "time": "23:11:44"
+      },
+      {
+        "source_index": 1385,
+        "speaker": "ta",
+        "text": "我没找你 又不代表没想你",
+        "date": "2026-06-02",
+        "time": "23:13:30"
+      },
+      {
+        "source_index": 1386,
+        "speaker": "ta",
+        "text": "你的话就不知道了",
+        "date": "2026-06-02",
+        "time": "23:13:39"
+      },
+      {
+        "source_index": 1388,
+        "speaker": "我",
+        "text": "还能忍住不找我",
+        "date": "2026-06-02",
+        "time": "23:25:46"
+      },
+      {
+        "source_index": 1389,
+        "speaker": "我",
+        "text": "说明还不够想我",
+        "date": "2026-06-02",
+        "time": "23:25:47"
+      },
+      {
+        "source_index": 1390,
+        "speaker": "ta",
+        "text": "那你想我么",
+        "date": "2026-06-02",
+        "time": "23:31:39"
+      },
+      {
+        "source_index": 1391,
+        "speaker": "ta",
+        "text": "要实话！",
+        "date": "2026-06-02",
+        "time": "23:32:22"
+      },
+      {
+        "source_index": 1392,
+        "speaker": "我",
+        "text": "不想哪来的问题",
+        "date": "2026-06-02",
+        "time": "23:41:59"
+      },
+      {
+        "source_index": 1393,
+        "speaker": "ta",
+        "text": "并没有正面回答",
+        "date": "2026-06-02",
+        "time": "23:50:10"
+      },
+      {
+        "source_index": 1394,
+        "speaker": "ta",
+        "text": "懂了懂了",
+        "date": "2026-06-02",
+        "time": "23:50:25"
+      },
+      {
+        "source_index": 1396,
+        "speaker": "ta",
+        "text": "那今天找你开心嘛",
+        "date": "2026-06-02",
+        "time": "23:54:10"
+      },
+      {
+        "source_index": 1397,
+        "speaker": "我",
+        "text": "这么直白的回答都没让你开心！",
+        "date": "2026-06-03",
+        "time": "01:20:09"
+      },
+      {
+        "source_index": 1398,
+        "speaker": "ta",
+        "text": "算了 不勉强你 但还是更喜欢更直白点的[皱眉]",
+        "date": "2026-06-03",
+        "time": "10:19:59"
+      },
+      {
+        "source_index": 1399,
+        "speaker": "ta",
+        "text": "这个问题还没回答呢",
+        "date": "2026-06-03",
+        "time": "10:20:26"
+      },
+      {
+        "source_index": 1400,
+        "speaker": "我",
+        "text": "有的人非要听答案",
+        "date": "2026-06-03",
+        "time": "12:20:51"
+      },
+      {
+        "source_index": 1401,
+        "speaker": "我",
+        "text": "实则揣着明白装糊涂！",
+        "date": "2026-06-03",
+        "time": "12:21:09"
+      },
+      {
+        "source_index": 1402,
+        "speaker": "我",
+        "text": "你几点的飞机",
+        "date": "2026-06-03",
+        "time": "12:21:17"
+      }
+    ],
+    "own_style_source_indices": [
+      1384,
+      1388,
+      1389,
+      1392,
+      1397,
+      1400,
+      1401,
+      1402
+    ],
+    "counterparty_only_source_index": 1385,
+    "note": "没找你不代表没想你属于ta，仅作对局上下文。",
+    "withdrawn_removed": true
+  },
+  "seeds": [
+    {
+      "id": "quiet_days",
+      "stage": "familiar",
+      "label": "联系与想念",
+      "incoming": "你这两天安静得很啊。",
+      "origin": "fictional_unapproved_practice_incoming"
+    },
+    {
+      "id": "half_compliment",
+      "stage": "familiar",
+      "label": "被看穿一点",
+      "incoming": "我发现你夸人总是只夸半句。",
+      "origin": "fictional_unapproved_practice_incoming"
+    },
+    {
+      "id": "food_bridge",
+      "stage": "familiar",
+      "label": "分享接出邀约",
+      "incoming": "今天下班路过一家新开的店，闻着还挺香。",
+      "origin": "fictional_unapproved_practice_incoming",
+      "invitation_already_exists": false
+    },
+    {
+      "id": "photo",
+      "stage": "familiar",
+      "label": "照片里的反转",
+      "incoming": "随手拍的，交作业了。",
+      "origin": "fictional_unapproved_practice_incoming",
+      "requires_actual_image": true
+    },
+    {
+      "id": "time_flew",
+      "stage": "close",
+      "label": "见面后的余味",
+      "incoming": "今天怎么感觉时间过得这么快。",
+      "origin": "fictional_unapproved_practice_incoming",
+      "requires_actual_shared_scene": true
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "title": "参考",
   "source_name": "新聊天记录_ta版.docx",
   "source_sha256": "21ccc6555b0e3e87efb3289fdecff955b870558ea92b2f6503acc74a1caa0b51",
-  "paragraph_count": 1291,
+  "paragraph_count": 1283,
   "paragraphs": [
     {
       "paragraph": 1,
@@ -372,16 +372,6 @@
       "body": "是你我才忙里偷闲的",
       "quote_speaker": null,
       "highlighted": true,
-      "reference_only": true
-    },
-    {
-      "paragraph": 38,
-      "text": "12:15:29\t系统提示\t你撤回了一条消息",
-      "time": "12:15:29",
-      "speaker": "系统提示",
-      "body": "你撤回了一条消息",
-      "quote_speaker": null,
-      "highlighted": false,
       "reference_only": true
     },
     {
@@ -3205,16 +3195,6 @@
       "reference_only": true
     },
     {
-      "paragraph": 321,
-      "text": "20:16:57\t系统提示\t你撤回了一条消息",
-      "time": "20:16:57",
-      "speaker": "系统提示",
-      "body": "你撤回了一条消息",
-      "quote_speaker": null,
-      "highlighted": false,
-      "reference_only": true
-    },
-    {
       "paragraph": 322,
       "text": "20:17:16\t我\t学习一下那个半年电影男^ ^",
       "time": "20:17:16",
@@ -4675,16 +4655,6 @@
       "reference_only": true
     },
     {
-      "paragraph": 468,
-      "text": "23:52:23\t系统提示\t\"Rui\" 撤回了一条消息",
-      "time": "23:52:23",
-      "speaker": "系统提示",
-      "body": "\"Rui\" 撤回了一条消息",
-      "quote_speaker": null,
-      "highlighted": false,
-      "reference_only": true
-    },
-    {
       "paragraph": 469,
       "text": "23:54:10\tta\t那今天找你开心嘛",
       "time": "23:54:10",
@@ -5090,16 +5060,6 @@
       "time": "17:08:08",
       "speaker": "ta",
       "body": "想见我了[愉快]",
-      "quote_speaker": null,
-      "highlighted": false,
-      "reference_only": true
-    },
-    {
-      "paragraph": 510,
-      "text": "17:08:21\t系统提示\t\"Rui\" 撤回了一条消息",
-      "time": "17:08:21",
-      "speaker": "系统提示",
-      "body": "\"Rui\" 撤回了一条消息",
       "quote_speaker": null,
       "highlighted": false,
       "reference_only": true
@@ -9075,16 +9035,6 @@
       "reference_only": true
     },
     {
-      "paragraph": 908,
-      "text": "19:54:13\t系统提示\t你撤回了一条消息",
-      "time": "19:54:13",
-      "speaker": "系统提示",
-      "body": "你撤回了一条消息",
-      "quote_speaker": null,
-      "highlighted": false,
-      "reference_only": true
-    },
-    {
       "paragraph": 909,
       "text": "20:20:21\tta\t哈哈哈哈 我以为这句是你说的",
       "time": "20:20:21",
@@ -9595,16 +9545,6 @@
       "reference_only": true
     },
     {
-      "paragraph": 960,
-      "text": "00:35:07\t系统提示\t你撤回了一条消息",
-      "time": "00:35:07",
-      "speaker": "系统提示",
-      "body": "你撤回了一条消息",
-      "quote_speaker": null,
-      "highlighted": false,
-      "reference_only": true
-    },
-    {
       "paragraph": 961,
       "text": "00:44:29\tta\t累了就早点休息吧",
       "time": "00:44:29",
@@ -9651,16 +9591,6 @@
       "speaker": null,
       "body": "引用 ta：没事的 三个小时我陪你拉扯一下",
       "quote_speaker": "ta",
-      "highlighted": false,
-      "reference_only": true
-    },
-    {
-      "paragraph": 966,
-      "text": "09:36:44\t系统提示\t\"Rui\" 撤回了一条消息",
-      "time": "09:36:44",
-      "speaker": "系统提示",
-      "body": "\"Rui\" 撤回了一条消息",
-      "quote_speaker": null,
       "highlighted": false,
       "reference_only": true
     },
@@ -12395,16 +12325,6 @@
       "reference_only": true
     },
     {
-      "paragraph": 1240,
-      "text": "15:34:26\t系统提示\t你撤回了一条消息",
-      "time": "15:34:26",
-      "speaker": "系统提示",
-      "body": "你撤回了一条消息",
-      "quote_speaker": null,
-      "highlighted": false,
-      "reference_only": true
-    },
-    {
       "paragraph": 1241,
       "text": "16:30:37\tta\t哟！还有高手～",
       "time": "16:30:37",
@@ -12914,5 +12834,17 @@
       "highlighted": true,
       "reference_only": true
     }
-  ]
+  ],
+  "source_paragraph_count": 1291,
+  "withdrawn_paragraphs_removed": [
+    38,
+    321,
+    468,
+    510,
+    908,
+    960,
+    966,
+    1240
+  ],
+  "withdrawn_display_filter": true
 }

@@ -1,0 +1,36 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import os from 'node:os';
+import {fileURLToPath} from 'node:url';
+import crypto from 'node:crypto';
+
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const siteRoot=path.join(root,'mobile-site');
+const manifest=JSON.parse(await fs.readFile(path.join(siteRoot,'.openai/hosting.json'),'utf8'));
+if(!manifest.project_id)throw new Error('Register the private Site first.');
+if(!manifest.capabilities?.includes('mcp'))manifest.static={directory:'dist'};
+await fs.writeFile(path.join(siteRoot,'.openai/hosting.json'),JSON.stringify(manifest,null,2)+'\n');
+let html=await fs.readFile(process.argv[2]?path.resolve(process.argv[2]):path.join(os.homedir(),'Desktop','邦尼🐰的🐶军师.html'),'utf8');
+let referenceCount=0;
+html=html.replace(/window\.REPLY_LOCAL_KNOWLEDGE=([\s\S]*?);<\/script>/,(_,json)=>{
+  const data=JSON.parse(json);data.hosted=true;
+  referenceCount=data.reference.paragraph_count;
+  return 'window.REPLY_LOCAL_KNOWLEDGE='+JSON.stringify(data).replaceAll('<','\\u003c')+';</script>';
+});
+html=html.replace('<meta name="theme-color" content="#f6f2ed">','<meta name="theme-color" content="#f6f2ed"><link rel="manifest" href="/manifest.webmanifest"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Bonnie军师">');
+const preferences=JSON.parse(await fs.readFile(path.join(root,'data/private/client_preferences.json'),'utf8'));
+const project=preferences.work_chat_url||preferences.project_url;
+html=html.replace('<button id="account-toggle"','<a class="status-pill" href="'+project+'" target="_blank" rel="noopener noreferrer">打开 GPT 项目 ↗</a><button hidden id="account-toggle"');
+html=html.replace('<span>样本保存在本机，生成用你授权的 ChatGPT。</span>','<span>私人参考随时查，接话与对练在你的 GPT 项目继续。</span>');
+html=html.replace('</body>','<script>if("serviceWorker" in navigator){navigator.serviceWorker.register("/sw.js").catch(()=>{});}</script></body>');
+await fs.mkdir(path.join(siteRoot,'dist'),{recursive:true});
+await fs.writeFile(path.join(siteRoot,'dist/index.html'),html);
+await fs.writeFile(path.join(siteRoot,'dist/manifest.webmanifest'),JSON.stringify({name:'邦尼🐰的🐶军师',short_name:'Bonnie军师',start_url:'/',scope:'/',display:'standalone',background_color:'#f6f2ed',theme_color:'#f6f2ed',icons:[{src:'/icon.svg',sizes:'any',type:'image/svg+xml',purpose:'any'}]},null,2));
+await fs.writeFile(path.join(siteRoot,'dist/icon.svg'),'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192"><rect width="192" height="192" rx="44" fill="#31513b"/><text x="96" y="129" text-anchor="middle" font-size="112">🐰</text></svg>');
+const cacheVersion=crypto.createHash('sha256').update(html).digest('hex').slice(0,12);
+const serviceWorker=(await fs.readFile(path.join(root,'web/mobile-sw.js'),'utf8')).replace('__BUILD_ID__',cacheVersion);
+await fs.writeFile(path.join(siteRoot,'dist/sw.js'),serviceWorker);
+await fs.writeFile(path.join(siteRoot,'.gitignore'),'.sites-runtime/\nnode_modules/\n.env\n.env.*\n*.log\n');
+await fs.writeFile(path.join(siteRoot,'README.md'),'# Bonnie 私人手机参考与练习入口\n\n本站通过 Sites 的 owner-only 访问控制托管，不公开聊天样本。仅用户本人账号可访问，不依赖 Mac 或同一 Wi-Fi。首次访问和 GPT 生成需要手机联网；已成功缓存后的参考可离线浏览，实际 iPhone 缓存行为仍需在手机验证。\n\n参考保留全部原文，搜索后可前后翻阅全文。练习入口打开用户自己 GPT 项目中的练习场对话；本站不伪造 AI 回复，也不挪用套餐令牌或调用付费 API。\n');
+console.log(JSON.stringify({siteRoot,project_id:manifest.project_id,reference_paragraphs:referenceCount,cacheVersion,bytes:Buffer.byteLength(html)}));
+if(manifest.capabilities?.includes('mcp'))await import('./build-cloud-worker.mjs');

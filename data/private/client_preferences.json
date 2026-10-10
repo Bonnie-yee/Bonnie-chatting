@@ -7,5 +7,28 @@
   "integration": "independent_chatgpt_login",
   "reuse_existing_codex_credentials": false,
   "paid_api_fallback": false,
-  "codex_ownership_source": "user_corrected_on_2026-10-10"
+  "codex_ownership_source": "user_corrected_on_2026-10-10",
+  "project_name": "Bonnie🐰Chatting",
+  "project_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/project",
+  "mobile_site_url": "https://bonnie-bunny-adviser-1010.eagerrobin8.chatgpt.site",
+  "practice_enabled": true,
+  "practice_chat_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6ac9ec8d-51c4-83ea-9a35-b966c1849edc",
+  "github_display_name": "Bonnie🐰chatting",
+  "github_repository_target": "Bonnie-yee/Bonnie-chatting",
+  "synchronize_every_revision": [
+    "private_github",
+    "mobile_gpt_project",
+    "private_mobile_site",
+    "desktop_html"
+  ],
+  "reference_chat_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6ac9f100-62b0-83ea-a22d-6f8fe320b5ae",
+  "required_model": "gpt-6.1-sol",
+  "required_mode": "work",
+  "cloud_sync_plugin_id": "plugin_asdk_app_sites_a2cf1bb06b508191b61e684cc878ad36",
+  "cloud_sync_revision": 5,
+  "work_chat_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6aca54fc-055c-83ea-9f75-89ed88e7e989",
+  "memory_mode": "default",
+  "memory_change_explicitly_approved": true,
+  "required_reasoning_effort": "xhigh",
+  "reasoning_display_verified": "GPT-6.1 Sol 极高"
 }

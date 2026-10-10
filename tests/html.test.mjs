@@ -5,10 +5,10 @@ import os from 'node:os';
 import path from 'node:path';
 import { JSDOM } from 'jsdom';
 
-const html=await fs.readFile(path.join(os.homedir(),'Desktop','邦尼🐰的🐶军师.html'),'utf8');
-function openArtifact(t,{copyWorks=true}={}) {
+const html=await fs.readFile(process.env.BONNIE_HTML_PATH||path.join(os.homedir(),'Desktop','邦尼🐰的🐶军师.html'),'utf8');
+function openArtifact(t,{copyWorks=true,source=html,url='file:///Users/example/Desktop/reply-assistant.html'}={}) {
   let copied='',networkCalls=0;
-  const dom=new JSDOM(html,{url:'file:///Users/example/Desktop/reply-assistant.html',runScripts:'dangerously',beforeParse(window){
+  const dom=new JSDOM(source,{url,runScripts:'dangerously',beforeParse(window){
     window.HTMLElement.prototype.scrollIntoView=function(){window.lastScrolledParagraph=this.dataset.paragraph;};
     window.fetch=async()=>{networkCalls++;throw new Error('Standalone HTML must not access a model or credentials');};
     window.document.execCommand=()=>{copied=window.document.activeElement.value;return copyWorks;};
@@ -30,6 +30,30 @@ test('standalone HTML clearly uses its own ChatGPT handoff and never accesses ac
   assert.ok(getCopied().includes('不能改口'));assert.ok(getCopied().includes('ta：某人真的很会挑礼物哦'));
   assert.equal(document.getElementById('result-panel').hidden,true);
   assert.equal(getNetworkCalls(),0);
+});
+
+test('practice keeps the original missing-you line attributed to ta and preserves only own target indices',t=>{
+  const {dom}=openArtifact(t);const data=dom.window.REPLY_LOCAL_KNOWLEDGE.practice;
+  assert.equal(data.original_exchange.rows.find(row=>row.source_index===1385).speaker,'ta');
+  assert.ok(data.original_exchange.rows.find(row=>row.source_index===1385).text.includes('我没找你'));
+  assert.ok(!data.original_exchange.own_style_source_indices.includes(1385));
+  for(const index of data.original_exchange.own_style_source_indices)assert.equal(data.original_exchange.rows.find(row=>row.source_index===index).speaker,'我');
+});
+
+test('practice changes modes, copies an actual task, and opens unrestricted reference context',async t=>{
+  const {dom,getCopied,getNetworkCalls}=openArtifact(t);const document=dom.window.document;
+  document.querySelector('[data-view="practice"]').click();assert.equal(document.body.dataset.view,'practice');
+  document.querySelector('[data-practice-mode="relax"]').click();document.getElementById('practice-input').value='今天想聊点轻松的';document.getElementById('copy-practice').click();await settle();
+  assert.ok(getCopied().includes('陪我聊'));assert.ok(getCopied().includes('今天想聊点轻松的'));assert.ok(getCopied().includes('虚构'));assert.ok(getCopied().includes('不混入我方声线'));
+  document.querySelector('[data-practice-mode="coach"]').click();document.getElementById('practice-input').value='';document.getElementById('copy-practice').click();await settle();assert.ok(getCopied().includes('先问我需要拆招的那句'));
+  document.getElementById('practice-show-reference').click();assert.equal(document.body.dataset.view,'reference');assert.equal(document.querySelectorAll('.reference-entry').length,1282);assert.equal(dom.window.lastScrolledParagraph,'458');
+  assert.equal(getNetworkCalls(),0);
+});
+
+test('hosted mobile build stays independent of LAN APIs even with a long URL fragment',async t=>{
+  const source=await fs.readFile('mobile-site/dist/index.html','utf8');const {dom,getNetworkCalls}=openArtifact(t,{source,url:'https://private-example.chatgpt.site/#abcdefghijklmnopqrstuvwxyz'});await settle();
+  assert.equal(dom.window.REPLY_LOCAL_KNOWLEDGE.hosted,true);assert.equal(dom.window.document.getElementById('model').disabled,true);assert.equal(dom.window.document.getElementById('phone-panel').hidden,true);assert.equal(getNetworkCalls(),0);
+  assert.equal(dom.window.REPLY_LOCAL_KNOWLEDGE.reference.paragraphs.length,1283);
 });
 
 test('only distance remains as a reply selector and natural-language intention reaches the task', async t=>{
@@ -63,7 +87,7 @@ test('portable samples keep generated approval separate and omit source future r
   assert.ok(!html.includes('refresh_token'));assert.ok(!html.includes('.codex/auth'));
   assert.ok(!html.includes('刘子睿'));
   assert.ok(knowledge.cases.every(row=>row.writer==='我'&&!('context_before'in row)));
-  assert.equal(knowledge.reference.paragraphs.length,1291);
+  assert.equal(knowledge.reference.paragraphs.length,1283);
 });
 
 test('reference context opens the entire document at the search hit, with no preceding or following cutoff',async t=>{

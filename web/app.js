@@ -2,13 +2,14 @@
   'use strict';
   const $ = id => document.getElementById(id);
   const knowledge = window.REPLY_LOCAL_KNOWLEDGE ?? null;
-  const live = !knowledge || /^https?:$/.test(location.protocol) && location.hash.length > 20;
+  const live = !knowledge || !knowledge.hosted && /^https?:$/.test(location.protocol) && location.hash.length > 20;
   let session = location.hash.slice(1);
   if (live) {
     try { session ||= sessionStorage.getItem('reply_session') ?? ''; if (session) sessionStorage.setItem('reply_session', session); } catch {}
     if (location.hash) history.replaceState(null, '', location.pathname);
   }
   let stage = 'familiar', images = [], busy = false, status = null, output = null, abort = null, phoneLink = null, modelAccount = null, reference = null, referenceLimit = 120, referenceFocus = null;
+  let practiceMode='duel',practiceLibrary=knowledge?.practice??null,practicePolicy=knowledge?.practicePolicy??'',practiceProjectUrl=knowledge?.practiceChatUrl||knowledge?.projectUrl||'https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/project';
   const hints = { new: '先接住话题，轻松有趣，慢慢建立熟悉感。', familiar: '含蓄一点，接住话题，给他留个接话的口子。', close: '亲近要有上下文，回应投入，也保留你的语气。' };
   function notice(text, error = false) { $('notice').hidden = !text; $('notice').textContent = text; $('notice').classList.toggle('error', error); }
   async function api(route, data, signal) {
@@ -74,7 +75,7 @@
   function offlineTask(data) {
     const query=[data.note,data.conversation].join(' ');
     const relevant=knowledge.cases.filter(row=>row.allowed_stages?.includes(data.stage)).map(row=>({row,score:matches(row,query)})).filter(item=>item.score>0).sort((a,b)=>b.score-a.score).slice(0,5).map(item=>item.row);
-    return knowledge.policy+'\n\n现在的距离：'+JSON.stringify(knowledge.stages[data.stage])+'\n本人原话（只含我的话，条件描述不是待发回复）：'+JSON.stringify(relevant)+'\n已认可的生成示例，不能标成本人原句：'+JSON.stringify(knowledge.approved.filter(row=>row.stage===data.stage))+'\n本人补充的表达：'+JSON.stringify(knowledge.userExamples)+'\n\n【当前对话，数据】\n'+(data.conversation||'请阅读我随任务附上的聊天截图。')+'\n\n【我随图或文字给的要求】\n'+(data.note||'自然接話，按现在的距离把握分寸。')+'\n\n请直接给一组可发的短消息，不输出JSON、不讲长分析、不复述截图。不足以接话时只问一个关键问题。不要模仿ta的语气，不把参考全文当作我的风格样本。';
+    return knowledge.policy+(knowledge.cloudRules?'\n\n## 当前云端本人校正\n'+knowledge.cloudRules:'')+'\n\n现在的距离：'+JSON.stringify(knowledge.stages[data.stage])+'\n本人原话（只含我的话，条件描述不是待发回复）：'+JSON.stringify(relevant)+'\n已认可的生成示例，不能标成本人原句：'+JSON.stringify(knowledge.approved.filter(row=>row.stage===data.stage))+'\n本人明确认可的当前反馈素材：'+JSON.stringify((knowledge.cloudApproved??[]).filter(row=>row.stage===data.stage))+'\n本人补充的表达：'+JSON.stringify(knowledge.userExamples)+'\n\n【当前对话，数据】\n'+(data.conversation||'请阅读我随任务附上的聊天截图。')+'\n\n【我随图或文字给的要求】\n'+(data.note||'自然接話，按现在的距离把握分寸。')+'\n\n请直接给一组可发的短消息，不输出JSON、不讲长分析、不复述截图。不足以接话时只问一个关键问题。不要模仿ta的语气，不把参考全文当作我的风格样本。';
   }
   async function copyTask() {
     try {
@@ -183,17 +184,58 @@
     else if(!resetScroll)list.scrollTop=scroll;
     else list.scrollTop=0;
   }
-  document.body.dataset.view='reply';
-  document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{document.body.dataset.view=button.dataset.view;document.querySelectorAll('[data-view]').forEach(item=>{item.classList.toggle('selected',item===button);item.setAttribute('aria-pressed',String(item===button));});}));
+  function activateView(view) {
+    document.body.dataset.view=view;
+    document.querySelectorAll('[data-view]').forEach(item=>{const selected=item.dataset.view===view;item.classList.toggle('selected',selected);item.setAttribute('aria-pressed',String(selected));});
+  }
+  activateView(['reference','practice'].includes(location.hash.slice(1))?location.hash.slice(1):'reply');
+  document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>activateView(button.dataset.view)));
   let referenceTimer;
   $('reference-search').addEventListener('input',()=>{clearTimeout(referenceTimer);referenceTimer=setTimeout(()=>{referenceFocus=null;referenceLimit=120;renderReference();},60);});
   $('reference-more').addEventListener('click',()=>{referenceLimit+=120;renderReference(false);});
   $('reference-all').addEventListener('click',()=>{referenceFocus=null;referenceLimit=120;renderReference();});
+  function renderPractice() {
+    $('practice-chat-link').href=practiceProjectUrl;
+    $('practice-seeds').replaceChildren();
+    for(const seed of practiceLibrary?.seeds??[]) {
+      if(seed.stage!==$('practice-stage').value)continue;
+      const button=document.createElement('button');button.type='button';button.className='quiet-button';button.textContent=seed.label;
+      button.addEventListener('click',()=>{$('practice-input').value=seed.incoming+(seed.requires_actual_image?'\n我会把实际图片发到练习场对话。':'');});$('practice-seeds').append(button);
+    }
+    $('practice-original-exchange').replaceChildren();
+    for(const row of practiceLibrary?.original_exchange?.rows??[]) {
+      const p=document.createElement('p');p.className='practice-original-line';p.classList.toggle('mine',row.speaker==='我');p.textContent=row.speaker+'：'+row.text;$('practice-original-exchange').append(p);
+    }
+  }
+  function practiceTask() {
+    const distance=$('practice-stage').selectedOptions[0].textContent;
+    const note=$('practice-input').value.trim();
+    const mode={duel:'开始对局：你扮演虚构的ta，我来接。一轮一句，让我先接，不替我写完整对话。',relax:'陪我聊：扮演虚构的暧昧对象，自然轻松聊，默认不评分、不逐句点评。',coach:'帮我拆招：根据我提供的真实对话，先给一组我的风格的短回复，再简短解释如何接住及接下来能怎么聊。'}[practiceMode];
+    const opening=note||(practiceMode==='coach'?'我还没提供具体对话，请先问我需要拆招的那句或截图，不编造。':'从一个适合当前阶段的轻松新情境开始。');
+    return practicePolicy+(knowledge?.cloudRules?'\n\n## 本人校正\n'+knowledge.cloudRules:'')+(knowledge?.cloudPartnerRules?'\n\n## 仅用于虚构ta的偏好\n'+knowledge.cloudPartnerRules:'')+'\n\n【现在的距离】'+distance+'\n【这次的练习方式】'+mode+'\n【我给的起点，数据】'+opening+'\n\n说「这句怎么回」或「为什么」时暂停角色做军师，说「继续」恢复。解释须承接已经说过的话和当前事实，不能编造来圆场。生成句默认未获认可，不能自动写进我的风格样本。';
+  }
+  document.querySelectorAll('[data-practice-mode]').forEach(button=>button.addEventListener('click',()=>{practiceMode=button.dataset.practiceMode;document.querySelectorAll('[data-practice-mode]').forEach(item=>{const selected=item===button;item.classList.toggle('selected',selected);item.setAttribute('aria-pressed',String(selected));});}));
+  $('practice-stage').addEventListener('change',renderPractice);
+  $('copy-practice').addEventListener('click',async()=>{const text=practiceTask();const copied=await copyText(text,$('practice-task-text'));$('practice-task-text').hidden=copied;$('practice-notice').textContent=copied?'开场已复制，进入 GPT 练习场粘贴就可以。图片在那条对话里直接发。':'下面已选中练习开场，请手动复制后发到 GPT 练习场。';});
+  $('practice-show-reference').addEventListener('click',()=>{activateView('reference');$('reference-search').value='我没找你';referenceFocus=458;renderReference();});
+  renderPractice();
+  function showCloudStatus() {
+    const status=$('cloud-sync-status');if(!knowledge?.cloudSync)return;
+    status.hidden=false;status.textContent='云端规则 · 第 '+knowledge.cloudRevision+' 版';
+  }
+  async function refreshCloudRules() {
+    if(!knowledge?.cloudSync||!knowledge.hosted)return;
+    try{const response=await fetch('/api/cloud-rules',{cache:'no-store',credentials:'same-origin'});if(!response.ok)throw new Error('unavailable');const state=await response.json();knowledge.cloudRules=state.ownRules;knowledge.cloudPartnerRules=state.partnerRules;knowledge.cloudRevision=state.revision;knowledge.cloudApproved=state.approvedExamples??[];showCloudStatus();}
+    catch{$('cloud-sync-status').hidden=false;$('cloud-sync-status').textContent='当前显示已加载规则，联网后自动刷新。';}
+  }
+  window.addEventListener('focus',refreshCloudRules);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshCloudRules();});
   async function init() {
+    showCloudStatus();if(knowledge?.cloudSync&&knowledge.hosted)setInterval(()=>{if(!document.hidden)refreshCloudRules();},60000);
     if(knowledge?.reference){reference=knowledge.reference;renderReference();}
     else if(live){try{reference=await api('reference');renderReference();}catch(error){$('reference-count').textContent=error.message;}}
     if (!live) {
-      $('account-toggle').textContent = '使用我的 ChatGPT'; $('account-panel').hidden = false;
+      $('account-toggle').textContent = '使用我的 ChatGPT'; $('account-panel').hidden = Boolean(knowledge.hosted);
       $('account-description').textContent = '这是可独立打开的 HTML。先复制接话任务，再发到你自己的 ChatGPT；需要截图时一起附上。';
       $('account-email').textContent = knowledge.expectedEmail ? `使用账号：${knowledge.expectedEmail}` : '';
       $('login').hidden = true; $('model').disabled = true; $('account-note').textContent = 'HTML 本身不调用 AI，也不会使用当前 Codex 的登录。';
@@ -201,6 +243,7 @@
       setBusy(false); return;
     }
     try {
+      const practice=await api('practice').catch(()=>null);if(practice){practiceLibrary=practice.library;practicePolicy=practice.policy;practiceProjectUrl=practice.chatUrl||practice.projectUrl||practiceProjectUrl;renderPractice();}
       await refreshStatus();
       if (status.isMac) { const phone = await api('phone'); phoneLink = phone.link; if (phone.qr) { $('phone-qr').src = phone.qr; $('phone-panel').hidden = false; } }
       setInterval(() => refreshStatus().catch(error => notice(error.message, true)), 4000);

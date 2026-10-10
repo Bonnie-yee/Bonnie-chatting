@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-10",
+  "reference_removed_paragraphs": [
+    38,
+    321,
+    468,
+    510,
+    908,
+    960,
+    966,
+    1240
+  ],
+  "original_withdrawn_source_indices": [
+    382,
+    538,
+    735,
+    972,
+    1077,
+    1087,
+    1395,
+    1426,
+    1565,
+    1785,
+    1991,
+    2053,
+    2061,
+    2215,
+    2291,
+    2334,
+    2683,
+    2734,
+    3132
+  ],
+  "reference_visible_paragraphs": 1283,
+  "source_original_paragraphs": 1291,
+  "positive_style_targets_affected": 0,
+  "no_recovered_body_or_target_msg_id_available": true,
+  "adjacent_normal_messages_not_deleted": true,
+  "practice_system_row_1395_removed": true
+}

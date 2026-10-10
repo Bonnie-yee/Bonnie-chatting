@@ -1,0 +1,17 @@
+{
+  "name": "邦尼🐰的🐶军师",
+  "short_name": "Bonnie军师",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f2ed",
+  "theme_color": "#f6f2ed",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

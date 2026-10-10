@@ -4,6 +4,7 @@ import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {unzip, cleanName} from './corpus.mjs';
 import {privateJson} from '../app/account.mjs';
+import {filterReference} from './reference-policy.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 async function sourcePath(portable, legacy) {
@@ -19,7 +20,7 @@ export function extractReference(buffer) {
     const quotation=text.match(/^引用\s*(我|ta)[：:]/);
     return {paragraph:index+1,text,time:labelled?.[1]??null,speaker:labelled?.[2]??null,body:labelled?.[3]??text,quote_speaker:quotation?.[1]??null,highlighted:/<w:highlight\b[^>]*w:val="yellow"/.test(match[0]),reference_only:true};
   });
-  return {title:'参考',source_name:'新聊天记录_ta版.docx',source_sha256:crypto.createHash('sha256').update(buffer).digest('hex'),paragraph_count:rows.length,paragraphs:rows};
+  return filterReference({title:'参考',source_name:'新聊天记录_ta版.docx',source_sha256:crypto.createHash('sha256').update(buffer).digest('hex'),paragraph_count:rows.length,paragraphs:rows});
 }
 
 export async function prepareData() {

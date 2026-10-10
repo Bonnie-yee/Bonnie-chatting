@@ -1,0 +1,17 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(fileURLToPath(new URL('..',import.meta.url)));
+const site=path.join(root,'mobile-site');
+const assets={};
+for(const [route,file,type] of [['/','index.html','text/html; charset=utf-8'],['/sw.js','sw.js','text/javascript; charset=utf-8'],['/manifest.webmanifest','manifest.webmanifest','application/manifest+json'],['/icon.svg','icon.svg','image/svg+xml']])assets[route]={body:await fs.readFile(path.join(site,'dist',file),'utf8'),type};
+const base={policy:await fs.readFile(path.join(root,'config/author_only_prompt.md'),'utf8'),practicePolicy:await fs.readFile(path.join(root,'config/practice_prompt.md'),'utf8')};
+const preferences=JSON.parse(await fs.readFile(path.join(root,'data/private/client_preferences.json'),'utf8'));
+const module=(await fs.readFile(path.join(root,'app/cloud-feedback.mjs'),'utf8')).replaceAll('export ','');
+let code=await fs.readFile(path.join(root,'web/cloud-worker.js'),'utf8');
+code=code.replace('/*__FEEDBACK_MODULE__*/',()=>module).replace('/*__ASSETS__*/null',()=>JSON.stringify(assets)).replace('/*__BASE__*/null',()=>JSON.stringify(base)).replace('/*__OWNER__*/null',()=>JSON.stringify(preferences.expected_account_email));
+await fs.mkdir(path.join(site,'worker'),{recursive:true});await fs.mkdir(path.join(site,'dist/server'),{recursive:true});await fs.mkdir(path.join(site,'dist/.openai'),{recursive:true});
+await fs.writeFile(path.join(site,'worker/index.js'),code);await fs.writeFile(path.join(site,'dist/server/index.js'),code);
+const manifest=JSON.parse(await fs.readFile(path.join(site,'.openai/hosting.json'),'utf8'));delete manifest.static;manifest.d1=null;manifest.r2='BUCKET';manifest.capabilities=[...new Set([...(manifest.capabilities??[]),'mcp'])];
+await fs.writeFile(path.join(site,'.openai/hosting.json'),JSON.stringify(manifest,null,2)+'\n');await fs.writeFile(path.join(site,'dist/.openai/hosting.json'),JSON.stringify(manifest,null,2)+'\n');
+console.log(JSON.stringify({worker_bytes:Buffer.byteLength(code),project_id:manifest.project_id,capabilities:manifest.capabilities}));

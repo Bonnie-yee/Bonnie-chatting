@@ -13,10 +13,10 @@
       <div class="topline"><span class="brand"><span class="brand-mark">兔</span> 邦尼🐰的🐶军师</span><button id="account-toggle" class="status-pill" type="button">账号设置</button></div>
       <p class="eyebrow">照你的语气，接得刚刚好</p>
       <h1>这一句，<br>怎么接？<span class="accent-dot">·</span></h1>
-      <p class="intro">把刚刚聊的发来。分寸留好，话也留一点。</p>
+      <p class="intro">把刚刚聊的发来。分寸留好，话也留一点。</p><p id="cloud-sync-status" class="fineprint" hidden></p>
     </header>
 
-    <nav class="view-tabs" aria-label="页面"><button type="button" data-view="reply" class="selected" aria-pressed="true">接话</button><button type="button" data-view="reference" aria-pressed="false">参考</button></nav>
+    <nav class="view-tabs" aria-label="页面"><button type="button" data-view="reply" class="selected" aria-pressed="true">接话</button><button type="button" data-view="reference" aria-pressed="false">参考</button><button type="button" data-view="practice" aria-pressed="false">练习场</button></nav>
     <div class="work-layout"><div id="composer-pane" class="composer-pane">
     <section class="account-panel panel" id="account-panel" aria-label="账号设置" hidden>
       <div class="section-head"><h2>使用你自己的账号</h2><span class="mini-label" id="plan-label">ChatGPT</span></div>
@@ -70,7 +70,19 @@
       <div class="reference-controls"><p id="reference-count" class="fineprint">正在准备全文…</p><button id="reference-all" class="text-button" type="button" hidden>回到搜索结果</button></div>
       <p class="fineprint reference-boundary">保留双方原话供你查阅；助手只学习我的表达。</p>
       <div id="reference-list" class="reference-list"></div><button id="reference-more" class="secondary reference-more" type="button" hidden>继续看</button>
-    </aside></div>
+    </aside>
+    <section id="practice-pane" class="panel practice-panel" aria-label="练习场">
+      <div class="section-head"><h2>练习场</h2><span class="mini-label">一来一回，慢慢接</span></div>
+      <p class="muted">可以练精彩对局，也可以放松聊一会。实际对练在你的 GPT 项目里继续。</p>
+      <div class="practice-mode-picker" role="group" aria-label="练习方式"><button type="button" data-practice-mode="duel" class="selected" aria-pressed="true">对局练习</button><button type="button" data-practice-mode="relax" aria-pressed="false">轻松陪聊</button><button type="button" data-practice-mode="coach" aria-pressed="false">拆招解释</button></div>
+      <label class="field-title" for="practice-stage">现在的距离</label><select id="practice-stage"><option value="new">刚加好友</option><option value="familiar" selected>认识一段时间</option><option value="close">即将在一起</option></select>
+      <div id="practice-seeds" class="practice-seeds" role="group" aria-label="练习情境"></div>
+      <label class="field-title" for="practice-input">从哪里开始（选填）</label><textarea id="practice-input" rows="3" placeholder="贴一句来话，或写：今天想聊点轻松的。图片可以直接发到练习场对话。" maxlength="12000"></textarea>
+      <div class="practice-actions"><button id="copy-practice" class="primary small" type="button">复制练习开场</button><a id="practice-chat-link" class="quiet-link" target="_blank" rel="noopener noreferrer">进入 GPT 练习场 ↗</a></div>
+      <p id="practice-notice" class="fineprint" role="status"></p><textarea id="practice-task-text" rows="7" readonly hidden aria-label="练习任务文本"></textarea>
+      <p class="fineprint">对练时说「这句怎么回」或「为什么」就暂停拆招；说「继续」恢复。生成的练习句只有你明确认可后才算样本。</p>
+      <details class="practice-original"><summary>看看那场「没找你不代表没想你」的原对局</summary><p class="fineprint">这句是 ta 的原话。这里保留双方来回供你参考，风格只学习我的接法。</p><div id="practice-original-exchange"></div><button id="practice-show-reference" class="text-button" type="button">去参考看完整上下文 ↗</button></details>
+    </section></div>
     <footer>你选，你改，你发送。<span>样本保存在本机，生成用你授权的 ChatGPT。</span></footer>
   </main>
   <script src="/app.js" defer></script>

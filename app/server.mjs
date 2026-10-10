@@ -74,6 +74,9 @@ export async function createReplyServer({ root = projectRoot, session, account, 
       }
       if (req.method === 'GET' && url.pathname === '/api/models') { json(res, 200, { models: await models() }); return; }
       if (req.method === 'GET' && url.pathname === '/api/reference') { json(res, 200, JSON.parse(await fs.readFile(path.join(root,'data/private/reference_document.json'),'utf8'))); return; }
+      if (req.method === 'GET' && url.pathname === '/api/practice') {
+        json(res,200,{library:JSON.parse(await fs.readFile(path.join(root,'data/private/practice_scenarios.json'),'utf8')),policy:await fs.readFile(path.join(root,'config/practice_prompt.md'),'utf8'),projectUrl:preferences.project_url,chatUrl:preferences.practice_chat_url});return;
+      }
       if (req.method !== 'POST') { json(res, 405, { error: '不支持这个操作。' }); return; }
       const input = await body(req);
       if (url.pathname.startsWith('/api/account/')) {

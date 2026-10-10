@@ -1,0 +1,47 @@
+name: Build private assistant after feedback
+on:
+  push:
+    branches: [main]
+    paths: ['sync/current_rules.json', 'app/cloud-feedback.mjs', 'web/**', 'config/**', 'scripts/build-*.mjs', '.github/workflows/feedback-sync.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bonnie-feedback-build
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Build portable HTML from current feedback
+        run: node scripts/build-html.mjs artifacts/邦尼🐰的🐶军师.html
+      - name: Build mobile snapshot and private Worker
+        run: node scripts/build-mobile-site.mjs artifacts/邦尼🐰的🐶军师.html
+      - name: Validate author boundaries and sync logic
+        env:
+          BONNIE_HTML_PATH: artifacts/邦尼🐰的🐶军师.html
+        run: npm test
+      - name: Preserve generated backup
+        run: |
+          git fetch origin main
+          if ! cmp -s sync/current_rules.json <(git show origin/main:sync/current_rules.json); then
+            echo "A newer feedback build is queued; do not publish an older snapshot."
+            exit 0
+          fi
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add -f artifacts/邦尼🐰的🐶军师.html mobile-site/worker/index.js mobile-site/dist dist
+          if ! git diff --cached --quiet; then
+            git commit -m "Build assistant backup from saved feedback"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
