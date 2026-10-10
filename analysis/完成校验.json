@@ -1,0 +1,57 @@
+{
+  "all_source_records_read": 2459,
+  "original_word_unchanged": true,
+  "edited_word_unchanged": true,
+  "eligible_own_messages": 1068,
+  "excluded_own_messages": 70,
+  "reply_groups": 459,
+  "preferred_unique_messages": 389,
+  "annotated_cases": 60,
+  "original_context_recall": {
+    "passed": 60,
+    "total": 60
+  },
+  "paraphrase_recall": {
+    "passed": 10,
+    "total": 10
+  },
+  "invitation_checks": [
+    {
+      "query": "他说下次有空一起吃饭，我想让他主动定具体哪天",
+      "state": "need_date",
+      "steps": [
+        "request_date"
+      ],
+      "current_availability": []
+    },
+    {
+      "query": "我们已经确定周六见面，还没有确定几点",
+      "state": "need_time",
+      "steps": [
+        "request_time"
+      ],
+      "current_availability": [
+        "周六下午四点以后"
+      ]
+    },
+    {
+      "query": "他问我哪天晚上有空，我周五或周日晚有空",
+      "state": "offer_availability",
+      "steps": [
+        "offer_real_availability"
+      ],
+      "current_availability": [
+        "周五晚",
+        "周日晚"
+      ]
+    }
+  ],
+  "model_connected": false,
+  "files_kept_local": true,
+  "automated_checks": {
+    "passed": 17,
+    "total": 17
+  },
+  "invitation_cases": 15,
+  "invitation_starts_before_any_invitation": true
+}

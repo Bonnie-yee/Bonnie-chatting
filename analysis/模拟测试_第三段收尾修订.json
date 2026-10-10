@@ -1,0 +1,38 @@
+{
+  "kind": "generated_revision",
+  "status": "ending_approved_by_user",
+  "approved_as_user_training_data": false,
+  "fictional_scenario": true,
+  "lines": [
+    [
+      "他",
+      "今天跟你走了一万多步，平时我根本懒得走这么久。"
+    ],
+    [
+      "你",
+      "你这个“平时”"
+    ],
+    [
+      "你",
+      "到我这好像就不太作数了"
+    ],
+    [
+      "他",
+      "跟你逛就没觉得累。"
+    ],
+    [
+      "你",
+      "你这是没走累"
+    ],
+    [
+      "你",
+      "还是没跟我待够啊"
+    ]
+  ],
+  "user_feedback": {
+    "date": "2026-10-10",
+    "text": "这个非常好！",
+    "scope": "第三段修订后的末两句"
+  },
+  "approved_for_style_reference": true
+}

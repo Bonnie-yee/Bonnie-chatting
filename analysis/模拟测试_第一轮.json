@@ -1,0 +1,213 @@
+{
+  "status": "awaiting_user_style_feedback",
+  "scenarios_are_fictional": true,
+  "approved_as_user_training_data": false,
+  "demos": [
+    {
+      "id": "new",
+      "label": "刚加好友",
+      "setup": "共同活动后初识，双方轻松聊天。",
+      "lines": [
+        {
+          "speaker": "他",
+          "text": "刚到家，今天忙得快没电了。"
+        },
+        {
+          "speaker": "你",
+          "text": "你等一下",
+          "source": [
+            113
+          ],
+          "method": "original"
+        },
+        {
+          "speaker": "你",
+          "text": "我看120秒广告复活你",
+          "source": [
+            114
+          ],
+          "method": "original"
+        },
+        {
+          "speaker": "他",
+          "text": "哈哈，那你给我续个命。"
+        },
+        {
+          "speaker": "你",
+          "text": "那我可要收费了哦",
+          "source": [
+            191
+          ],
+          "method": "original"
+        },
+        {
+          "speaker": "他",
+          "text": "怎么收费？"
+        },
+        {
+          "speaker": "你",
+          "text": "浅收一顿饭～",
+          "source": [
+            195
+          ],
+          "method": "original"
+        }
+      ]
+    },
+    {
+      "id": "familiar",
+      "label": "认识一段时间",
+      "setup": "已有日常聊天习惯，双方在玩笑式斗嘴。",
+      "lines": [
+        {
+          "speaker": "他",
+          "text": "今天这么安静，想我了也不找我？"
+        },
+        {
+          "speaker": "你",
+          "text": "那你怎么不找我呢",
+          "source": [
+            1384
+          ],
+          "method": "original"
+        },
+        {
+          "speaker": "他",
+          "text": "我刚刚还在想，你什么时候会来找我。"
+        },
+        {
+          "speaker": "你",
+          "text": "还能忍住不找我",
+          "source": [
+            1388
+          ],
+          "method": "original"
+        },
+        {
+          "speaker": "你",
+          "text": "说明还不够想我",
+          "source": [
+            1389
+          ],
+          "method": "original"
+        },
+        {
+          "speaker": "他",
+          "text": "那我现在主动了，你呢？想我没有？"
+        },
+        {
+          "speaker": "你",
+          "text": "不想哪来的问题",
+          "source": [
+            1392
+          ],
+          "method": "original"
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "label": "即将在一起",
+      "setup": "双方已有明确好感，昨天的约会让用户满意，用户确实愿意在下一次见面给小惊喜。",
+      "lines": [
+        {
+          "speaker": "他",
+          "text": "昨天这个约会，给我打几分？"
+        },
+        {
+          "speaker": "你",
+          "text": "那昨天的表现确实深得我心",
+          "source": [
+            2640
+          ],
+          "method": "original"
+        },
+        {
+          "speaker": "你",
+          "text": "下次见面给点奖励",
+          "source": [
+            2641
+          ],
+          "method": "original"
+        },
+        {
+          "speaker": "他",
+          "text": "还得等下次？先透露一点嘛。"
+        },
+        {
+          "speaker": "你",
+          "text": "保密！",
+          "source": [
+            539
+          ],
+          "method": "original"
+        }
+      ]
+    },
+    {
+      "id": "concrete_invitation",
+      "label": "引导他主动约到具体时间",
+      "setup": "模拟用户本周五晚和周日下午有空；不代表用户实际空闲时间。双方认识一段时间。",
+      "lines": [
+        {
+          "speaker": "他",
+          "text": "这家看着挺不错，改天带你去。"
+        },
+        {
+          "speaker": "你",
+          "text": "那行动派准备约哪天？",
+          "source": [
+            638
+          ],
+          "method": "adapted"
+        },
+        {
+          "speaker": "他",
+          "text": "你这周什么时候有空？"
+        },
+        {
+          "speaker": "你",
+          "text": "周五晚或者周日下午",
+          "source": [
+            1590,
+            1591
+          ],
+          "method": "adapted_simulated_availability"
+        },
+        {
+          "speaker": "你",
+          "text": "你选一个？",
+          "source": [
+            326
+          ],
+          "method": "original"
+        },
+        {
+          "speaker": "他",
+          "text": "那周五晚上吧。"
+        },
+        {
+          "speaker": "你",
+          "text": "那几点？",
+          "source": [
+            2568
+          ],
+          "method": "adapted"
+        },
+        {
+          "speaker": "他",
+          "text": "七点，我来订位。"
+        },
+        {
+          "speaker": "你",
+          "text": "okkki辛苦啦",
+          "source": [
+            307
+          ],
+          "method": "original"
+        }
+      ]
+    }
+  ],
+  "retrieval_observation": "熟悉阶段的长查询偏向了踢皮球案例，最终根据完整场景与原话条件人工选择不想哪来的问题；候选排序不替代语境判断。"
+}

@@ -1,0 +1,37 @@
+{
+  "origin": "assistant_generated_revision",
+  "stage": "familiar",
+  "context_origin": "user_specified_test_line",
+  "incoming": "你有点过于了解我了",
+  "status": "preferred_candidate_selected",
+  "approved_as_original_user_quotes": false,
+  "known_good_reference": [
+    "还有好多没了解呢",
+    "光靠聊天哪够啊"
+  ],
+  "recalibration": "继续了解与相处方式的话题，留白，不直接点破感情或推断对方心理",
+  "candidates": [
+    [
+      "这才聊了多少",
+      "有些还得当面看看"
+    ],
+    [
+      "那这个结论先留着",
+      "见了面再对对答案"
+    ],
+    [
+      "猜到的先不算",
+      "有些得听你当面说"
+    ]
+  ],
+  "user_feedback": {
+    "date": "2026-10-10",
+    "text": "第二个最好，记住我喜欢的感觉好吗",
+    "preferred_candidate_number": 2,
+    "preferred_reply": [
+      "那这个结论先留着",
+      "见了面再对对答案"
+    ],
+    "other_candidates_explicitly_rejected": false
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "user_photo_two_message_reversal",
+    "origin": "user_provided_example_confirmed",
+    "context": "对方发来照片，用户用反转表达照片很好看",
+    "reply": [
+      "这拍的什么玩意儿",
+      "没有一张不好看的"
+    ],
+    "clarification": "第二句为没有一张不好看的，意思是每张都好看；反转在第二句完成",
+    "style_move": "先制造嫌弃的预期，紧接着用清楚的肯定翻转",
+    "message_segmentation": "two_separate_messages",
+    "target_of_praise": "照片，未擅自认定为对方的外貌",
+    "relationship_stage": "not_specified",
+    "source_in_uploaded_docx": false,
+    "confirmed_by_user": true
+  }
+]

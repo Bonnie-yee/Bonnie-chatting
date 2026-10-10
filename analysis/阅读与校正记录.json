@@ -1,0 +1,111 @@
+{
+  "source_record_count": 2459,
+  "all_records_read": true,
+  "read_segments": [
+    {
+      "date_through": "2026-05-09"
+    },
+    {
+      "source_range": [
+        361,
+        780
+      ]
+    },
+    {
+      "source_range": [
+        781,
+        1300
+      ]
+    },
+    {
+      "source_range": [
+        1301,
+        1680
+      ]
+    },
+    {
+      "source_range": [
+        1681,
+        1742
+      ]
+    },
+    {
+      "source_range": [
+        1743,
+        2010
+      ]
+    },
+    {
+      "source_range": [
+        2011,
+        2260
+      ]
+    },
+    {
+      "dates": [
+        "2026-06-17",
+        "2026-06-20"
+      ]
+    },
+    {
+      "date_from": "2026-06-21"
+    }
+  ],
+  "original_docx_matches_every_record": true,
+  "user_corrections": {
+    "version": 1,
+    "source_index_ranges": [
+      {
+        "start": 1152,
+        "end": 1189,
+        "label": "喝酒失联后的责怪和弥补",
+        "basis": "用户核对后确认整段排除"
+      },
+      {
+        "start": 1416,
+        "end": 1490,
+        "label": "送衣服及其后争论",
+        "basis": "用户核对后确认整段排除"
+      },
+      {
+        "start": 2211,
+        "end": 2255,
+        "label": "办公室新西兰同事片段",
+        "basis": "用户明确要求禁止学习"
+      },
+      {
+        "start": 2263,
+        "end": 2267,
+        "label": "帅哥帮我封网片段",
+        "basis": "用户明确要求禁止学习"
+      },
+      {
+        "start": 3140,
+        "end": 3170,
+        "label": "关系降温及决定做普通朋友",
+        "basis": "根据用户排除争执和感情不好片段的要求排除"
+      }
+    ],
+    "confirmed_retained_ranges": [
+      {
+        "start": 1382,
+        "end": 1402,
+        "label": "不想哪来的问题及有的人非要听答案",
+        "basis": "用户确认保留这一段"
+      },
+      {
+        "start": 2308,
+        "end": 2336,
+        "label": "六月十八日玩笑式斗嘴",
+        "basis": "用户确认不回答只提问属于玩笑式斗嘴，保留"
+      }
+    ],
+    "behavior_exclusions": [
+      "不主动引入其他男生、潜在对象或第三者制造竞争感。",
+      "不编造他人对用户的追求、照顾和亲密互动来刺激当前聊天对象。",
+      "用户排除的片段不进入候选、其上下文、引用或少样本提示词。",
+      "真实争执和关系不好的片段不作正向样本；拿不准的情绪先向用户核对。"
+    ]
+  },
+  "original_docx_modified": false
+}

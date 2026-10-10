@@ -1,0 +1,374 @@
+{
+  "date": "2026-10-10",
+  "owner": "Bonnie-yee",
+  "visibility": "private",
+  "excluded": [
+    "OAuth credentials",
+    "runtime sessions",
+    "environment keys",
+    "WeChat databases and database keys",
+    "node_modules"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 66,
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 186,
+      "sha256": "21998f855e23af9aa2edb2a8d84bbea5830403cc69b20f6258091e3c5d18b451"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9832,
+      "sha256": "5356ead37408d9e186b633f7cd863d94b6a29bef0c0edee67a08d9b242b33988"
+    },
+    {
+      "path": "analysis/60个重点样本.md",
+      "bytes": 35512,
+      "sha256": "f7029a68e6a40d6d4de710f2b52fbcc26b535a3ac825af9e23e71148d6cc0f99"
+    },
+    {
+      "path": "analysis/HTML与独立账号接入校验.json",
+      "bytes": 906,
+      "sha256": "fa458fd9f0d0341e5c14062f620dea933eb18dcacf5f4258732dd3bcad86c5cd"
+    },
+    {
+      "path": "analysis/体香与作者边界校正.json",
+      "bytes": 6860,
+      "sha256": "31d52a1166f8cc2af53727c9d9603dd807d0a864c5621d71f465de63d567be97"
+    },
+    {
+      "path": "analysis/体香表达的感觉与迁移.md",
+      "bytes": 2464,
+      "sha256": "9468ccf72e54ee07b1cb56f6b5b814af8a578bf961a259955a709b73511056b1"
+    },
+    {
+      "path": "analysis/六项修改校验.json",
+      "bytes": 1159,
+      "sha256": "61b74a9786aba6a91e4c436405f288e966781238e16b092cd77d9eaf629ac242"
+    },
+    {
+      "path": "analysis/分析指标.json",
+      "bytes": 279,
+      "sha256": "08111703286bf2e3ab33d5aa1010a254b916547331abf1a71fcd42fe75ec249c"
+    },
+    {
+      "path": "analysis/完成校验.json",
+      "bytes": 1325,
+      "sha256": "af6276795e0fd85a7fe60f4a6b2522c4f2bb354bfbfe56c841a18c3d647b315c"
+    },
+    {
+      "path": "analysis/待核对_照片回复反转.json",
+      "bytes": 540,
+      "sha256": "fc547f36c2f18559f53560190b1421a6788a3fe0c5dc9c722eef22bf75a83246"
+    },
+    {
+      "path": "analysis/检索回测.json",
+      "bytes": 54435,
+      "sha256": "eb6524f685c9e97a4983bf02ab9ae9a9c437197ce38e22bb1b93f5be1372558a"
+    },
+    {
+      "path": "analysis/模拟测试_第一轮.json",
+      "bytes": 5227,
+      "sha256": "99c08f047c7086dd284e0b47f1801915b554d75a0ff1c9dc1059023c956ae6e8"
+    },
+    {
+      "path": "analysis/模拟测试_第三段收尾修订.json",
+      "bytes": 737,
+      "sha256": "41ab6d280b51a906c1d229008af8c41d94edbb378c83e348084e1361c1c0a781"
+    },
+    {
+      "path": "analysis/模拟测试_第三轮_精进与主动邀约.json",
+      "bytes": 3296,
+      "sha256": "709f0514434bf22478f636e584d6915bee7d9b3f9514cdf3f927d530eece9431"
+    },
+    {
+      "path": "analysis/模拟测试_第二轮_新情境.json",
+      "bytes": 2849,
+      "sha256": "8ab1da37c1846d2440100a321844db42fb7725f1bddd59f5d76b8ff5df75e99a"
+    },
+    {
+      "path": "analysis/用户反馈_礼物夸奖与反馈空间.json",
+      "bytes": 1368,
+      "sha256": "05e3c0dfacfa44025f3b47864ac22553261d6c496cda791e7125028ea0156594"
+    },
+    {
+      "path": "analysis/用户反馈_第三轮.json",
+      "bytes": 385,
+      "sha256": "100f6f248586d217b5585ffbd5445155c377b011730f4325c9fa3b1aab1e1c97"
+    },
+    {
+      "path": "analysis/用户反馈_第二轮.json",
+      "bytes": 460,
+      "sha256": "633fcec8995e44f8e5d4e5fd66dfeaf89d314b5324303d67ed17da2869a4038b"
+    },
+    {
+      "path": "analysis/用户反馈_第二阶段了解回复.json",
+      "bytes": 1064,
+      "sha256": "fc5ea5b9ce00b2f04bed73969dc53a7105ea778fa3ca12b9e51f792025dfa631"
+    },
+    {
+      "path": "analysis/真实接话测试_礼物盲盒.json",
+      "bytes": 855,
+      "sha256": "45b99caf8677985afee65bacdd1c095b48effc2f9fc9d9e3b465d48c08e69df1"
+    },
+    {
+      "path": "analysis/第二阶段了解回复_含蓄修订.json",
+      "bytes": 1010,
+      "sha256": "eaea740f95bbd08d96a1f974a544a07063532dafb567c5a1efd0467b0d3728a7"
+    },
+    {
+      "path": "analysis/聊天风格与回复机制.md",
+      "bytes": 12547,
+      "sha256": "ca4ad877adf9284b7ccb7dceef1b662e5002b607aa6d3b9cf6cc6fcfda74c6f3"
+    },
+    {
+      "path": "analysis/阅读与校正记录.json",
+      "bytes": 2518,
+      "sha256": "11e82e2a9c4e6779f774f4ed2bb32d0fad67347910492f8a3abadbcd83a321a9"
+    },
+    {
+      "path": "app/account.mjs",
+      "bytes": 12818,
+      "sha256": "b5146b8fb774450a97dc6fcb3f4eec2ffe543149a90336b563a099d81222a4b2"
+    },
+    {
+      "path": "app/inference.mjs",
+      "bytes": 3876,
+      "sha256": "a7bcb3e0468d025a8209642404c7532f7a4bf2d82424d482c9ae7bfc6717c91d"
+    },
+    {
+      "path": "app/prompt.mjs",
+      "bytes": 8078,
+      "sha256": "88555dcac4454a843c8651c8f00992370cba56d3abbcedc0a22113cb0a2858fe"
+    },
+    {
+      "path": "app/server.mjs",
+      "bytes": 12833,
+      "sha256": "bac8fd4690ca67e55cd23e5d58dafa99bf541e61ed1f89612034efac27ec36e8"
+    },
+    {
+      "path": "artifacts/我的接话助手.html",
+      "bytes": 348553,
+      "sha256": "65d5e11a320d4d6bdcebb2b3b7d559c8a533132eadc075f3ef1583b13e2ca195"
+    },
+    {
+      "path": "config/author_only_prompt.md",
+      "bytes": 5836,
+      "sha256": "dd4f0689b2bb089d455f3a9aab4992fe288427a9c2cf9418caf82d8530d0e609"
+    },
+    {
+      "path": "config/exclusions.json",
+      "bytes": 1422,
+      "sha256": "9f83360a2d5ba12206b64e6af05352045ecb2d9b07a0e6d56bcef971d0bb0031"
+    },
+    {
+      "path": "config/goals.json",
+      "bytes": 1519,
+      "sha256": "9d2d032ba01dac8e4292c9d393232b740d1b9761af753e90dc18ac5b77252947"
+    },
+    {
+      "path": "config/stages.json",
+      "bytes": 1806,
+      "sha256": "8a50c0f34c7daebfeb7167f4158a023dd1af85cbd343a6481d942990f8255ebd"
+    },
+    {
+      "path": "config/system_prompt.md",
+      "bytes": 5836,
+      "sha256": "dd4f0689b2bb089d455f3a9aab4992fe288427a9c2cf9418caf82d8530d0e609"
+    },
+    {
+      "path": "data/private/annotated_cases.json",
+      "bytes": 175403,
+      "sha256": "e95426987bc329d4ef42b05c97209d9ede2a7925535571214db0aa5990052ec1"
+    },
+    {
+      "path": "data/private/approved_generated_examples.json",
+      "bytes": 3324,
+      "sha256": "95c07f742b1ca21346d95782b4bc4d7e41580e232513c6926b2fca532b3186bc"
+    },
+    {
+      "path": "data/private/author_reply_groups.json",
+      "bytes": 127777,
+      "sha256": "78b6b960465ed24b1ffd61b029f9febf1d10e625c5eef782cd2de6fbc7b0d991"
+    },
+    {
+      "path": "data/private/author_style_core.json",
+      "bytes": 6708,
+      "sha256": "02241d8d9a8c777f925561fcb7f8b636edb45ec9c226b7ebf56eaff3b40f6c53"
+    },
+    {
+      "path": "data/private/client_preferences.json",
+      "bytes": 336,
+      "sha256": "3dc2817e0a7f5cc23577013473c83254d239f77b9cf2a713b6bcbd72a2146804"
+    },
+    {
+      "path": "data/private/conversation.json",
+      "bytes": 434927,
+      "sha256": "d7f8ff31123caa0858d4748241b7d256559896eb88f4d7c11d8b8eb63e5a89c9"
+    },
+    {
+      "path": "data/private/reference_document.json",
+      "bytes": 372127,
+      "sha256": "36da97adf8899265608f07eca91b438851e3d7e7e51c801b8e292e928b61117f"
+    },
+    {
+      "path": "data/private/reply_turns.json",
+      "bytes": 1304459,
+      "sha256": "9a477fb938d3c32009cca649154744b770f4de510be4f43681d5afa89cee5570"
+    },
+    {
+      "path": "data/private/stats.json",
+      "bytes": 2038,
+      "sha256": "82eecd4ee113f91b913eec59b26c79b93d394efab3015105d2ffc61a7a9cac12"
+    },
+    {
+      "path": "data/private/user_provided_style_examples.json",
+      "bytes": 701,
+      "sha256": "e1af25c1250f7017064f7f9d1dc7894ccebb894fd502d7c8fa8d71838a3b7cbb"
+    },
+    {
+      "path": "dist/app.js",
+      "bytes": 20682,
+      "sha256": "af41ab9da3ad3e1c95806de7493c5334be5f2789b1e231545ae326a36e04e515"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 8193,
+      "sha256": "b3c2af7165497e25b6bcf1d239b6d3b7d457344459af02c8483e115950ef49f3"
+    },
+    {
+      "path": "dist/style.css",
+      "bytes": 9517,
+      "sha256": "3cb30eddb152f0bd762e3a0a950a3405a7b4b2920347e1dc4082d57f0083799b"
+    },
+    {
+      "path": "gpt_project/00_项目指令.txt",
+      "bytes": 6852,
+      "sha256": "321a2c62747672d9511efde37c6f907b54940e3fb1b14135f09bca2f8a894126"
+    },
+    {
+      "path": "gpt_project/01_我的风格.md",
+      "bytes": 8302,
+      "sha256": "639ce4505ee439b9c26425795308f389bfeef40ca1ee6b1097527ad0e2e922a0"
+    },
+    {
+      "path": "gpt_project/02_我的回复样本.jsonl",
+      "bytes": 88954,
+      "sha256": "0e9aae559fef6ec0f7d3189800327ef109a419f6d3a2237d11072781feab3ab7"
+    },
+    {
+      "path": "gpt_project/03_我的场景与认可.md",
+      "bytes": 24781,
+      "sha256": "0c4a70936a30f8d97076221bcf05e2092fa7e1a37ec93639e6fac54f3098958b"
+    },
+    {
+      "path": "gpt_project/04_参考.txt",
+      "bytes": 60333,
+      "sha256": "3e20d82ca5af790752034602039b23fca0ed9ba2b02c83b9d695b9e3c718227d"
+    },
+    {
+      "path": "gpt_project/05_软件代码仅供维护.md",
+      "bytes": 161150,
+      "sha256": "4b9a12cbaaec6c72029d3d40b06a60adc9cc2c83027ec822421190947476246c"
+    },
+    {
+      "path": "gpt_project/README_怎么放进GPT项目.md",
+      "bytes": 1358,
+      "sha256": "b922703d622d9455cf13168c8e1b22a4f221e273fa18778f7c9ac1971e80f44a"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 35234,
+      "sha256": "d845e5882858e2ee0973dd88e873dc07b43c208cf44cd8cb11b5beafc8c3d953"
+    },
+    {
+      "path": "package.json",
+      "bytes": 395,
+      "sha256": "05b1184629288713047a123af7bc64e7c5f2fa779e1ba4bd4dfe559c4e4ae848"
+    },
+    {
+      "path": "scripts/build-html.mjs",
+      "bytes": 2754,
+      "sha256": "5a4e85648a9b377282840c7fe1a27fa6df7e8049f7636c8f7256831f910c5046"
+    },
+    {
+      "path": "scripts/corpus.mjs",
+      "bytes": 11627,
+      "sha256": "a3c0b8ce942111734c80b6db25cd309205e55d0ed2371dec8ce16cf810e1a9b5"
+    },
+    {
+      "path": "scripts/export-project-pack.mjs",
+      "bytes": 5940,
+      "sha256": "a965eb8f19806239b2940a0cd3c27fc8c672a63bfae5b1bf277d459675d759d0"
+    },
+    {
+      "path": "scripts/launch.mjs",
+      "bytes": 1023,
+      "sha256": "181ae875716537076dd811f43db4bb04d2e7573cc4b8b7e6e975f7dc8f5d5f81"
+    },
+    {
+      "path": "scripts/open.command",
+      "bytes": 154,
+      "sha256": "70ec6795b4475ed6b3f73c38a2090e39b71681bead44c11fc2328a1082fc6177"
+    },
+    {
+      "path": "scripts/prepare-v2-data.mjs",
+      "bytes": 6297,
+      "sha256": "fc5b34bcf90224386a3b98c563c1f76198dd6d499e16e8a8b6032c38b9d63f37"
+    },
+    {
+      "path": "scripts/search.mjs",
+      "bytes": 11824,
+      "sha256": "9909a958213a607079e2c1e8419858d676586160a4142826f716b508ce6da296"
+    },
+    {
+      "path": "source_documents/reference_ta.docx",
+      "bytes": 46500,
+      "sha256": "21ccc6555b0e3e87efb3289fdecff955b870558ea92b2f6503acc74a1caa0b51"
+    },
+    {
+      "path": "source_documents/text_only_records_ta.json",
+      "bytes": 690198,
+      "sha256": "724f8efb7088ef444c5eb73396f0b0688d3cb28279ba47a8fce8de2743e4bd80"
+    },
+    {
+      "path": "source_documents/回复助手规则.md",
+      "bytes": 10625,
+      "sha256": "b12e6390648cbf5bd12562b9ddf0d6a4226f1a3cb0a19e0375c3ff67df98c93c"
+    },
+    {
+      "path": "tests/app.test.mjs",
+      "bytes": 11654,
+      "sha256": "bc2b4f08a39665c850e0b0a9a8c3dd9cc2b1661546669b832bc8ad6e25daf37e"
+    },
+    {
+      "path": "tests/corpus.test.mjs",
+      "bytes": 8571,
+      "sha256": "376ddc113730e968de7069fc50d829807760221fb7c95e2821013d4ee0cb8adf"
+    },
+    {
+      "path": "tests/html.test.mjs",
+      "bytes": 7788,
+      "sha256": "efa58985578c6788a061d54d4c7aa388acefbc919c11c323b54a92760e20d279"
+    },
+    {
+      "path": "web/app.js",
+      "bytes": 20682,
+      "sha256": "af41ab9da3ad3e1c95806de7493c5334be5f2789b1e231545ae326a36e04e515"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 8193,
+      "sha256": "b3c2af7165497e25b6bcf1d239b6d3b7d457344459af02c8483e115950ef49f3"
+    },
+    {
+      "path": "web/style.css",
+      "bytes": 9517,
+      "sha256": "3cb30eddb152f0bd762e3a0a950a3405a7b4b2920347e1dc4082d57f0083799b"
+    }
+  ]
+}

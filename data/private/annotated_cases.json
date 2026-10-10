@@ -1,0 +1,6849 @@
+[
+  {
+    "id": "mutual_praise",
+    "source_indices": [
+      23,
+      24
+    ],
+    "date": "2026-04-30",
+    "time": "23:40:05",
+    "reply": [
+      "没有没有你也打得好",
+      "互相学习哈哈哈"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "new",
+      "familiar"
+    ],
+    "mode": "playful",
+    "scene": "对方夸共同活动中的表现",
+    "move": "接受对方的善意并把肯定给回去",
+    "inferred_subtext": "表达欣赏和愿意继续相处",
+    "condition": "确实参与过对应活动",
+    "retrieval_hints": [
+      "夸我",
+      "打得好",
+      "表现好",
+      "互相学习",
+      "谦虚"
+    ],
+    "context_before": [
+      {
+        "source_index": 17,
+        "date": "2026-04-30",
+        "time": "23:37:24",
+        "speaker": "我",
+        "text": "没有没有",
+        "quote": {
+          "speaker": "ta",
+          "text": "跟你还凶了？？这不太好"
+        }
+      },
+      {
+        "source_index": 18,
+        "date": "2026-04-30",
+        "time": "23:37:40",
+        "speaker": "我",
+        "text": "就是恨铁不成钢的那种",
+        "quote": null
+      },
+      {
+        "source_index": 20,
+        "date": "2026-04-30",
+        "time": "23:38:13",
+        "speaker": "ta",
+        "text": "那是因为你打的好 对你要求比较高",
+        "quote": null
+      },
+      {
+        "source_index": 21,
+        "date": "2026-04-30",
+        "time": "23:38:41",
+        "speaker": "ta",
+        "text": "打的是挺好",
+        "quote": null
+      },
+      {
+        "source_index": 22,
+        "date": "2026-04-30",
+        "time": "23:39:56",
+        "speaker": "ta",
+        "text": "跟我说了很多不光是打球",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "那是因为你打的好 对你要求比较高"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 25,
+        "date": "2026-04-30",
+        "time": "23:40:11",
+        "speaker": "ta",
+        "text": "还有康复 拉伸 少熬夜",
+        "quote": null
+      },
+      {
+        "source_index": 26,
+        "date": "2026-04-30",
+        "time": "23:40:23",
+        "speaker": "我",
+        "text": "我经常熬夜",
+        "quote": null
+      },
+      {
+        "source_index": 28,
+        "date": "2026-04-30",
+        "time": "23:40:36",
+        "speaker": "ta",
+        "text": "same",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "specific_praise",
+    "source_indices": [
+      43
+    ],
+    "date": "2026-05-01",
+    "time": "00:12:48",
+    "reply": [
+      "说明工作能力太强了"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "new",
+      "familiar"
+    ],
+    "mode": "playful",
+    "scene": "对方自嘲工作形象或能力",
+    "move": "从对方实际行为里找一个具体正面解释",
+    "inferred_subtext": "肯定对方，而非抽象夸厉害",
+    "condition": "当前事实能支撑这个解释",
+    "retrieval_hints": [
+      "工作能力",
+      "下班",
+      "加班",
+      "能力强",
+      "夸他"
+    ],
+    "context_before": [
+      {
+        "source_index": 38,
+        "date": "2026-05-01",
+        "time": "00:11:08",
+        "speaker": "ta",
+        "text": "真的会加班到吐。。。",
+        "quote": {
+          "speaker": "我",
+          "text": "就是经常加班 桌上起码摆着五台电脑"
+        }
+      },
+      {
+        "source_index": 39,
+        "date": "2026-05-01",
+        "time": "00:11:30",
+        "speaker": "ta",
+        "text": "这种死装哥也确实存在[捂脸]",
+        "quote": {
+          "speaker": "我",
+          "text": "[音乐]\n上海白领的一天belike.金融男\n@戏很多的金兑 的笔记\n5523人分享\n[链接]"
+        }
+      },
+      {
+        "source_index": 40,
+        "date": "2026-05-01",
+        "time": "00:12:05",
+        "speaker": "我",
+        "text": "但我看你也经常来打球啊",
+        "quote": {
+          "speaker": "ta",
+          "text": "真的会加班到吐。。。"
+        }
+      },
+      {
+        "source_index": 41,
+        "date": "2026-05-01",
+        "time": "00:12:12",
+        "speaker": "ta",
+        "text": "完了 印象分爆减",
+        "quote": null
+      },
+      {
+        "source_index": 42,
+        "date": "2026-05-01",
+        "time": "00:12:24",
+        "speaker": "我",
+        "text": "哈哈只是觉得很搞笑！",
+        "quote": {
+          "speaker": "ta",
+          "text": "这种死装哥也确实存在[捂脸]"
+        }
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "完了 印象分爆减"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 44,
+        "date": "2026-05-01",
+        "time": "00:12:49",
+        "speaker": "ta",
+        "text": "我之前的那份工作就是业内里加班最凶的",
+        "quote": {
+          "speaker": "我",
+          "text": "但我看你也经常来打球啊"
+        }
+      },
+      {
+        "source_index": 45,
+        "date": "2026-05-01",
+        "time": "00:12:53",
+        "speaker": "我",
+        "text": "所以可以准时下班",
+        "quote": null
+      },
+      {
+        "source_index": 46,
+        "date": "2026-05-01",
+        "time": "00:13:19",
+        "speaker": "ta",
+        "text": "现在工作比较少 但悄悄地说 我想跳槽哈哈哈哈",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "delayed_punchline",
+    "source_indices": [
+      130,
+      131,
+      132
+    ],
+    "date": "2026-05-01",
+    "time": "20:26:51",
+    "reply": [
+      "哈哈我觉得北京话巨好玩儿",
+      "而且讲话贼幽默",
+      "比如你"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "new",
+      "familiar"
+    ],
+    "mode": "playful",
+    "scene": "聊到某地的说话特点",
+    "move": "先夸一类表达，最后落到聊天对象身上",
+    "inferred_subtext": "这个夸奖其实是在说你",
+    "condition": "对方已经表现出对应特点；地域按真实情况改",
+    "retrieval_hints": [
+      "幽默",
+      "说话好玩",
+      "有趣",
+      "讲话",
+      "夸他"
+    ],
+    "context_before": [
+      {
+        "source_index": 125,
+        "date": "2026-05-01",
+        "time": "19:59:25",
+        "speaker": "ta",
+        "text": "香港同事一般跟我说粤语",
+        "quote": null
+      },
+      {
+        "source_index": 126,
+        "date": "2026-05-01",
+        "time": "19:59:32",
+        "speaker": "ta",
+        "text": "我回他普通话",
+        "quote": null
+      },
+      {
+        "source_index": 127,
+        "date": "2026-05-01",
+        "time": "19:59:42",
+        "speaker": "ta",
+        "text": "发现驴唇不对马嘴",
+        "quote": null
+      },
+      {
+        "source_index": 128,
+        "date": "2026-05-01",
+        "time": "19:59:49",
+        "speaker": "ta",
+        "text": "就说英语了",
+        "quote": null
+      },
+      {
+        "source_index": 129,
+        "date": "2026-05-01",
+        "time": "20:00:06",
+        "speaker": "ta",
+        "text": "一般是三种语言混着说哈哈哈",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 134,
+        "date": "2026-05-01",
+        "time": "21:45:44",
+        "speaker": "ta",
+        "text": "真的能听出来吗",
+        "quote": null
+      },
+      {
+        "source_index": 135,
+        "date": "2026-05-01",
+        "time": "21:45:53",
+        "speaker": "ta",
+        "text": "你去北京玩过没",
+        "quote": null
+      },
+      {
+        "source_index": 136,
+        "date": "2026-05-01",
+        "time": "21:46:31",
+        "speaker": "ta",
+        "text": "那我多给你讲",
+        "quote": {
+          "speaker": "我",
+          "text": "而且讲话贼幽默"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "revive",
+    "source_indices": [
+      113,
+      114
+    ],
+    "date": "2026-05-01",
+    "time": "18:14:35",
+    "reply": [
+      "你等一下",
+      "我看120秒广告复活你"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "new",
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方表示累、没电或精力透支",
+    "move": "先让对方等一下，再给出游戏复活的具体画面",
+    "inferred_subtext": "我接到了你的疲惫，想逗你轻松一点",
+    "condition": "适合普通疲惫的轻松聊天；严肃痛苦场景重新判断",
+    "retrieval_hints": [
+      "累",
+      "疲惫",
+      "没电",
+      "电量",
+      "忙死",
+      "精力",
+      "复活",
+      "充电"
+    ],
+    "context_before": [
+      {
+        "source_index": 108,
+        "date": "2026-05-01",
+        "time": "18:03:06",
+        "speaker": "ta",
+        "text": "没多久 不到一年",
+        "quote": null
+      },
+      {
+        "source_index": 109,
+        "date": "2026-05-01",
+        "time": "18:03:35",
+        "speaker": "ta",
+        "text": "你之前在香港生活过吗",
+        "quote": null
+      },
+      {
+        "source_index": 110,
+        "date": "2026-05-01",
+        "time": "18:03:53",
+        "speaker": "ta",
+        "text": "喜欢香港吗",
+        "quote": null
+      },
+      {
+        "source_index": 111,
+        "date": "2026-05-01",
+        "time": "18:04:29",
+        "speaker": "ta",
+        "text": "一会还得接我朋友 好累哦",
+        "quote": null
+      },
+      {
+        "source_index": 112,
+        "date": "2026-05-01",
+        "time": "18:13:47",
+        "speaker": "我",
+        "text": "挺喜欢的哈哈 深圳和香港都挺喜欢",
+        "quote": {
+          "speaker": "ta",
+          "text": "喜欢香港吗"
+        }
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "一会还得接我朋友 好累哦"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 116,
+        "date": "2026-05-01",
+        "time": "18:19:08",
+        "speaker": "ta",
+        "text": "哈哈哈哈哈哈哈太搞笑了",
+        "quote": {
+          "speaker": "我",
+          "text": "我看120秒广告复活你"
+        }
+      },
+      {
+        "source_index": 117,
+        "date": "2026-05-01",
+        "time": "18:19:45",
+        "speaker": "ta",
+        "text": "香港就感觉太挤太小了",
+        "quote": {
+          "speaker": "我",
+          "text": "挺喜欢的哈哈 深圳和香港都挺喜欢"
+        }
+      },
+      {
+        "source_index": 118,
+        "date": "2026-05-01",
+        "time": "18:19:52",
+        "speaker": "ta",
+        "text": "而且我还听不懂粤语",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "playful_fee",
+    "source_indices": [
+      191
+    ],
+    "date": "2026-05-02",
+    "time": "00:34:23",
+    "reply": [
+      "那我可要收费了哦"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "new",
+      "familiar"
+    ],
+    "mode": "playful",
+    "scene": "对方把一个小任务交给你",
+    "move": "把帮忙转成一个轻松可接的收费玩笑",
+    "inferred_subtext": "可以帮你，但顺便给你一个继续接话的入口",
+    "condition": "对方是在轻松求助，双方能接住玩笑",
+    "retrieval_hints": [
+      "帮忙",
+      "交给你",
+      "翻译",
+      "带带",
+      "收费",
+      "报酬"
+    ],
+    "context_before": [
+      {
+        "source_index": 186,
+        "date": "2026-05-02",
+        "time": "00:24:32",
+        "speaker": "我",
+        "text": "不过去吃饭逛街说粤语没问题",
+        "quote": null
+      },
+      {
+        "source_index": 187,
+        "date": "2026-05-02",
+        "time": "00:24:42",
+        "speaker": "我",
+        "text": "但专业的就不行了",
+        "quote": null
+      },
+      {
+        "source_index": 188,
+        "date": "2026-05-02",
+        "time": "00:30:44",
+        "speaker": "ta",
+        "text": "那就交给你了",
+        "quote": {
+          "speaker": "我",
+          "text": "不过去吃饭逛街说粤语没问题"
+        }
+      },
+      {
+        "source_index": 189,
+        "date": "2026-05-02",
+        "time": "00:32:18",
+        "speaker": "ta",
+        "text": "每次听不懂商家说粤语",
+        "quote": null
+      },
+      {
+        "source_index": 190,
+        "date": "2026-05-02",
+        "time": "00:32:24",
+        "speaker": "ta",
+        "text": "都有一点点愧疚感",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "那就交给你了"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 192,
+        "date": "2026-05-02",
+        "time": "00:44:58",
+        "speaker": "ta",
+        "text": "收！",
+        "quote": null
+      },
+      {
+        "source_index": 193,
+        "date": "2026-05-02",
+        "time": "00:45:26",
+        "speaker": "ta",
+        "text": "我要办年卡！",
+        "quote": null
+      },
+      {
+        "source_index": 194,
+        "date": "2026-05-02",
+        "time": "01:01:02",
+        "speaker": "我",
+        "text": "先来个次卡康康诚意",
+        "quote": {
+          "speaker": "ta",
+          "text": "我要办年卡！"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "card_and_meal",
+    "source_indices": [
+      194,
+      195
+    ],
+    "date": "2026-05-02",
+    "time": "01:01:02",
+    "reply": [
+      "先来个次卡康康诚意",
+      "浅收一顿饭～"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "new",
+      "familiar"
+    ],
+    "mode": "playful",
+    "scene": "对方接住收费梗，说要办年卡",
+    "move": "把长期年卡降成次卡，再落到一顿饭",
+    "inferred_subtext": "愿意继续接触，但让对方先给一点实际诚意",
+    "condition": "对方已接住收费或会员梗；用户愿意见面",
+    "retrieval_hints": [
+      "年卡",
+      "会员",
+      "次卡",
+      "诚意",
+      "请吃饭"
+    ],
+    "context_before": [
+      {
+        "source_index": 189,
+        "date": "2026-05-02",
+        "time": "00:32:18",
+        "speaker": "ta",
+        "text": "每次听不懂商家说粤语",
+        "quote": null
+      },
+      {
+        "source_index": 190,
+        "date": "2026-05-02",
+        "time": "00:32:24",
+        "speaker": "ta",
+        "text": "都有一点点愧疚感",
+        "quote": null
+      },
+      {
+        "source_index": 191,
+        "date": "2026-05-02",
+        "time": "00:34:23",
+        "speaker": "我",
+        "text": "那我可要收费了哦",
+        "quote": {
+          "speaker": "ta",
+          "text": "那就交给你了"
+        }
+      },
+      {
+        "source_index": 192,
+        "date": "2026-05-02",
+        "time": "00:44:58",
+        "speaker": "ta",
+        "text": "收！",
+        "quote": null
+      },
+      {
+        "source_index": 193,
+        "date": "2026-05-02",
+        "time": "00:45:26",
+        "speaker": "ta",
+        "text": "我要办年卡！",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "我要办年卡！"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 196,
+        "date": "2026-05-02",
+        "time": "01:06:45",
+        "speaker": "ta",
+        "text": "必须诚意满满",
+        "quote": null
+      },
+      {
+        "source_index": 197,
+        "date": "2026-05-02",
+        "time": "01:07:00",
+        "speaker": "ta",
+        "text": "等你从广州回来",
+        "quote": null
+      },
+      {
+        "source_index": 198,
+        "date": "2026-05-02",
+        "time": "01:07:30",
+        "speaker": "ta",
+        "text": "安排！",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "food_invitation",
+    "source_indices": [
+      278
+    ],
+    "date": "2026-05-04",
+    "time": "14:24:19",
+    "reply": [
+      "有人带我吃好吃的我肯定回咯"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "new",
+      "familiar"
+    ],
+    "mode": "playful",
+    "scene": "对方问还回不回来并提到好吃的",
+    "move": "把普通行程话题接成一个对方可接的邀约条件",
+    "inferred_subtext": "你带我去，我就有回来的理由",
+    "condition": "确实可以安排见面；具体地点无需照搬",
+    "retrieval_hints": [
+      "好吃",
+      "回来",
+      "吃饭",
+      "带我",
+      "什么时候回",
+      "分享美食",
+      "选店",
+      "好吃的店",
+      "还没有提出邀约"
+    ],
+    "context_before": [
+      {
+        "source_index": 271,
+        "date": "2026-05-02",
+        "time": "23:33:04",
+        "speaker": "我",
+        "text": "okay haha！",
+        "quote": {
+          "speaker": "ta",
+          "text": "玩的开心～"
+        }
+      },
+      {
+        "source_index": 274,
+        "date": "2026-05-04",
+        "time": "12:41:07",
+        "speaker": "我",
+        "text": "不是偷偷报班了",
+        "quote": null
+      },
+      {
+        "source_index": 275,
+        "date": "2026-05-04",
+        "time": "12:41:41",
+        "speaker": "我",
+        "text": "是偷偷胡吃海喝了[恐惧]",
+        "quote": null
+      },
+      {
+        "source_index": 276,
+        "date": "2026-05-04",
+        "time": "13:22:51",
+        "speaker": "ta",
+        "text": "啥时候回sz胡吃海喝",
+        "quote": null
+      },
+      {
+        "source_index": 277,
+        "date": "2026-05-04",
+        "time": "13:23:12",
+        "speaker": "ta",
+        "text": "不会外面太好吃不回来吧",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 279,
+        "date": "2026-05-04",
+        "time": "16:59:51",
+        "speaker": "ta",
+        "text": "会议室里冻了一下午",
+        "quote": null
+      },
+      {
+        "source_index": 280,
+        "date": "2026-05-04",
+        "time": "17:00:19",
+        "speaker": "ta",
+        "text": "这样子啊哈哈哈",
+        "quote": {
+          "speaker": "我",
+          "text": "有人带我吃好吃的我肯定回咯"
+        }
+      },
+      {
+        "source_index": 281,
+        "date": "2026-05-04",
+        "time": "17:00:31",
+        "speaker": "ta",
+        "text": "那对人有什么要求嘛",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false,
+    "supported_goals": [
+      "concrete_invitation"
+    ],
+    "booking_step": "ordinary_topic_bridge"
+  },
+  {
+    "id": "soft_standard",
+    "source_indices": [
+      283,
+      284
+    ],
+    "date": "2026-05-04",
+    "time": "17:41:11",
+    "reply": [
+      "好吃的我都爱",
+      "能得到上一句回答的人就勉强达标～"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "new",
+      "familiar"
+    ],
+    "mode": "playful",
+    "scene": "对方同时问对食物和对人的要求",
+    "move": "先回答食物，再把上一句变成人的加分条件",
+    "inferred_subtext": "你已经获得一点特别对待",
+    "condition": "须保留两句关系，否则上一句没有指代",
+    "retrieval_hints": [
+      "忌口",
+      "对人要求",
+      "择偶",
+      "什么要求",
+      "达标"
+    ],
+    "context_before": [
+      {
+        "source_index": 278,
+        "date": "2026-05-04",
+        "time": "14:24:19",
+        "speaker": "我",
+        "text": "有人带我吃好吃的我肯定回咯",
+        "quote": null
+      },
+      {
+        "source_index": 279,
+        "date": "2026-05-04",
+        "time": "16:59:51",
+        "speaker": "ta",
+        "text": "会议室里冻了一下午",
+        "quote": null
+      },
+      {
+        "source_index": 280,
+        "date": "2026-05-04",
+        "time": "17:00:19",
+        "speaker": "ta",
+        "text": "这样子啊哈哈哈",
+        "quote": {
+          "speaker": "我",
+          "text": "有人带我吃好吃的我肯定回咯"
+        }
+      },
+      {
+        "source_index": 281,
+        "date": "2026-05-04",
+        "time": "17:00:31",
+        "speaker": "ta",
+        "text": "那对人有什么要求嘛",
+        "quote": null
+      },
+      {
+        "source_index": 282,
+        "date": "2026-05-04",
+        "time": "17:00:53",
+        "speaker": "ta",
+        "text": "对吃的有啥忌口不",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "对吃的有啥忌口不"
+      },
+      {
+        "speaker": "ta",
+        "text": "那对人有什么要求嘛"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 285,
+        "date": "2026-05-04",
+        "time": "18:13:36",
+        "speaker": "ta",
+        "text": "那这句我揣兜兜里",
+        "quote": {
+          "speaker": "我",
+          "text": "好吃的我都爱"
+        }
+      },
+      {
+        "source_index": 286,
+        "date": "2026-05-04",
+        "time": "18:14:15",
+        "speaker": "ta",
+        "text": "周五或者周六晚上可以不",
+        "quote": null
+      },
+      {
+        "source_index": 287,
+        "date": "2026-05-04",
+        "time": "18:14:36",
+        "speaker": "ta",
+        "text": "OK的话我找找",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false,
+    "supported_goals": [
+      "concrete_invitation"
+    ],
+    "booking_step": "ordinary_topic_bridge"
+  },
+  {
+    "id": "thanks_after_date",
+    "source_indices": [
+      349,
+      350
+    ],
+    "date": "2026-05-09",
+    "time": "22:53:55",
+    "reply": [
+      "今天谢谢你请我吃好吃的还带给我礼物",
+      "好开心"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "new",
+      "familiar",
+      "close"
+    ],
+    "mode": "warm",
+    "scene": "见面后具体表达开心和感谢",
+    "move": "点出对方实际付出的事情，再说自己的真实感受",
+    "inferred_subtext": "我注意到你的投入，今天和你相处很开心",
+    "condition": "当前确有见面和这些付出；没有礼物就改掉礼物",
+    "retrieval_hints": [
+      "约会后",
+      "见面后",
+      "谢谢",
+      "开心",
+      "礼物"
+    ],
+    "context_before": [
+      {
+        "source_index": 339,
+        "date": "2026-05-09",
+        "time": "19:01:28",
+        "speaker": "ta",
+        "text": "在哪等你比较方便呀？",
+        "quote": null
+      },
+      {
+        "source_index": 342,
+        "date": "2026-05-09",
+        "time": "19:04:05",
+        "speaker": "ta",
+        "text": "好嘟",
+        "quote": null
+      },
+      {
+        "source_index": 346,
+        "date": "2026-05-09",
+        "time": "21:11:12",
+        "speaker": "ta",
+        "text": "这个确实太多了",
+        "quote": null
+      },
+      {
+        "source_index": 347,
+        "date": "2026-05-09",
+        "time": "21:11:24",
+        "speaker": "ta",
+        "text": "完全是吃不完",
+        "quote": null
+      },
+      {
+        "source_index": 348,
+        "date": "2026-05-09",
+        "time": "22:53:43",
+        "speaker": "我",
+        "text": "我到家啦！",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 351,
+        "date": "2026-05-09",
+        "time": "22:54:56",
+        "speaker": "ta",
+        "text": "那太好啦",
+        "quote": null
+      },
+      {
+        "source_index": 352,
+        "date": "2026-05-09",
+        "time": "22:55:07",
+        "speaker": "ta",
+        "text": "还得多多开心哦",
+        "quote": null
+      },
+      {
+        "source_index": 357,
+        "date": "2026-05-09",
+        "time": "23:19:07",
+        "speaker": "ta",
+        "text": "那这个可能比咱俩选的都好",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "next_meeting",
+    "source_indices": [
+      360
+    ],
+    "date": "2026-05-09",
+    "time": "23:36:31",
+    "reply": [
+      "感觉下次见面会更快乐"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "new",
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "见面后对方说很快乐但有些不适应",
+    "move": "把当下的快乐延长到下一次见面",
+    "inferred_subtext": "我也有好感，并且愿意再见",
+    "condition": "用户确实愿意再见，不拿这句作无意赴约的敷衍",
+    "retrieval_hints": [
+      "下次见",
+      "不适应",
+      "快乐",
+      "见面后",
+      "想再见"
+    ],
+    "context_before": [
+      {
+        "source_index": 351,
+        "date": "2026-05-09",
+        "time": "22:54:56",
+        "speaker": "ta",
+        "text": "那太好啦",
+        "quote": null
+      },
+      {
+        "source_index": 352,
+        "date": "2026-05-09",
+        "time": "22:55:07",
+        "speaker": "ta",
+        "text": "还得多多开心哦",
+        "quote": null
+      },
+      {
+        "source_index": 357,
+        "date": "2026-05-09",
+        "time": "23:19:07",
+        "speaker": "ta",
+        "text": "那这个可能比咱俩选的都好",
+        "quote": null
+      },
+      {
+        "source_index": 358,
+        "date": "2026-05-09",
+        "time": "23:19:39",
+        "speaker": "ta",
+        "text": "刚刚太快乐了",
+        "quote": null
+      },
+      {
+        "source_index": 359,
+        "date": "2026-05-09",
+        "time": "23:19:55",
+        "speaker": "ta",
+        "text": "现在突然有点不适应",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 361,
+        "date": "2026-05-10",
+        "time": "00:18:38",
+        "speaker": "ta",
+        "text": "这可是我生日月了",
+        "quote": null
+      },
+      {
+        "source_index": 362,
+        "date": "2026-05-10",
+        "time": "00:18:50",
+        "speaker": "ta",
+        "text": "可不准骗我哦",
+        "quote": null
+      },
+      {
+        "source_index": 363,
+        "date": "2026-05-10",
+        "time": "01:02:53",
+        "speaker": "我",
+        "text": "那等你生日月约我[旺柴]",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false,
+    "supported_goals": [
+      "concrete_invitation"
+    ],
+    "booking_step": "opening"
+  },
+  {
+    "id": "special_exception",
+    "source_indices": [
+      381,
+      383
+    ],
+    "date": "2026-05-10",
+    "time": "12:15:24",
+    "reply": [
+      "是你我才忙里偷闲的",
+      "很给面子了！"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方误以为你的忙里偷闲是勉强",
+    "move": "先明确因为是你才例外，再用轻调侃收尾",
+    "inferred_subtext": "这是专门为你留的时间",
+    "condition": "确实安排了时间；不要虚构特意挤时间",
+    "retrieval_hints": [
+      "忙里偷闲",
+      "勉强",
+      "很忙",
+      "抽时间",
+      "例外"
+    ],
+    "context_before": [
+      {
+        "source_index": 376,
+        "date": "2026-05-10",
+        "time": "11:41:03",
+        "speaker": "我",
+        "text": "下下周如果你还没回北京的话我就忙里偷闲下！",
+        "quote": {
+          "speaker": "ta",
+          "text": "还没确定哟"
+        }
+      },
+      {
+        "source_index": 377,
+        "date": "2026-05-10",
+        "time": "11:41:27",
+        "speaker": "我",
+        "text": "当然啦",
+        "quote": {
+          "speaker": "ta",
+          "text": "那你教资考过还要去读研不"
+        }
+      },
+      {
+        "source_index": 378,
+        "date": "2026-05-10",
+        "time": "11:41:47",
+        "speaker": "我",
+        "text": "因为还有教编要考",
+        "quote": null
+      },
+      {
+        "source_index": 379,
+        "date": "2026-05-10",
+        "time": "12:03:42",
+        "speaker": "ta",
+        "text": "啧啧啧这么勉强哦",
+        "quote": {
+          "speaker": "我",
+          "text": "下下周如果你还没回北京的话我就忙里偷闲下！"
+        }
+      },
+      {
+        "source_index": 380,
+        "date": "2026-05-10",
+        "time": "12:04:15",
+        "speaker": "ta",
+        "text": "弄的我都不知道你想让我回北京还是不想[疑问]",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 384,
+        "date": "2026-05-10",
+        "time": "12:29:14",
+        "speaker": "ta",
+        "text": "谁知道是不是在aup我呢",
+        "quote": null
+      },
+      {
+        "source_index": 385,
+        "date": "2026-05-10",
+        "time": "12:29:26",
+        "speaker": "ta",
+        "text": "下午去打会球运动一下",
+        "quote": null
+      },
+      {
+        "source_index": 386,
+        "date": "2026-05-10",
+        "time": "12:59:30",
+        "speaker": "我",
+        "text": "auv京爷！",
+        "quote": {
+          "speaker": "ta",
+          "text": "谁知道是不是在aup我呢"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false,
+    "supported_goals": [
+      "concrete_invitation"
+    ]
+  },
+  {
+    "id": "sleepless",
+    "source_indices": [
+      573,
+      574
+    ],
+    "date": "2026-05-16",
+    "time": "22:32:48",
+    "reply": [
+      "为什么会睡不着",
+      "是因为酒还是因为人"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "相处之后对方说睡不着并提到酒",
+    "move": "先问原因，再把酒和人并列让对方选择",
+    "inferred_subtext": "是不是也因为今天和我相处",
+    "condition": "前面确有共同经历，或者对方已给出暧昧信号",
+    "retrieval_hints": [
+      "睡不着",
+      "失眠",
+      "酒",
+      "咖啡",
+      "因为人"
+    ],
+    "context_before": [
+      {
+        "source_index": 568,
+        "date": "2026-05-16",
+        "time": "18:15:53",
+        "speaker": "我",
+        "text": "好滴我这边塞车。。",
+        "quote": null
+      },
+      {
+        "source_index": 569,
+        "date": "2026-05-16",
+        "time": "18:16:00",
+        "speaker": "ta",
+        "text": "没事",
+        "quote": null
+      },
+      {
+        "source_index": 570,
+        "date": "2026-05-16",
+        "time": "18:16:03",
+        "speaker": "ta",
+        "text": "我在这等你",
+        "quote": null
+      },
+      {
+        "source_index": 571,
+        "date": "2026-05-16",
+        "time": "18:16:10",
+        "speaker": "我",
+        "text": "OKOK",
+        "quote": null
+      },
+      {
+        "source_index": 572,
+        "date": "2026-05-16",
+        "time": "22:23:06",
+        "speaker": "ta",
+        "text": "拿铁味的啤酒喝完睡不着可怎么办",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 577,
+        "date": "2026-05-16",
+        "time": "22:41:37",
+        "speaker": "ta",
+        "text": "两者皆而有之吧",
+        "quote": {
+          "speaker": "我",
+          "text": "是因为酒还是因为人"
+        }
+      },
+      {
+        "source_index": 578,
+        "date": "2026-05-16",
+        "time": "22:42:03",
+        "speaker": "ta",
+        "text": "那这酒是不是买少了",
+        "quote": null
+      },
+      {
+        "source_index": 579,
+        "date": "2026-05-16",
+        "time": "22:47:47",
+        "speaker": "我",
+        "text": "够了够了",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "clear_reward",
+    "source_indices": [
+      586
+    ],
+    "date": "2026-05-16",
+    "time": "23:05:46",
+    "reply": [
+      "这招巨巨巨巨加分好吗"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方做了贴心的事，又把功劳说得很轻",
+    "move": "给具体行为一个明确、略夸张的肯定",
+    "inferred_subtext": "我是真的喜欢这个表现",
+    "condition": "确有值得肯定的行为，先说明是哪件事",
+    "retrieval_hints": [
+      "贴心",
+      "加分",
+      "表现",
+      "表扬"
+    ],
+    "context_before": [
+      {
+        "source_index": 580,
+        "date": "2026-05-16",
+        "time": "22:47:59",
+        "speaker": "我",
+        "text": "她还说某人怎么这么贴心呢",
+        "quote": null
+      },
+      {
+        "source_index": 582,
+        "date": "2026-05-16",
+        "time": "22:53:31",
+        "speaker": "ta",
+        "text": "真的假的",
+        "quote": null
+      },
+      {
+        "source_index": 583,
+        "date": "2026-05-16",
+        "time": "22:53:35",
+        "speaker": "ta",
+        "text": "怎么这么不信呢",
+        "quote": null
+      },
+      {
+        "source_index": 584,
+        "date": "2026-05-16",
+        "time": "22:54:18",
+        "speaker": "ta",
+        "text": "不贴心也没招啊",
+        "quote": null
+      },
+      {
+        "source_index": 585,
+        "date": "2026-05-16",
+        "time": "23:05:31",
+        "speaker": "我",
+        "text": "哈哈哈哈哈哈",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "不贴心也没招啊"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 588,
+        "date": "2026-05-16",
+        "time": "23:09:27",
+        "speaker": "ta",
+        "text": "我可没想着用啥招儿哦！",
+        "quote": {
+          "speaker": "我",
+          "text": "这招巨巨巨巨加分好吗"
+        }
+      },
+      {
+        "source_index": 589,
+        "date": "2026-05-16",
+        "time": "23:10:03",
+        "speaker": "ta",
+        "text": "我这疯狂加分",
+        "quote": null
+      },
+      {
+        "source_index": 590,
+        "date": "2026-05-16",
+        "time": "23:11:06",
+        "speaker": "ta",
+        "text": "应该是能激励到妹妹的吧[调皮]",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "score_reversal",
+    "source_indices": [
+      596,
+      597
+    ],
+    "date": "2026-05-16",
+    "time": "23:50:11",
+    "reply": [
+      "那不得看",
+      "满分多少吗"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "双方已经在玩评分梗，对方问起点分数",
+    "move": "沿用对方句式，把起点问题换成满分问题",
+    "inferred_subtext": "评价标准仍有空间，留你继续接梗",
+    "condition": "必须已经有评分话题；两句连用",
+    "retrieval_hints": [
+      "分数",
+      "满分",
+      "起点",
+      "评分",
+      "多少分"
+    ],
+    "context_before": [
+      {
+        "source_index": 591,
+        "date": "2026-05-16",
+        "time": "23:28:37",
+        "speaker": "我",
+        "text": "那什么时候加到100分",
+        "quote": {
+          "speaker": "ta",
+          "text": "我这疯狂加分"
+        }
+      },
+      {
+        "source_index": 592,
+        "date": "2026-05-16",
+        "time": "23:38:19",
+        "speaker": "ta",
+        "text": "那不得看",
+        "quote": null
+      },
+      {
+        "source_index": 593,
+        "date": "2026-05-16",
+        "time": "23:38:31",
+        "speaker": "ta",
+        "text": "你开始给人打多少分么",
+        "quote": null
+      },
+      {
+        "source_index": 594,
+        "date": "2026-05-16",
+        "time": "23:38:56",
+        "speaker": "ta",
+        "text": "这么一看",
+        "quote": null
+      },
+      {
+        "source_index": 595,
+        "date": "2026-05-16",
+        "time": "23:39:10",
+        "speaker": "ta",
+        "text": "开始给人家打的分挺低啊！",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 599,
+        "date": "2026-05-17",
+        "time": "00:07:30",
+        "speaker": "ta",
+        "text": "那你不是很清楚么",
+        "quote": null
+      },
+      {
+        "source_index": 600,
+        "date": "2026-05-17",
+        "time": "00:09:00",
+        "speaker": "ta",
+        "text": "喝到哪瓶了",
+        "quote": null
+      },
+      {
+        "source_index": 602,
+        "date": "2026-05-17",
+        "time": "00:09:21",
+        "speaker": "ta",
+        "text": "你晚饭吃的少 稍微吃点水果",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "self_pitch",
+    "source_indices": [
+      755
+    ],
+    "date": "2026-05-18",
+    "time": "17:18:53",
+    "reply": [
+      "是吗 那你推销一下自己吧"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar"
+    ],
+    "mode": "playful",
+    "scene": "对方借玩笑说其他人没机会",
+    "move": "让当前聊天对象谈谈自己",
+    "inferred_subtext": "我愿意听你说你有什么特别之处",
+    "condition": "把话题放回两个人，不主动加第三者竞争",
+    "retrieval_hints": [
+      "推销",
+      "自我介绍",
+      "优势",
+      "有什么特别"
+    ],
+    "context_before": [
+      {
+        "source_index": 750,
+        "date": "2026-05-18",
+        "time": "12:35:06",
+        "speaker": "我",
+        "text": "怎么老是风评被害呢",
+        "quote": null
+      },
+      {
+        "source_index": 751,
+        "date": "2026-05-18",
+        "time": "12:35:15",
+        "speaker": "我",
+        "text": "这么不信任我嘛",
+        "quote": null
+      },
+      {
+        "source_index": 752,
+        "date": "2026-05-18",
+        "time": "13:08:52",
+        "speaker": "ta",
+        "text": "怎么会呢",
+        "quote": null
+      },
+      {
+        "source_index": 753,
+        "date": "2026-05-18",
+        "time": "13:09:24",
+        "speaker": "ta",
+        "text": "单纯在说别的男生是没什么机会的",
+        "quote": null
+      },
+      {
+        "source_index": 754,
+        "date": "2026-05-18",
+        "time": "13:10:11",
+        "speaker": "ta",
+        "text": "也算是帮你避雷吧",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "单纯在说别的男生是没什么机会的"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 757,
+        "date": "2026-05-18",
+        "time": "18:33:47",
+        "speaker": "ta",
+        "text": "得看某位客户的合作意愿强不强烈",
+        "quote": null
+      },
+      {
+        "source_index": 758,
+        "date": "2026-05-18",
+        "time": "18:35:07",
+        "speaker": "ta",
+        "text": "妹妹你知道嘛 好产品的销售关键在于客户的精准投放",
+        "quote": null
+      },
+      {
+        "source_index": 759,
+        "date": "2026-05-18",
+        "time": "18:36:01",
+        "speaker": "ta",
+        "text": "所以你觉得我的投放精准嘛[旺柴]",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "value_distinction",
+    "source_indices": [
+      760,
+      761
+    ],
+    "date": "2026-05-18",
+    "time": "20:03:11",
+    "reply": [
+      "那这我就不太认同了 精准投放只能解决“让谁看见”",
+      "而产品价值能解决“看见后为什么非你不可”[旺柴]"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方把相处比成产品投放",
+    "move": "接受商业比喻，再把精准投放和产品价值分开",
+    "inferred_subtext": "能被我看见与值得我选择是两个问题",
+    "condition": "对方先用了产品销售话题；不是每个男生都套这套",
+    "retrieval_hints": [
+      "精准投放",
+      "产品",
+      "价值",
+      "非你不可",
+      "销售"
+    ],
+    "context_before": [
+      {
+        "source_index": 754,
+        "date": "2026-05-18",
+        "time": "13:10:11",
+        "speaker": "ta",
+        "text": "也算是帮你避雷吧",
+        "quote": null
+      },
+      {
+        "source_index": 755,
+        "date": "2026-05-18",
+        "time": "17:18:53",
+        "speaker": "我",
+        "text": "是吗 那你推销一下自己吧",
+        "quote": {
+          "speaker": "ta",
+          "text": "单纯在说别的男生是没什么机会的"
+        }
+      },
+      {
+        "source_index": 757,
+        "date": "2026-05-18",
+        "time": "18:33:47",
+        "speaker": "ta",
+        "text": "得看某位客户的合作意愿强不强烈",
+        "quote": null
+      },
+      {
+        "source_index": 758,
+        "date": "2026-05-18",
+        "time": "18:35:07",
+        "speaker": "ta",
+        "text": "妹妹你知道嘛 好产品的销售关键在于客户的精准投放",
+        "quote": null
+      },
+      {
+        "source_index": 759,
+        "date": "2026-05-18",
+        "time": "18:36:01",
+        "speaker": "ta",
+        "text": "所以你觉得我的投放精准嘛[旺柴]",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "妹妹你知道嘛 好产品的销售关键在于客户的精准投放"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 762,
+        "date": "2026-05-18",
+        "time": "21:25:47",
+        "speaker": "ta",
+        "text": "那你就慢慢看慢慢选吧",
+        "quote": {
+          "speaker": "我",
+          "text": "而产品价值能解决“看见后为什么非你不可”[旺柴]"
+        }
+      },
+      {
+        "source_index": 763,
+        "date": "2026-05-18",
+        "time": "21:26:24",
+        "speaker": "ta",
+        "text": "反正当前是仅一人可见的",
+        "quote": {
+          "speaker": "我",
+          "text": "那这我就不太认同了 精准投放只能解决“让谁看见”"
+        }
+      },
+      {
+        "source_index": 764,
+        "date": "2026-05-18",
+        "time": "21:51:22",
+        "speaker": "我",
+        "text": "客户已知晓",
+        "quote": {
+          "speaker": "ta",
+          "text": "反正当前是仅一人可见的"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "like_acknowledgement",
+    "source_indices": [
+      764,
+      765
+    ],
+    "date": "2026-05-18",
+    "time": "21:51:22",
+    "reply": [
+      "客户已知晓",
+      "正在增加好感度中^ ^"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方说明专属对待",
+    "move": "先在共同的客户角色里确认收到，再明确好感增加",
+    "inferred_subtext": "我接到了你的专属感，也给你正向回应",
+    "condition": "共同角色已经建立；好感符合用户当前意愿",
+    "retrieval_hints": [
+      "仅一人",
+      "专属",
+      "好感",
+      "增加好感",
+      "客户"
+    ],
+    "context_before": [
+      {
+        "source_index": 759,
+        "date": "2026-05-18",
+        "time": "18:36:01",
+        "speaker": "ta",
+        "text": "所以你觉得我的投放精准嘛[旺柴]",
+        "quote": null
+      },
+      {
+        "source_index": 760,
+        "date": "2026-05-18",
+        "time": "20:03:11",
+        "speaker": "我",
+        "text": "那这我就不太认同了 精准投放只能解决“让谁看见”",
+        "quote": null
+      },
+      {
+        "source_index": 761,
+        "date": "2026-05-18",
+        "time": "20:03:24",
+        "speaker": "我",
+        "text": "而产品价值能解决“看见后为什么非你不可”[旺柴]",
+        "quote": {
+          "speaker": "ta",
+          "text": "妹妹你知道嘛 好产品的销售关键在于客户的精准投放"
+        }
+      },
+      {
+        "source_index": 762,
+        "date": "2026-05-18",
+        "time": "21:25:47",
+        "speaker": "ta",
+        "text": "那你就慢慢看慢慢选吧",
+        "quote": {
+          "speaker": "我",
+          "text": "而产品价值能解决“看见后为什么非你不可”[旺柴]"
+        }
+      },
+      {
+        "source_index": 763,
+        "date": "2026-05-18",
+        "time": "21:26:24",
+        "speaker": "ta",
+        "text": "反正当前是仅一人可见的",
+        "quote": {
+          "speaker": "我",
+          "text": "那这我就不太认同了 精准投放只能解决“让谁看见”"
+        }
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "反正当前是仅一人可见的"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 767,
+        "date": "2026-05-18",
+        "time": "22:00:34",
+        "speaker": "ta",
+        "text": "好了好了 发烧还在这斗嘴 先吃药好好休息吧！",
+        "quote": null
+      },
+      {
+        "source_index": 768,
+        "date": "2026-05-18",
+        "time": "22:01:22",
+        "speaker": "ta",
+        "text": "乖乖把烧退了 再给你专属推销～",
+        "quote": null
+      },
+      {
+        "source_index": 769,
+        "date": "2026-05-18",
+        "time": "23:57:43",
+        "speaker": "ta",
+        "text": "夜里退烧舒服些了 跟我说一声",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "desired_care",
+    "source_indices": [
+      789
+    ],
+    "date": "2026-05-19",
+    "time": "16:49:51",
+    "reply": [
+      "这不应该回“那很难不担心😕”嘛"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "warm",
+    "scene": "你说别担心，对方顺势说不担心了",
+    "move": "轻松指出自己更期待的回应",
+    "inferred_subtext": "我愿意听你认真关心我",
+    "condition": "双方在轻松互动；不要把它变成机械指导每句话",
+    "retrieval_hints": [
+      "别担心",
+      "不担心",
+      "关心我",
+      "想听"
+    ],
+    "context_before": [
+      {
+        "source_index": 784,
+        "date": "2026-05-19",
+        "time": "09:36:45",
+        "speaker": "ta",
+        "text": "这样好很多",
+        "quote": {
+          "speaker": "我",
+          "text": "我爸下午开车送我回学校"
+        }
+      },
+      {
+        "source_index": 785,
+        "date": "2026-05-19",
+        "time": "09:37:20",
+        "speaker": "ta",
+        "text": "回学校还有事么 感觉还是得好好休息休息吧",
+        "quote": null
+      },
+      {
+        "source_index": 786,
+        "date": "2026-05-19",
+        "time": "13:52:30",
+        "speaker": "我",
+        "text": "一堆 不要太担心我哦",
+        "quote": {
+          "speaker": "ta",
+          "text": "回学校还有事么 感觉还是得好好休息休息吧"
+        }
+      },
+      {
+        "source_index": 787,
+        "date": "2026-05-19",
+        "time": "14:57:46",
+        "speaker": "ta",
+        "text": "好 那就不担心你好啦",
+        "quote": null
+      },
+      {
+        "source_index": 788,
+        "date": "2026-05-19",
+        "time": "14:58:04",
+        "speaker": "ta",
+        "text": "路上下雨 让叔叔慢点开 注意安全！",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "好 那就不担心你好啦"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 790,
+        "date": "2026-05-19",
+        "time": "17:10:25",
+        "speaker": "ta",
+        "text": "嘴上说的不担心",
+        "quote": null
+      },
+      {
+        "source_index": 791,
+        "date": "2026-05-19",
+        "time": "17:10:39",
+        "speaker": "ta",
+        "text": "这不还是在担心嘛",
+        "quote": {
+          "speaker": "ta",
+          "text": "路上下雨 让叔叔慢点开 注意安全！"
+        }
+      },
+      {
+        "source_index": 792,
+        "date": "2026-05-19",
+        "time": "17:44:25",
+        "speaker": "我",
+        "text": "虽然我喜欢直球挂的",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "reciprocity",
+    "source_indices": [
+      801,
+      802
+    ],
+    "date": "2026-05-19",
+    "time": "19:52:26",
+    "reply": [
+      "那你的呢",
+      "不接受不平等条约"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方拿到了报备特权",
+    "move": "先问你的那份，再用条约比喻提出对等",
+    "inferred_subtext": "愿意亲近，也希望是双向的",
+    "condition": "已在谈双方接受的报备；真实边界另作认真表达",
+    "retrieval_hints": [
+      "报备",
+      "特权",
+      "双向",
+      "公平",
+      "不平等",
+      "条约"
+    ],
+    "context_before": [
+      {
+        "source_index": 796,
+        "date": "2026-05-19",
+        "time": "18:08:17",
+        "speaker": "ta",
+        "text": "有没有到学校",
+        "quote": null
+      },
+      {
+        "source_index": 797,
+        "date": "2026-05-19",
+        "time": "18:08:40",
+        "speaker": "ta",
+        "text": "[无语]",
+        "quote": null
+      },
+      {
+        "source_index": 798,
+        "date": "2026-05-19",
+        "time": "19:00:08",
+        "speaker": "我",
+        "text": "这是想要报备特权了嘛～",
+        "quote": null
+      },
+      {
+        "source_index": 799,
+        "date": "2026-05-19",
+        "time": "19:21:14",
+        "speaker": "ta",
+        "text": "对呗 才知道嘛",
+        "quote": null
+      },
+      {
+        "source_index": 800,
+        "date": "2026-05-19",
+        "time": "19:21:31",
+        "speaker": "ta",
+        "text": "那我就收下了啊[得意]",
+        "quote": {
+          "speaker": "我",
+          "text": "这是想要报备特权了嘛～"
+        }
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 803,
+        "date": "2026-05-19",
+        "time": "20:35:24",
+        "speaker": "ta",
+        "text": "我的反正仅一人可见",
+        "quote": null
+      },
+      {
+        "source_index": 804,
+        "date": "2026-05-19",
+        "time": "20:35:44",
+        "speaker": "ta",
+        "text": "不接受不平等条约",
+        "quote": null
+      },
+      {
+        "source_index": 805,
+        "date": "2026-05-20",
+        "time": "11:22:43",
+        "speaker": "我",
+        "text": "是吗",
+        "quote": {
+          "speaker": "ta",
+          "text": "我的反正仅一人可见"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "activate",
+    "source_indices": [
+      810,
+      811
+    ],
+    "date": "2026-05-20",
+    "time": "12:20:27",
+    "reply": [
+      "那现在用户申请激活",
+      "系统同意一下"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方用用户未激活来逗你",
+    "move": "接住系统设定，主动发出申请",
+    "inferred_subtext": "我愿意参与你提出的专属互动",
+    "condition": "用户和系统是对方已经使用的梗",
+    "retrieval_hints": [
+      "激活",
+      "系统",
+      "用户",
+      "申请"
+    ],
+    "context_before": [
+      {
+        "source_index": 805,
+        "date": "2026-05-20",
+        "time": "11:22:43",
+        "speaker": "我",
+        "text": "是吗",
+        "quote": {
+          "speaker": "ta",
+          "text": "我的反正仅一人可见"
+        }
+      },
+      {
+        "source_index": 806,
+        "date": "2026-05-20",
+        "time": "11:22:48",
+        "speaker": "我",
+        "text": "今天的报备没有看见哦",
+        "quote": null
+      },
+      {
+        "source_index": 807,
+        "date": "2026-05-20",
+        "time": "12:11:10",
+        "speaker": "ta",
+        "text": "哟 也不知道咋就突然想起我了",
+        "quote": null
+      },
+      {
+        "source_index": 808,
+        "date": "2026-05-20",
+        "time": "12:11:28",
+        "speaker": "ta",
+        "text": "是啊 结果用户没激活",
+        "quote": {
+          "speaker": "我",
+          "text": "是吗"
+        }
+      },
+      {
+        "source_index": 809,
+        "date": "2026-05-20",
+        "time": "12:11:50",
+        "speaker": "ta",
+        "text": "当前都还是0人可见呢",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "是啊 结果用户没激活"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 812,
+        "date": "2026-05-20",
+        "time": "12:23:48",
+        "speaker": "ta",
+        "text": "同意了✅",
+        "quote": {
+          "speaker": "我",
+          "text": "那现在用户申请激活"
+        }
+      },
+      {
+        "source_index": 813,
+        "date": "2026-05-20",
+        "time": "12:24:04",
+        "speaker": "ta",
+        "text": "那你的报备呢",
+        "quote": null
+      },
+      {
+        "source_index": 814,
+        "date": "2026-05-20",
+        "time": "12:24:19",
+        "speaker": "ta",
+        "text": "专属仅一人的",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "win_loss",
+    "source_indices": [
+      840,
+      841
+    ],
+    "date": "2026-05-20",
+    "time": "16:39:11",
+    "reply": [
+      "赢了请你吃饭！",
+      "输了找你报销哈哈哈哈哈"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar"
+    ],
+    "mode": "playful",
+    "scene": "分享娱乐活动的输赢",
+    "move": "先给赢了请客的甜头，再翻成输了找你报销的玩笑",
+    "inferred_subtext": "把我的生活自然拉进你参与的可能",
+    "condition": "双方能够识别报销是玩笑，不当作真实金钱承诺",
+    "retrieval_hints": [
+      "赢了",
+      "输了",
+      "麻将",
+      "请吃饭",
+      "报销"
+    ],
+    "context_before": [
+      {
+        "source_index": 835,
+        "date": "2026-05-20",
+        "time": "16:34:03",
+        "speaker": "我",
+        "text": "拉上不会的舍友一起了🥲",
+        "quote": null
+      },
+      {
+        "source_index": 836,
+        "date": "2026-05-20",
+        "time": "16:35:16",
+        "speaker": "ta",
+        "text": "真让你爱上了啊哈哈哈",
+        "quote": null
+      },
+      {
+        "source_index": 837,
+        "date": "2026-05-20",
+        "time": "16:35:51",
+        "speaker": "ta",
+        "text": "刚退烧空调别吹太低",
+        "quote": null
+      },
+      {
+        "source_index": 838,
+        "date": "2026-05-20",
+        "time": "16:36:02",
+        "speaker": "ta",
+        "text": "好好玩吧",
+        "quote": null
+      },
+      {
+        "source_index": 839,
+        "date": "2026-05-20",
+        "time": "16:39:10",
+        "speaker": "我",
+        "text": "准备狠狠收割一波",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 842,
+        "date": "2026-05-20",
+        "time": "16:56:00",
+        "speaker": "ta",
+        "text": "那这顿饭吃定了",
+        "quote": null
+      },
+      {
+        "source_index": 843,
+        "date": "2026-05-20",
+        "time": "16:56:13",
+        "speaker": "ta",
+        "text": "多信任你哦",
+        "quote": null
+      },
+      {
+        "source_index": 846,
+        "date": "2026-05-20",
+        "time": "19:28:17",
+        "speaker": "我",
+        "text": "妈呀我简直想多玩三小时",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "reverse_want_to_meet",
+    "source_indices": [
+      878,
+      879,
+      880
+    ],
+    "date": "2026-05-20",
+    "time": "23:35:42",
+    "reply": [
+      "哦 看来你想见我 懂了",
+      "看你那么有诚意的远道而来",
+      "我就请你吃点好吃的叭"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方问你有没有想见他，并打算远道而来",
+    "move": "先把想见面落回对方，再给具体接待的肯定",
+    "inferred_subtext": "我知道你的心意，也愿意响应",
+    "condition": "用户愿意见面，对方确有来访安排",
+    "retrieval_hints": [
+      "想见我",
+      "有没有想见",
+      "远道而来",
+      "诚意"
+    ],
+    "context_before": [
+      {
+        "source_index": 873,
+        "date": "2026-05-20",
+        "time": "22:51:14",
+        "speaker": "我",
+        "text": "那个宣传视频是下午拍捏",
+        "quote": null
+      },
+      {
+        "source_index": 874,
+        "date": "2026-05-20",
+        "time": "22:51:24",
+        "speaker": "我",
+        "text": "他们那边也没说要拍多久",
+        "quote": null
+      },
+      {
+        "source_index": 875,
+        "date": "2026-05-20",
+        "time": "22:51:35",
+        "speaker": "我",
+        "text": "只陪你吃晚饭的话又有点过意不去[皱眉]",
+        "quote": null
+      },
+      {
+        "source_index": 876,
+        "date": "2026-05-20",
+        "time": "23:08:51",
+        "speaker": "ta",
+        "text": "那就看你的诚意了",
+        "quote": null
+      },
+      {
+        "source_index": 877,
+        "date": "2026-05-20",
+        "time": "23:09:27",
+        "speaker": "ta",
+        "text": "有没有想见我😊",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 881,
+        "date": "2026-05-20",
+        "time": "23:55:48",
+        "speaker": "ta",
+        "text": "如果打直球的话那就是",
+        "quote": null
+      },
+      {
+        "source_index": 882,
+        "date": "2026-05-21",
+        "time": "00:10:48",
+        "speaker": "我",
+        "text": "那你看看这家怎么样",
+        "quote": null
+      },
+      {
+        "source_index": 883,
+        "date": "2026-05-21",
+        "time": "00:11:01",
+        "speaker": "我",
+        "text": "我在广州最爱吃的一家日料",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false,
+    "supported_goals": [
+      "concrete_invitation"
+    ]
+  },
+  {
+    "id": "extra_gain",
+    "source_indices": [
+      908,
+      909
+    ],
+    "date": "2026-05-21",
+    "time": "23:19:25",
+    "reply": [
+      "我当然知道是想见我",
+      "但还想让你有点额外收获"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方担心你把见面当作只是吃饭",
+    "move": "先承认见面对象才是重点，再解释额外的用心",
+    "inferred_subtext": "我懂你想见我，也想让这次更开心",
+    "condition": "要回应对方的疑问；不是继续回避这次见面的含义",
+    "retrieval_hints": [
+      "只是吃饭",
+      "奔着吃饭",
+      "想见你",
+      "额外收获"
+    ],
+    "context_before": [
+      {
+        "source_index": 903,
+        "date": "2026-05-21",
+        "time": "18:46:16",
+        "speaker": "我",
+        "text": "不会啦我的意思是日料",
+        "quote": null
+      },
+      {
+        "source_index": 904,
+        "date": "2026-05-21",
+        "time": "18:46:32",
+        "speaker": "我",
+        "text": "万一你期待很高结果发现就一般",
+        "quote": null
+      },
+      {
+        "source_index": 905,
+        "date": "2026-05-21",
+        "time": "18:47:48",
+        "speaker": "我",
+        "text": "😭",
+        "quote": null
+      },
+      {
+        "source_index": 906,
+        "date": "2026-05-21",
+        "time": "21:11:11",
+        "speaker": "ta",
+        "text": "怎么还在觉得我是奔着吃饭去的！",
+        "quote": null
+      },
+      {
+        "source_index": 907,
+        "date": "2026-05-21",
+        "time": "21:13:04",
+        "speaker": "ta",
+        "text": "还是说你就希望我只是去吃饭的[Emm]",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 910,
+        "date": "2026-05-22",
+        "time": "00:48:31",
+        "speaker": "ta",
+        "text": "这不是你的最爱么",
+        "quote": null
+      },
+      {
+        "source_index": 911,
+        "date": "2026-05-22",
+        "time": "00:48:35",
+        "speaker": "ta",
+        "text": "错不了的",
+        "quote": null
+      },
+      {
+        "source_index": 912,
+        "date": "2026-05-22",
+        "time": "00:50:50",
+        "speaker": "ta",
+        "text": "你眼光很好哒",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "warm_understanding",
+    "source_indices": [
+      941,
+      942
+    ],
+    "date": "2026-05-23",
+    "time": "00:44:03",
+    "reply": [
+      "今晚我也很开心你愿意跟我分享你的焦虑",
+      "只要了解彼此的想法其实很多事情都很好解决滴"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "warm",
+    "scene": "对方分享自己的压力或焦虑",
+    "move": "表达愿意听到真实想法，并指出了解彼此的重要性",
+    "inferred_subtext": "可以在我这里认真交流",
+    "condition": "先确认对方确实在分享压力；保留真诚语气",
+    "retrieval_hints": [
+      "焦虑",
+      "压力",
+      "分享心事",
+      "想法",
+      "互相了解"
+    ],
+    "context_before": [
+      {
+        "source_index": 936,
+        "date": "2026-05-22",
+        "time": "23:51:05",
+        "speaker": "ta",
+        "text": "今天的事是我仓促了",
+        "quote": null
+      },
+      {
+        "source_index": 937,
+        "date": "2026-05-22",
+        "time": "23:51:22",
+        "speaker": "ta",
+        "text": "跟你吃饭聊的很开心",
+        "quote": null
+      },
+      {
+        "source_index": 938,
+        "date": "2026-05-22",
+        "time": "23:51:45",
+        "speaker": "ta",
+        "text": "缓解了我很大的压力",
+        "quote": null
+      },
+      {
+        "source_index": 939,
+        "date": "2026-05-22",
+        "time": "23:52:16",
+        "speaker": "ta",
+        "text": "之后我会把控好 希望你不要介意",
+        "quote": null
+      },
+      {
+        "source_index": 940,
+        "date": "2026-05-23",
+        "time": "00:44:03",
+        "speaker": "我",
+        "text": "不会不会 你还带了我最爱的红茶公司！",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 943,
+        "date": "2026-05-23",
+        "time": "00:56:30",
+        "speaker": "ta",
+        "text": "有一点点情不自禁没控制好",
+        "quote": null
+      },
+      {
+        "source_index": 944,
+        "date": "2026-05-23",
+        "time": "00:56:46",
+        "speaker": "ta",
+        "text": "放心 之后不会的",
+        "quote": null
+      },
+      {
+        "source_index": 945,
+        "date": "2026-05-23",
+        "time": "00:56:58",
+        "speaker": "ta",
+        "text": "早点睡吧 晚安噢",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "photo_value",
+    "source_indices": [
+      950,
+      951
+    ],
+    "date": "2026-05-23",
+    "time": "20:12:42",
+    "reply": [
+      "这可是孤品",
+      "要竞价的"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方想要你的照片或小卡",
+    "move": "把这张照片说成孤品，顺着想要的动作开玩笑",
+    "inferred_subtext": "这份关注可以得到特别对待",
+    "condition": "当前确有对应照片和互相认可的玩笑",
+    "retrieval_hints": [
+      "照片",
+      "小卡",
+      "孤品",
+      "竞价"
+    ],
+    "context_before": [
+      {
+        "source_index": 943,
+        "date": "2026-05-23",
+        "time": "00:56:30",
+        "speaker": "ta",
+        "text": "有一点点情不自禁没控制好",
+        "quote": null
+      },
+      {
+        "source_index": 944,
+        "date": "2026-05-23",
+        "time": "00:56:46",
+        "speaker": "ta",
+        "text": "放心 之后不会的",
+        "quote": null
+      },
+      {
+        "source_index": 945,
+        "date": "2026-05-23",
+        "time": "00:56:58",
+        "speaker": "ta",
+        "text": "早点睡吧 晚安噢",
+        "quote": null
+      },
+      {
+        "source_index": 947,
+        "date": "2026-05-23",
+        "time": "15:38:54",
+        "speaker": "我",
+        "text": "这里有一张女明星小卡",
+        "quote": null
+      },
+      {
+        "source_index": 949,
+        "date": "2026-05-23",
+        "time": "16:13:11",
+        "speaker": "ta",
+        "text": "但凡我在这张肯定要被抢走",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "但凡我在这张肯定要被抢走"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 952,
+        "date": "2026-05-23",
+        "time": "21:25:51",
+        "speaker": "ta",
+        "text": "那应该是挺珍贵的",
+        "quote": null
+      },
+      {
+        "source_index": 953,
+        "date": "2026-05-23",
+        "time": "21:26:26",
+        "speaker": "ta",
+        "text": "还得竞价[Emm]",
+        "quote": null
+      },
+      {
+        "source_index": 954,
+        "date": "2026-05-24",
+        "time": "00:01:01",
+        "speaker": "我",
+        "text": "仅你可见！",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "invite_degree",
+    "source_indices": [
+      1024,
+      1025
+    ],
+    "date": "2026-05-25",
+    "time": "20:25:52",
+    "reply": [
+      "难道我要特别想你才会接受邀请吗？",
+      "一点点想就不会心动吗"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "你已提出邀请，对方还追问有多想他去",
+    "move": "先反问需要多想才接受，再给一点点心动的含义",
+    "inferred_subtext": "我已经主动邀请了，希望你接住",
+    "condition": "确有用户主动邀请，情绪属于玩笑式互动",
+    "retrieval_hints": [
+      "有多想",
+      "邀请",
+      "一点点",
+      "心动"
+    ],
+    "context_before": [
+      {
+        "source_index": 1016,
+        "date": "2026-05-25",
+        "time": "17:37:13",
+        "speaker": "我",
+        "text": "你上什么课",
+        "quote": {
+          "speaker": "ta",
+          "text": "今天香港放假 我在家上课呢"
+        }
+      },
+      {
+        "source_index": 1020,
+        "date": "2026-05-25",
+        "time": "19:17:06",
+        "speaker": "ta",
+        "text": "撩妹技巧大全",
+        "quote": {
+          "speaker": "我",
+          "text": "你上什么课"
+        }
+      },
+      {
+        "source_index": 1021,
+        "date": "2026-05-25",
+        "time": "19:17:37",
+        "speaker": "ta",
+        "text": "听上去很不错嘛",
+        "quote": null
+      },
+      {
+        "source_index": 1022,
+        "date": "2026-05-25",
+        "time": "19:17:53",
+        "speaker": "ta",
+        "text": "但可以告诉我你有多想让我去嘛[皱眉]",
+        "quote": null
+      },
+      {
+        "source_index": 1023,
+        "date": "2026-05-25",
+        "time": "20:25:43",
+        "speaker": "我",
+        "text": "我要听真话 骗谁！",
+        "quote": {
+          "speaker": "ta",
+          "text": "撩妹技巧大全"
+        }
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "但可以告诉我你有多想让我去嘛[皱眉]"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 1026,
+        "date": "2026-05-25",
+        "time": "21:19:32",
+        "speaker": "ta",
+        "text": "你咋知道是逗你的 cfa",
+        "quote": {
+          "speaker": "我",
+          "text": "我要听真话 骗谁！"
+        }
+      },
+      {
+        "source_index": 1027,
+        "date": "2026-05-25",
+        "time": "21:20:05",
+        "speaker": "ta",
+        "text": "也会有些心动 但就怕你太勉强",
+        "quote": {
+          "speaker": "我",
+          "text": "一点点想就不会心动吗"
+        }
+      },
+      {
+        "source_index": 1028,
+        "date": "2026-05-25",
+        "time": "21:20:27",
+        "speaker": "ta",
+        "text": "这样的话就会轻松很多[愉快]",
+        "quote": {
+          "speaker": "我",
+          "text": "难道我要特别想你才会接受邀请吗？"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false,
+    "supported_goals": [
+      "concrete_invitation"
+    ]
+  },
+  {
+    "id": "care_before_work",
+    "source_indices": [
+      1134
+    ],
+    "date": "2026-05-27",
+    "time": "18:19:46",
+    "reply": [
+      "好你先忙 少喝点哦身体最重要"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "new",
+      "familiar",
+      "close"
+    ],
+    "mode": "warm",
+    "scene": "对方要忙工作或应酬",
+    "move": "先给空间，再给朴素具体的关心",
+    "inferred_subtext": "我在意你，也理解你现在有事",
+    "condition": "当前确有应酬才保留少喝点；普通工作作最小改写",
+    "retrieval_hints": [
+      "先忙",
+      "应酬",
+      "少喝点",
+      "身体",
+      "工作"
+    ],
+    "context_before": [
+      {
+        "source_index": 1129,
+        "date": "2026-05-27",
+        "time": "17:52:27",
+        "speaker": "我",
+        "text": "对于金融男必然也不是什么好话[愉快]",
+        "quote": {
+          "speaker": "ta",
+          "text": "一点点点点点点点点都不怕 单纯好奇说啥[囧]"
+        }
+      },
+      {
+        "source_index": 1130,
+        "date": "2026-05-27",
+        "time": "18:07:47",
+        "speaker": "ta",
+        "text": "晚上突然要应酬 见不到 我晚点打电话说 问完跟你说",
+        "quote": {
+          "speaker": "我",
+          "text": "对了车能借到嘛"
+        }
+      },
+      {
+        "source_index": 1131,
+        "date": "2026-05-27",
+        "time": "18:08:04",
+        "speaker": "ta",
+        "text": "哈哈哈哈哈行",
+        "quote": {
+          "speaker": "我",
+          "text": "周六跟你娓娓道来"
+        }
+      },
+      {
+        "source_index": 1132,
+        "date": "2026-05-27",
+        "time": "18:09:04",
+        "speaker": "ta",
+        "text": "见到我就肯定一改对金融男的刻板印象～",
+        "quote": {
+          "speaker": "我",
+          "text": "对于金融男必然也不是什么好话[愉快]"
+        }
+      },
+      {
+        "source_index": 1133,
+        "date": "2026-05-27",
+        "time": "18:19:36",
+        "speaker": "我",
+        "text": "不知道啊可能要用心感受一下 毕竟眼睛会骗人～",
+        "quote": {
+          "speaker": "ta",
+          "text": "见到我就肯定一改对金融男的刻板印象～"
+        }
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "晚上突然要应酬 见不到 我晚点打电话说 问完跟你说"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 1135,
+        "date": "2026-05-27",
+        "time": "19:12:26",
+        "speaker": "ta",
+        "text": "哎呦 这是招是在哪学的啊",
+        "quote": {
+          "speaker": "我",
+          "text": "好你先忙 少喝点哦身体最重要"
+        }
+      },
+      {
+        "source_index": 1136,
+        "date": "2026-05-27",
+        "time": "19:12:43",
+        "speaker": "ta",
+        "text": "咳咳 某人今天还没报备吧",
+        "quote": null
+      },
+      {
+        "source_index": 1137,
+        "date": "2026-05-27",
+        "time": "20:06:53",
+        "speaker": "我",
+        "text": "无师自通",
+        "quote": {
+          "speaker": "ta",
+          "text": "哎呦 这是招是在哪学的啊"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "truth_playful",
+    "source_indices": [
+      1142
+    ],
+    "date": "2026-05-27",
+    "time": "22:35:43",
+    "reply": [
+      "假一赔十"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方问关心或夸奖是不是发自内心",
+    "move": "用简短的商业承诺式玩笑肯定真实性",
+    "inferred_subtext": "是认真的，但我用轻松的方式给你",
+    "condition": "对方是在轻松求确认，严肃信任问题需要直接回应",
+    "retrieval_hints": [
+      "发自内心",
+      "真心",
+      "真的假的",
+      "假一赔十"
+    ],
+    "context_before": [
+      {
+        "source_index": 1137,
+        "date": "2026-05-27",
+        "time": "20:06:53",
+        "speaker": "我",
+        "text": "无师自通",
+        "quote": {
+          "speaker": "ta",
+          "text": "哎呦 这是招是在哪学的啊"
+        }
+      },
+      {
+        "source_index": 1138,
+        "date": "2026-05-27",
+        "time": "20:07:15",
+        "speaker": "我",
+        "text": "今天非常peace 在我姐家吃饭 宝宝发烧了还在陪她呢",
+        "quote": null
+      },
+      {
+        "source_index": 1139,
+        "date": "2026-05-27",
+        "time": "21:24:38",
+        "speaker": "ta",
+        "text": "OK了",
+        "quote": {
+          "speaker": "我",
+          "text": "对了车能借到嘛"
+        }
+      },
+      {
+        "source_index": 1140,
+        "date": "2026-05-27",
+        "time": "21:24:48",
+        "speaker": "ta",
+        "text": "我这还没结束呢",
+        "quote": null
+      },
+      {
+        "source_index": 1141,
+        "date": "2026-05-27",
+        "time": "21:25:10",
+        "speaker": "ta",
+        "text": "所以是发自内心的嘛",
+        "quote": {
+          "speaker": "我",
+          "text": "无师自通"
+        }
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "所以是发自内心的嘛"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 1143,
+        "date": "2026-05-27",
+        "time": "22:36:22",
+        "speaker": "我",
+        "text": "一般不到12点很难结束",
+        "quote": {
+          "speaker": "ta",
+          "text": "我这还没结束呢"
+        }
+      },
+      {
+        "source_index": 1145,
+        "date": "2026-05-27",
+        "time": "23:03:01",
+        "speaker": "ta",
+        "text": "你为啥这么了解",
+        "quote": {
+          "speaker": "我",
+          "text": "一般不到12点很难结束"
+        }
+      },
+      {
+        "source_index": 1146,
+        "date": "2026-05-27",
+        "time": "23:03:21",
+        "speaker": "ta",
+        "text": "确实还没结束",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "gift_two_values",
+    "source_indices": [
+      1376,
+      1377
+    ],
+    "date": "2026-06-02",
+    "time": "21:49:41",
+    "reply": [
+      "“你送的”是在意的前提",
+      "“送的啥”是你多在意的答案"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方问更在意他送的还是送什么",
+    "move": "先给人的重要性，再说明礼物也能表现用心",
+    "inferred_subtext": "你重要，我也重视你是否理解我",
+    "condition": "不是物品优劣争执；保留两句逻辑和清楚指代",
+    "retrieval_hints": [
+      "送什么",
+      "谁送",
+      "更在意",
+      "礼物",
+      "用心"
+    ],
+    "context_before": [
+      {
+        "source_index": 1370,
+        "date": "2026-06-02",
+        "time": "18:49:17",
+        "speaker": "ta",
+        "text": "是不是好东西就不知道了",
+        "quote": null
+      },
+      {
+        "source_index": 1371,
+        "date": "2026-06-02",
+        "time": "20:05:04",
+        "speaker": "我",
+        "text": "你寄的自然是好东西～",
+        "quote": {
+          "speaker": "ta",
+          "text": "是不是好东西就不知道了"
+        }
+      },
+      {
+        "source_index": 1373,
+        "date": "2026-06-02",
+        "time": "20:45:36",
+        "speaker": "ta",
+        "text": "那你是更在意我送的",
+        "quote": null
+      },
+      {
+        "source_index": 1374,
+        "date": "2026-06-02",
+        "time": "20:45:44",
+        "speaker": "ta",
+        "text": "还是更在意送的啥",
+        "quote": null
+      },
+      {
+        "source_index": 1375,
+        "date": "2026-06-02",
+        "time": "20:45:53",
+        "speaker": "ta",
+        "text": "[愉快]",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 1379,
+        "date": "2026-06-02",
+        "time": "22:54:35",
+        "speaker": "ta",
+        "text": "真是奇怪 就一天没联系",
+        "quote": null
+      },
+      {
+        "source_index": 1380,
+        "date": "2026-06-02",
+        "time": "22:54:57",
+        "speaker": "ta",
+        "text": "怎么能说出这样的满分答案",
+        "quote": null
+      },
+      {
+        "source_index": 1381,
+        "date": "2026-06-02",
+        "time": "22:55:21",
+        "speaker": "ta",
+        "text": "怕不是这两天跟谁学的",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "implicit_miss",
+    "source_indices": [
+      1392
+    ],
+    "date": "2026-06-02",
+    "time": "23:41:59",
+    "reply": [
+      "不想哪来的问题"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "前面已经说没人主动联系是个问题，对方问想不想他",
+    "move": "把前文的问题本身作为想念的证据",
+    "inferred_subtext": "我在意你，所以才会提这个问题",
+    "condition": "用户确认保留的含蓄拉扯；前文必须有对应问题",
+    "retrieval_hints": [
+      "想我么",
+      "想不想我",
+      "想我了吗",
+      "不联系",
+      "问题出现"
+    ],
+    "context_before": [
+      {
+        "source_index": 1386,
+        "date": "2026-06-02",
+        "time": "23:13:39",
+        "speaker": "ta",
+        "text": "你的话就不知道了",
+        "quote": null
+      },
+      {
+        "source_index": 1388,
+        "date": "2026-06-02",
+        "time": "23:25:46",
+        "speaker": "我",
+        "text": "还能忍住不找我",
+        "quote": null
+      },
+      {
+        "source_index": 1389,
+        "date": "2026-06-02",
+        "time": "23:25:47",
+        "speaker": "我",
+        "text": "说明还不够想我",
+        "quote": null
+      },
+      {
+        "source_index": 1390,
+        "date": "2026-06-02",
+        "time": "23:31:39",
+        "speaker": "ta",
+        "text": "那你想我么",
+        "quote": null
+      },
+      {
+        "source_index": 1391,
+        "date": "2026-06-02",
+        "time": "23:32:22",
+        "speaker": "ta",
+        "text": "要实话！",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "我",
+        "text": "问题出现了"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 1393,
+        "date": "2026-06-02",
+        "time": "23:50:10",
+        "speaker": "ta",
+        "text": "并没有正面回答",
+        "quote": null
+      },
+      {
+        "source_index": 1394,
+        "date": "2026-06-02",
+        "time": "23:50:25",
+        "speaker": "ta",
+        "text": "懂了懂了",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": true
+  },
+  {
+    "id": "clear_implicit",
+    "source_indices": [
+      1397
+    ],
+    "date": "2026-06-03",
+    "time": "01:20:09",
+    "reply": [
+      "这么直白的回答都没让你开心！"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方没有完全接到你的含蓄答案",
+    "move": "轻轻指出你已经给了肯定",
+    "inferred_subtext": "我刚才的话是带喜欢的",
+    "condition": "须有刚才给出的肯定；若对方真没懂可以更直接",
+    "retrieval_hints": [
+      "直白",
+      "没让你开心",
+      "没听懂",
+      "回答"
+    ],
+    "context_before": [
+      {
+        "source_index": 1392,
+        "date": "2026-06-02",
+        "time": "23:41:59",
+        "speaker": "我",
+        "text": "不想哪来的问题",
+        "quote": {
+          "speaker": "我",
+          "text": "问题出现了"
+        }
+      },
+      {
+        "source_index": 1393,
+        "date": "2026-06-02",
+        "time": "23:50:10",
+        "speaker": "ta",
+        "text": "并没有正面回答",
+        "quote": null
+      },
+      {
+        "source_index": 1394,
+        "date": "2026-06-02",
+        "time": "23:50:25",
+        "speaker": "ta",
+        "text": "懂了懂了",
+        "quote": null
+      },
+      {
+        "source_index": 1396,
+        "date": "2026-06-02",
+        "time": "23:54:10",
+        "speaker": "ta",
+        "text": "那今天找你开心嘛",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "我",
+        "text": "不想哪来的问题"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 1398,
+        "date": "2026-06-03",
+        "time": "10:19:59",
+        "speaker": "ta",
+        "text": "算了 不勉强你 但还是更喜欢更直白点的[皱眉]",
+        "quote": null
+      },
+      {
+        "source_index": 1399,
+        "date": "2026-06-03",
+        "time": "10:20:26",
+        "speaker": "ta",
+        "text": "这个问题还没回答呢",
+        "quote": {
+          "speaker": "ta",
+          "text": "那今天找你开心嘛"
+        }
+      },
+      {
+        "source_index": 1400,
+        "date": "2026-06-03",
+        "time": "12:20:51",
+        "speaker": "我",
+        "text": "有的人非要听答案",
+        "quote": {
+          "speaker": "ta",
+          "text": "这个问题还没回答呢"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": true
+  },
+  {
+    "id": "playful_knowledge",
+    "source_indices": [
+      1400,
+      1401
+    ],
+    "date": "2026-06-03",
+    "time": "12:20:51",
+    "reply": [
+      "有的人非要听答案",
+      "实则揣着明白装糊涂！"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方继续索要答案，双方仍在玩笑式互动",
+    "move": "把对方的追问说成明白却装糊涂",
+    "inferred_subtext": "你已经知道我是在意你的",
+    "condition": "用户确认保留；新场景是否玩笑需重新判断",
+    "retrieval_hints": [
+      "非要听答案",
+      "装糊涂",
+      "追问",
+      "知道答案"
+    ],
+    "context_before": [
+      {
+        "source_index": 1396,
+        "date": "2026-06-02",
+        "time": "23:54:10",
+        "speaker": "ta",
+        "text": "那今天找你开心嘛",
+        "quote": null
+      },
+      {
+        "source_index": 1397,
+        "date": "2026-06-03",
+        "time": "01:20:09",
+        "speaker": "我",
+        "text": "这么直白的回答都没让你开心！",
+        "quote": {
+          "speaker": "我",
+          "text": "不想哪来的问题"
+        }
+      },
+      {
+        "source_index": 1398,
+        "date": "2026-06-03",
+        "time": "10:19:59",
+        "speaker": "ta",
+        "text": "算了 不勉强你 但还是更喜欢更直白点的[皱眉]",
+        "quote": null
+      },
+      {
+        "source_index": 1399,
+        "date": "2026-06-03",
+        "time": "10:20:26",
+        "speaker": "ta",
+        "text": "这个问题还没回答呢",
+        "quote": {
+          "speaker": "ta",
+          "text": "那今天找你开心嘛"
+        }
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "这个问题还没回答呢"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 1402,
+        "date": "2026-06-03",
+        "time": "12:21:17",
+        "speaker": "我",
+        "text": "你几点的飞机",
+        "quote": null
+      },
+      {
+        "source_index": 1403,
+        "date": "2026-06-03",
+        "time": "13:26:01",
+        "speaker": "ta",
+        "text": "是要送我 还是要订同一班～",
+        "quote": {
+          "speaker": "我",
+          "text": "你几点的飞机"
+        }
+      },
+      {
+        "source_index": 1404,
+        "date": "2026-06-03",
+        "time": "15:03:28",
+        "speaker": "ta",
+        "text": "你家好像没人 放门口可以吗",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": true
+  },
+  {
+    "id": "measured_invitation",
+    "source_indices": [
+      1542,
+      1544
+    ],
+    "date": "2026-06-07",
+    "time": "01:42:33",
+    "reply": [
+      "三分埋怨 七分邀请 0分埋冤",
+      "0分狡辩"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方问是邀请还是埋怨",
+    "move": "用比例说出邀请是主要意思，再补充澄清",
+    "inferred_subtext": "有一点小情绪，更多是希望一起",
+    "condition": "原句含自我纠正，使用时保持完整意思或作最小改写",
+    "retrieval_hints": [
+      "邀请还是",
+      "埋怨",
+      "狡辩",
+      "几分",
+      "比例"
+    ],
+    "context_before": [
+      {
+        "source_index": 1534,
+        "date": "2026-06-06",
+        "time": "22:40:52",
+        "speaker": "ta",
+        "text": "不像某人那么喜欢打混双",
+        "quote": null
+      },
+      {
+        "source_index": 1536,
+        "date": "2026-06-06",
+        "time": "23:23:43",
+        "speaker": "我",
+        "text": "没办法",
+        "quote": null
+      },
+      {
+        "source_index": 1537,
+        "date": "2026-06-06",
+        "time": "23:23:47",
+        "speaker": "我",
+        "text": "技术太菜",
+        "quote": null
+      },
+      {
+        "source_index": 1538,
+        "date": "2026-06-06",
+        "time": "23:23:51",
+        "speaker": "我",
+        "text": "需要人带",
+        "quote": null
+      },
+      {
+        "source_index": 1540,
+        "date": "2026-06-07",
+        "time": "00:32:01",
+        "speaker": "ta",
+        "text": "看不懂是邀请 还是狡辩 还是埋怨",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "我",
+        "text": "三分埋怨 七分邀请 0分埋冤"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 1545,
+        "date": "2026-06-07",
+        "time": "10:13:13",
+        "speaker": "ta",
+        "text": "埋怨没带你嘛[皱眉]",
+        "quote": null
+      },
+      {
+        "source_index": 1546,
+        "date": "2026-06-07",
+        "time": "10:13:26",
+        "speaker": "ta",
+        "text": "这么看来还有几分想我吧",
+        "quote": null
+      },
+      {
+        "source_index": 1548,
+        "date": "2026-06-07",
+        "time": "11:12:09",
+        "speaker": "我",
+        "text": "那看来你不是很想我哦",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "meet_to_explain",
+    "source_indices": [
+      1561
+    ],
+    "date": "2026-06-07",
+    "time": "16:03:26",
+    "reply": [
+      "下次见面再跟你解释"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方想让你解释暗示",
+    "move": "把解释留到下一次见面",
+    "inferred_subtext": "这也是一个想再见的入口",
+    "condition": "用户确实想见面且可以兑现；重要误会即时解释",
+    "retrieval_hints": [
+      "解释",
+      "下次见面",
+      "当面",
+      "暗示"
+    ],
+    "context_before": [
+      {
+        "source_index": 1554,
+        "date": "2026-06-07",
+        "time": "13:31:20",
+        "speaker": "我",
+        "text": "你竟然get不到",
+        "quote": null
+      },
+      {
+        "source_index": 1555,
+        "date": "2026-06-07",
+        "time": "13:31:25",
+        "speaker": "我",
+        "text": "还是不够懂我",
+        "quote": null
+      },
+      {
+        "source_index": 1557,
+        "date": "2026-06-07",
+        "time": "13:59:06",
+        "speaker": "ta",
+        "text": "原来是暗戳戳回答的 难怪我听不出来",
+        "quote": null
+      },
+      {
+        "source_index": 1558,
+        "date": "2026-06-07",
+        "time": "13:59:27",
+        "speaker": "ta",
+        "text": "那你再偷偷解释解释呗",
+        "quote": null
+      },
+      {
+        "source_index": 1559,
+        "date": "2026-06-07",
+        "time": "13:59:36",
+        "speaker": "ta",
+        "text": "好让我下次就能get到",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 1563,
+        "date": "2026-06-07",
+        "time": "17:08:01",
+        "speaker": "ta",
+        "text": "那这次我懂了",
+        "quote": null
+      },
+      {
+        "source_index": 1564,
+        "date": "2026-06-07",
+        "time": "17:08:08",
+        "speaker": "ta",
+        "text": "想见我了[愉快]",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false,
+    "supported_goals": [
+      "concrete_invitation"
+    ],
+    "booking_step": "ordinary_topic_bridge"
+  },
+  {
+    "id": "dumpling",
+    "source_indices": [
+      1576
+    ],
+    "date": "2026-06-07",
+    "time": "22:46:25",
+    "reply": [
+      "这边建议您点盘饺子"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方在双方能接住的玩笑里表现出醋意",
+    "move": "用饺子让对方自己联想到醋",
+    "inferred_subtext": "我听到了你的在意，想轻轻逗你",
+    "condition": "双方能懂醋与饺子的关联；真正不安先回应感受",
+    "retrieval_hints": [
+      "吃醋",
+      "酸",
+      "饺子",
+      "醋味",
+      "约了多少"
+    ],
+    "context_before": [
+      {
+        "source_index": 1569,
+        "date": "2026-06-07",
+        "time": "18:55:51",
+        "speaker": "ta",
+        "text": "妹妹很是想我",
+        "quote": null
+      },
+      {
+        "source_index": 1570,
+        "date": "2026-06-07",
+        "time": "18:56:00",
+        "speaker": "ta",
+        "text": "迫不及待了呀",
+        "quote": null
+      },
+      {
+        "source_index": 1571,
+        "date": "2026-06-07",
+        "time": "20:22:44",
+        "speaker": "我",
+        "text": "哥哥可得好好把握机会",
+        "quote": null
+      },
+      {
+        "source_index": 1572,
+        "date": "2026-06-07",
+        "time": "20:22:54",
+        "speaker": "我",
+        "text": "毕竟下周妹妹的档期差不多排满了",
+        "quote": null
+      },
+      {
+        "source_index": 1574,
+        "date": "2026-06-07",
+        "time": "22:12:46",
+        "speaker": "ta",
+        "text": "约了多少哥哥了",
+        "quote": {
+          "speaker": "我",
+          "text": "毕竟下周妹妹的档期差不多排满了"
+        }
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "约了多少哥哥了"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 1577,
+        "date": "2026-06-07",
+        "time": "22:46:53",
+        "speaker": "我",
+        "text": "周四我要去长沙～",
+        "quote": null
+      },
+      {
+        "source_index": 1579,
+        "date": "2026-06-07",
+        "time": "23:11:08",
+        "speaker": "ta",
+        "text": "哈哈哈哈哈 可没醋味儿哦 没有没有",
+        "quote": {
+          "speaker": "我",
+          "text": "这边建议您点盘饺子"
+        }
+      },
+      {
+        "source_index": 1580,
+        "date": "2026-06-07",
+        "time": "23:11:22",
+        "speaker": "ta",
+        "text": "周末不回来是吧",
+        "quote": {
+          "speaker": "我",
+          "text": "周四我要去长沙～"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "respectful_understanding",
+    "source_indices": [
+      1722
+    ],
+    "date": "2026-06-11",
+    "time": "17:13:35",
+    "reply": [
+      "我能理解你的想法也尊重你的想法"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "warm",
+    "scene": "双方谈到真实想法，对方担心被误解",
+    "move": "直接表达理解和尊重",
+    "inferred_subtext": "我愿意听你，而不是只聊轻松话题",
+    "condition": "普通认知不同的认真沟通，不用于已排除的争执",
+    "retrieval_hints": [
+      "理解",
+      "尊重",
+      "真实想法",
+      "认真谈"
+    ],
+    "context_before": [
+      {
+        "source_index": 1714,
+        "date": "2026-06-11",
+        "time": "10:38:02",
+        "speaker": "ta",
+        "text": "开大会了没",
+        "quote": {
+          "speaker": "我",
+          "text": "今天信息量有点大"
+        }
+      },
+      {
+        "source_index": 1718,
+        "date": "2026-06-11",
+        "time": "17:04:56",
+        "speaker": "ta",
+        "text": "哦好吧 那我不问咯",
+        "quote": null
+      },
+      {
+        "source_index": 1719,
+        "date": "2026-06-11",
+        "time": "17:05:22",
+        "speaker": "ta",
+        "text": "估计也是没说啥好话",
+        "quote": null
+      },
+      {
+        "source_index": 1720,
+        "date": "2026-06-11",
+        "time": "17:05:47",
+        "speaker": "ta",
+        "text": "怎么去长沙？",
+        "quote": null
+      },
+      {
+        "source_index": 1721,
+        "date": "2026-06-11",
+        "time": "17:12:16",
+        "speaker": "我",
+        "text": "完全没有 真的",
+        "quote": {
+          "speaker": "ta",
+          "text": "估计也是没说啥好话"
+        }
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 1723,
+        "date": "2026-06-11",
+        "time": "17:13:51",
+        "speaker": "我",
+        "text": "就真的没有说什么吐槽啥的哈哈哈哈",
+        "quote": null
+      },
+      {
+        "source_index": 1724,
+        "date": "2026-06-11",
+        "time": "17:14:32",
+        "speaker": "我",
+        "text": "飞机有直达的吗哥哥",
+        "quote": {
+          "speaker": "ta",
+          "text": "怎么去长沙？"
+        }
+      },
+      {
+        "source_index": 1726,
+        "date": "2026-06-11",
+        "time": "17:15:51",
+        "speaker": "我",
+        "text": "高铁要坐三个小时。。",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "deep_communication",
+    "source_indices": [
+      1731
+    ],
+    "date": "2026-06-11",
+    "time": "18:04:16",
+    "reply": [
+      "可以 不过我也希望你能表达你最真实的想法 一开始我是觉得我们刚认识我就会比较排斥 但昨晚我也了解了你的一些想法 也希望我们是有深度沟通的 不过毕竟我的年龄经历摆在这 可能还是需要你引导和理解一下"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "warm",
+    "scene": "对方希望更深度直接地交流",
+    "move": "先同意，再说明自己的经历和需要",
+    "inferred_subtext": "我愿意靠近，也希望你理解我的节奏",
+    "condition": "年龄和经历只能使用用户本次确实认可的事实",
+    "retrieval_hints": [
+      "深度沟通",
+      "交换想法",
+      "说教",
+      "理解一下",
+      "引导"
+    ],
+    "context_before": [
+      {
+        "source_index": 1726,
+        "date": "2026-06-11",
+        "time": "17:15:51",
+        "speaker": "我",
+        "text": "高铁要坐三个小时。。",
+        "quote": null
+      },
+      {
+        "source_index": 1727,
+        "date": "2026-06-11",
+        "time": "17:25:35",
+        "speaker": "ta",
+        "text": "谢谢你",
+        "quote": {
+          "speaker": "我",
+          "text": "我能理解你的想法也尊重你的想法"
+        }
+      },
+      {
+        "source_index": 1728,
+        "date": "2026-06-11",
+        "time": "17:26:13",
+        "speaker": "ta",
+        "text": "那之后 我们是不是可以更深度和直接 交换一些想法  因为我之前还是觉得刚接触 气氛轻松愉快最重要 有些想法我不想让你觉得是在说教 你觉得呢",
+        "quote": null
+      },
+      {
+        "source_index": 1729,
+        "date": "2026-06-11",
+        "time": "17:26:45",
+        "speaker": "ta",
+        "text": "我的地理水平在昨天已经暴露了 我能知道那么近吗[愉快]",
+        "quote": {
+          "speaker": "我",
+          "text": "飞机有直达的吗哥哥"
+        }
+      },
+      {
+        "source_index": 1730,
+        "date": "2026-06-11",
+        "time": "17:27:01",
+        "speaker": "ta",
+        "text": "几点的车",
+        "quote": {
+          "speaker": "我",
+          "text": "高铁要坐三个小时。。"
+        }
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "那之后 我们是不是可以更深度和直接 交换一些想法  因为我之前还是觉得刚接触 气氛轻松愉快最重要 有些想法我不想让你觉得是在说教 你觉得呢"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 1732,
+        "date": "2026-06-11",
+        "time": "18:04:36",
+        "speaker": "我",
+        "text": "哈哈哈哈哈哈真没招了",
+        "quote": {
+          "speaker": "ta",
+          "text": "我的地理水平在昨天已经暴露了 我能知道那么近吗[愉快]"
+        }
+      },
+      {
+        "source_index": 1733,
+        "date": "2026-06-11",
+        "time": "18:04:51",
+        "speaker": "我",
+        "text": "你去过长沙不",
+        "quote": null
+      },
+      {
+        "source_index": 1734,
+        "date": "2026-06-11",
+        "time": "18:05:13",
+        "speaker": "我",
+        "text": "6:30",
+        "quote": {
+          "speaker": "ta",
+          "text": "几点的车"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "priority_review",
+    "source_indices": [
+      1784
+    ],
+    "date": "2026-06-12",
+    "time": "16:33:32",
+    "reply": [
+      "给你优先审阅权"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方希望看到有你在其中的照片",
+    "move": "给一份轻松的优先权",
+    "inferred_subtext": "你可以得到特别关注",
+    "condition": "确有对应照片；照片关系和私密程度由用户决定",
+    "retrieval_hints": [
+      "优先",
+      "审阅",
+      "照片",
+      "特别对待"
+    ],
+    "context_before": [
+      {
+        "source_index": 1777,
+        "date": "2026-06-12",
+        "time": "13:33:23",
+        "speaker": "我",
+        "text": "这家店超火我们到了根本没位",
+        "quote": null
+      },
+      {
+        "source_index": 1778,
+        "date": "2026-06-12",
+        "time": "13:33:50",
+        "speaker": "我",
+        "text": "结果跟隔壁姐姐聊嗨了就一起吃了",
+        "quote": null
+      },
+      {
+        "source_index": 1779,
+        "date": "2026-06-12",
+        "time": "15:25:03",
+        "speaker": "ta",
+        "text": "感觉到了特别对待哦",
+        "quote": null
+      },
+      {
+        "source_index": 1780,
+        "date": "2026-06-12",
+        "time": "15:25:40",
+        "speaker": "ta",
+        "text": "只能说图里没有我的“菜”[愉快]",
+        "quote": null
+      },
+      {
+        "source_index": 1781,
+        "date": "2026-06-12",
+        "time": "15:26:02",
+        "speaker": "ta",
+        "text": "一个姐姐带了五个哥哥嘛",
+        "quote": {
+          "speaker": "我",
+          "text": "结果跟隔壁姐姐聊嗨了就一起吃了"
+        }
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "只能说图里没有我的“菜”[愉快]"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 1786,
+        "date": "2026-06-12",
+        "time": "17:07:57",
+        "speaker": "ta",
+        "text": "咳咳 非常美美美 味",
+        "quote": null
+      },
+      {
+        "source_index": 1787,
+        "date": "2026-06-12",
+        "time": "17:10:12",
+        "speaker": "ta",
+        "text": "不行 我不能再这么说话了",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "food_review",
+    "source_indices": [
+      2008,
+      2009
+    ],
+    "date": "2026-06-13",
+    "time": "22:08:34",
+    "reply": [
+      "可以不抱怨你",
+      "但要锐评饭"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方担心探索餐厅踩雷会被你埋怨",
+    "move": "先放下对人的埋怨，再保留对食物的吐槽",
+    "inferred_subtext": "可以一起试，踩雷也有共同话题",
+    "condition": "是普通探索餐厅，不把真实不满包装成笑话",
+    "retrieval_hints": [
+      "踩雷",
+      "不好吃",
+      "埋怨",
+      "锐评",
+      "探索"
+    ],
+    "context_before": [
+      {
+        "source_index": 2001,
+        "date": "2026-06-13",
+        "time": "20:33:37",
+        "speaker": "我",
+        "text": "北京真没有小摊吗。",
+        "quote": {
+          "speaker": "ta",
+          "text": "这种事老广东能放心交给老北京？"
+        }
+      },
+      {
+        "source_index": 2003,
+        "date": "2026-06-13",
+        "time": "21:32:49",
+        "speaker": "ta",
+        "text": "我也觉得 咱们要不下次一起探索一下",
+        "quote": {
+          "speaker": "我",
+          "text": "感觉城中村应该有？"
+        }
+      },
+      {
+        "source_index": 2004,
+        "date": "2026-06-13",
+        "time": "21:33:18",
+        "speaker": "ta",
+        "text": "if 踩雷可以做到不埋怨。",
+        "quote": null
+      },
+      {
+        "source_index": 2005,
+        "date": "2026-06-13",
+        "time": "21:33:42",
+        "speaker": "ta",
+        "text": "这个电影真得挺好看的",
+        "quote": null
+      },
+      {
+        "source_index": 2006,
+        "date": "2026-06-13",
+        "time": "21:34:02",
+        "speaker": "ta",
+        "text": "如果要能跟crush一号看就好了",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "if 踩雷可以做到不埋怨。"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 2011,
+        "date": "2026-06-13",
+        "time": "22:08:54",
+        "speaker": "我",
+        "text": "还有二三四号？",
+        "quote": {
+          "speaker": "ta",
+          "text": "如果要能跟crush一号看就好了"
+        }
+      },
+      {
+        "source_index": 2012,
+        "date": "2026-06-13",
+        "time": "22:13:35",
+        "speaker": "ta",
+        "text": "没问题 我们一起",
+        "quote": {
+          "speaker": "我",
+          "text": "但要锐评饭"
+        }
+      },
+      {
+        "source_index": 2013,
+        "date": "2026-06-13",
+        "time": "22:14:10",
+        "speaker": "ta",
+        "text": "主要是不知道妹妹有多少crush",
+        "quote": {
+          "speaker": "我",
+          "text": "还有二三四号？"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "present_person",
+    "source_indices": [
+      2031
+    ],
+    "date": "2026-06-13",
+    "time": "23:18:23",
+    "reply": [
+      "在和我聊电影呢"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "双方聊到crush，对方问你的第一位是谁",
+    "move": "用当下正在发生的互动直接指出对方",
+    "inferred_subtext": "就是现在和我聊天的你",
+    "condition": "只有用户确有这份好感时才给这层肯定；话题按当前改",
+    "retrieval_hints": [
+      "crush",
+      "一号",
+      "喜欢谁",
+      "是谁",
+      "聊电影"
+    ],
+    "context_before": [
+      {
+        "source_index": 2022,
+        "date": "2026-06-13",
+        "time": "23:04:24",
+        "speaker": "我",
+        "text": "那我是美食 旅游 首饰 包包",
+        "quote": {
+          "speaker": "ta",
+          "text": "分别是 篮球 高尔夫 羽毛球 掼蛋"
+        }
+      },
+      {
+        "source_index": 2024,
+        "date": "2026-06-13",
+        "time": "23:05:02",
+        "speaker": "我",
+        "text": "对而且我觉得剧情也不俗套",
+        "quote": null
+      },
+      {
+        "source_index": 2025,
+        "date": "2026-06-13",
+        "time": "23:05:54",
+        "speaker": "我",
+        "text": "而且还传递了女性力量",
+        "quote": null
+      },
+      {
+        "source_index": 2026,
+        "date": "2026-06-13",
+        "time": "23:06:12",
+        "speaker": "我",
+        "text": "反正我看的时候从头哭到尾[流泪]",
+        "quote": null
+      },
+      {
+        "source_index": 2029,
+        "date": "2026-06-13",
+        "time": "23:12:41",
+        "speaker": "ta",
+        "text": "那妹妹的crush一号呢",
+        "quote": {
+          "speaker": "我",
+          "text": "那我是美食 旅游 首饰 包包"
+        }
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "那妹妹的crush一号呢"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 2037,
+        "date": "2026-06-13",
+        "time": "23:43:36",
+        "speaker": "我",
+        "text": "每个人观点不一样吧",
+        "quote": null
+      },
+      {
+        "source_index": 2038,
+        "date": "2026-06-13",
+        "time": "23:43:36",
+        "speaker": "我",
+        "text": "我觉得不管喜不喜欢",
+        "quote": null
+      },
+      {
+        "source_index": 2039,
+        "date": "2026-06-13",
+        "time": "23:43:36",
+        "speaker": "我",
+        "text": "总之肯定是欣赏的",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "time_priority",
+    "source_indices": [
+      2090,
+      2091,
+      2092
+    ],
+    "date": "2026-06-14",
+    "time": "18:46:03",
+    "reply": [
+      "工作日这么多天",
+      "周末只有两天",
+      "宝贵的时间都是留给最想见的人"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方怀疑你没有把重要时间留给他",
+    "move": "把日常与宝贵时间分开，再明确最想见的人",
+    "inferred_subtext": "我愿意给你一份时间上的特别对待",
+    "condition": "核对真实日期和安排，避免原文周五与周末的指代误会",
+    "retrieval_hints": [
+      "周末",
+      "时间",
+      "最想见",
+      "宝贵",
+      "安排"
+    ],
+    "context_before": [
+      {
+        "source_index": 2084,
+        "date": "2026-06-14",
+        "time": "17:39:07",
+        "speaker": "我",
+        "text": "okkk～",
+        "quote": null
+      },
+      {
+        "source_index": 2085,
+        "date": "2026-06-14",
+        "time": "17:39:30",
+        "speaker": "我",
+        "text": "那就周五晚？",
+        "quote": null
+      },
+      {
+        "source_index": 2086,
+        "date": "2026-06-14",
+        "time": "18:02:56",
+        "speaker": "ta",
+        "text": "好的哦",
+        "quote": {
+          "speaker": "我",
+          "text": "那就周五晚？"
+        }
+      },
+      {
+        "source_index": 2087,
+        "date": "2026-06-14",
+        "time": "18:03:13",
+        "speaker": "ta",
+        "text": "那这几天看看有啥推荐",
+        "quote": null
+      },
+      {
+        "source_index": 2088,
+        "date": "2026-06-14",
+        "time": "18:03:38",
+        "speaker": "ta",
+        "text": "果然闺蜜的话不能信 并不是很想我",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 2093,
+        "date": "2026-06-14",
+        "time": "18:50:53",
+        "speaker": "ta",
+        "text": "妹妹 我明白你意思。",
+        "quote": null
+      },
+      {
+        "source_index": 2094,
+        "date": "2026-06-14",
+        "time": "18:51:03",
+        "speaker": "ta",
+        "text": "但是周五是工作日。",
+        "quote": null
+      },
+      {
+        "source_index": 2095,
+        "date": "2026-06-14",
+        "time": "18:51:33",
+        "speaker": "ta",
+        "text": "你这波发言暧昧但带些钢铁了。",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "natural_praise",
+    "source_indices": [
+      2197,
+      2198
+    ],
+    "date": "2026-06-16",
+    "time": "00:56:17",
+    "reply": [
+      "那还是你会",
+      "不然怎么夸你比较自然呢"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方问怎么会与你靠近",
+    "move": "先给对方功劳，再开一个自然夸奖的小玩笑",
+    "inferred_subtext": "你确实是特别的，我也愿意承认",
+    "condition": "回应已有的靠近；不延伸到用户禁止的同事话题",
+    "retrieval_hints": [
+      "怎么靠近",
+      "那还是你会",
+      "夸你",
+      "自然"
+    ],
+    "context_before": [
+      {
+        "source_index": 2190,
+        "date": "2026-06-15",
+        "time": "23:39:19",
+        "speaker": "我",
+        "text": "没有呢",
+        "quote": {
+          "speaker": "ta",
+          "text": "talk你的长沙之旅认识了多少帅哥"
+        }
+      },
+      {
+        "source_index": 2191,
+        "date": "2026-06-15",
+        "time": "23:39:29",
+        "speaker": "我",
+        "text": "00后出门在外都是生人勿近的",
+        "quote": null
+      },
+      {
+        "source_index": 2193,
+        "date": "2026-06-15",
+        "time": "23:48:08",
+        "speaker": "ta",
+        "text": "不对吧 00后不都放飞自我吗[愉快]",
+        "quote": {
+          "speaker": "我",
+          "text": "00后出门在外都是生人勿近的"
+        }
+      },
+      {
+        "source_index": 2194,
+        "date": "2026-06-15",
+        "time": "23:49:12",
+        "speaker": "ta",
+        "text": "古怪 那我是怎么近的呢",
+        "quote": null
+      },
+      {
+        "source_index": 2195,
+        "date": "2026-06-15",
+        "time": "23:49:23",
+        "speaker": "ta",
+        "text": "还是说我没近上。",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 2200,
+        "date": "2026-06-16",
+        "time": "10:33:16",
+        "speaker": "ta",
+        "text": "那倒也是 专门练的本事还是很好用的",
+        "quote": null
+      },
+      {
+        "source_index": 2201,
+        "date": "2026-06-16",
+        "time": "10:33:49",
+        "speaker": "ta",
+        "text": "毕竟第一天加完就开聊了吧",
+        "quote": null
+      },
+      {
+        "source_index": 2203,
+        "date": "2026-06-16",
+        "time": "12:20:46",
+        "speaker": "我",
+        "text": "谁叫某人心机地发起聊天呢",
+        "quote": {
+          "speaker": "ta",
+          "text": "毕竟第一天加完就开聊了吧"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "dream_reverse",
+    "source_indices": [
+      2306,
+      2307
+    ],
+    "date": "2026-06-18",
+    "time": "12:09:45",
+    "reply": [
+      "看来你经常梦到我！",
+      "懂了！！！"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方轻松问你有没有梦到他",
+    "move": "把他的提问反过来逗他，再加一个懂了的短句",
+    "inferred_subtext": "你这么在意，是不是自己也有在想我",
+    "condition": "是双方认可的玩笑；不把玩笑写成已知心理事实",
+    "retrieval_hints": [
+      "梦到我",
+      "梦见我",
+      "梦",
+      "懂了"
+    ],
+    "context_before": [
+      {
+        "source_index": 2300,
+        "date": "2026-06-18",
+        "time": "01:47:09",
+        "speaker": "我",
+        "text": "洗了个澡又躺下了",
+        "quote": null
+      },
+      {
+        "source_index": 2301,
+        "date": "2026-06-18",
+        "time": "01:47:47",
+        "speaker": "我",
+        "text": "困得不行[困]",
+        "quote": null
+      },
+      {
+        "source_index": 2302,
+        "date": "2026-06-18",
+        "time": "10:22:10",
+        "speaker": "ta",
+        "text": "睡那么久应该是睡的不错吧",
+        "quote": null
+      },
+      {
+        "source_index": 2303,
+        "date": "2026-06-18",
+        "time": "10:22:22",
+        "speaker": "ta",
+        "text": "梦到我了没",
+        "quote": null
+      },
+      {
+        "source_index": 2305,
+        "date": "2026-06-18",
+        "time": "12:09:02",
+        "speaker": "我",
+        "text": "哈哈哈哈哈哈哈哈哈",
+        "quote": {
+          "speaker": "ta",
+          "text": "梦到我了没"
+        }
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 2308,
+        "date": "2026-06-18",
+        "time": "12:32:06",
+        "speaker": "ta",
+        "text": "失联那么久还没梦到我",
+        "quote": null
+      },
+      {
+        "source_index": 2309,
+        "date": "2026-06-18",
+        "time": "12:32:24",
+        "speaker": "ta",
+        "text": "情节严重程度堪比去商k",
+        "quote": null
+      },
+      {
+        "source_index": 2310,
+        "date": "2026-06-18",
+        "time": "14:08:00",
+        "speaker": "我",
+        "text": "那你这是在控诉我",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "playful_ball",
+    "source_indices": [
+      2330,
+      2331
+    ],
+    "date": "2026-06-18",
+    "time": "22:24:33",
+    "reply": [
+      "你这个人惯会踢皮球的",
+      "不回答只提问！！！"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方继续用提问接你的提问",
+    "move": "点出踢皮球，再用短句强调",
+    "inferred_subtext": "我识别到你也在跟我玩这个游戏",
+    "condition": "用户确认这段是玩笑式斗嘴；新场景情绪不明时先核对",
+    "retrieval_hints": [
+      "踢皮球",
+      "不回答",
+      "只提问",
+      "反问"
+    ],
+    "context_before": [
+      {
+        "source_index": 2310,
+        "date": "2026-06-18",
+        "time": "14:08:00",
+        "speaker": "我",
+        "text": "那你这是在控诉我",
+        "quote": null
+      },
+      {
+        "source_index": 2311,
+        "date": "2026-06-18",
+        "time": "14:08:04",
+        "speaker": "我",
+        "text": "还是在想我",
+        "quote": null
+      },
+      {
+        "source_index": 2312,
+        "date": "2026-06-18",
+        "time": "15:45:57",
+        "speaker": "ta",
+        "text": "听实话还是假话",
+        "quote": null
+      },
+      {
+        "source_index": 2313,
+        "date": "2026-06-18",
+        "time": "17:36:51",
+        "speaker": "我",
+        "text": "真诚才是必杀技",
+        "quote": null
+      },
+      {
+        "source_index": 2314,
+        "date": "2026-06-18",
+        "time": "18:51:25",
+        "speaker": "ta",
+        "text": "妹妹最近可是不太真诚呢",
+        "quote": null
+      },
+      {
+        "source_index": 2315,
+        "date": "2026-06-18",
+        "time": "19:20:22",
+        "speaker": "我",
+        "text": "别转移话题！！",
+        "quote": null
+      },
+      {
+        "source_index": 2316,
+        "date": "2026-06-18",
+        "time": "19:20:31",
+        "speaker": "我",
+        "text": "我怎么不真诚了",
+        "quote": null
+      },
+      {
+        "source_index": 2318,
+        "date": "2026-06-18",
+        "time": "19:57:10",
+        "speaker": "ta",
+        "text": "切 懒得喷",
+        "quote": null
+      },
+      {
+        "source_index": 2319,
+        "date": "2026-06-18",
+        "time": "19:57:27",
+        "speaker": "ta",
+        "text": "自己心里清楚",
+        "quote": null
+      },
+      {
+        "source_index": 2321,
+        "date": "2026-06-18",
+        "time": "20:47:46",
+        "speaker": "我",
+        "text": "切",
+        "quote": null
+      },
+      {
+        "source_index": 2322,
+        "date": "2026-06-18",
+        "time": "20:48:03",
+        "speaker": "我",
+        "text": "我都回到家了",
+        "quote": null
+      },
+      {
+        "source_index": 2323,
+        "date": "2026-06-18",
+        "time": "20:48:13",
+        "speaker": "我",
+        "text": "部门团建完就回了",
+        "quote": null
+      },
+      {
+        "source_index": 2324,
+        "date": "2026-06-18",
+        "time": "20:48:19",
+        "speaker": "我",
+        "text": "很有诚意了好吧",
+        "quote": null
+      },
+      {
+        "source_index": 2325,
+        "date": "2026-06-18",
+        "time": "20:48:36",
+        "speaker": "我",
+        "text": "不像某人现在都不知道在哪个商k待着呢",
+        "quote": null
+      },
+      {
+        "source_index": 2328,
+        "date": "2026-06-18",
+        "time": "21:26:25",
+        "speaker": "ta",
+        "text": "谁知道呢",
+        "quote": {
+          "speaker": "我",
+          "text": "部门团建完就回了"
+        }
+      },
+      {
+        "source_index": 2329,
+        "date": "2026-06-18",
+        "time": "21:28:06",
+        "speaker": "ta",
+        "text": "想我了还是梦到我了",
+        "quote": {
+          "speaker": "我",
+          "text": "很有诚意了好吧"
+        }
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "想我了还是梦到我了"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 2333,
+        "date": "2026-06-18",
+        "time": "22:37:33",
+        "speaker": "ta",
+        "text": "年下不知道是记性不好",
+        "quote": null
+      },
+      {
+        "source_index": 2335,
+        "date": "2026-06-18",
+        "time": "22:38:03",
+        "speaker": "ta",
+        "text": "还是不想记的事情 就想不起来",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": true,
+    "premise": "前面用户问对方是在控诉她还是在想她，对方随后绕开又提出想我还是梦到我的问题；回复回应的是这次来回的提问模式。",
+    "depends_on_prior_turns": [
+      2310,
+      2311,
+      2313,
+      2315
+    ]
+  },
+  {
+    "id": "dream_continuation",
+    "source_indices": [
+      2457,
+      2458
+    ],
+    "date": "2026-06-20",
+    "time": "12:33:12",
+    "reply": [
+      "刚梦到关键情节就被打断了",
+      "不知道现实中能不能续上"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "双方已经认可亲密好感，对方拿梦中约会开玩笑",
+    "move": "把梦的关键情节留白，再把续集抛给现实",
+    "inferred_subtext": "期待我们再有亲密且真实的相处",
+    "condition": "已有双方认可的亲密语境，不预设牵手或其他具体情节",
+    "retrieval_hints": [
+      "梦被打断",
+      "关键情节",
+      "续上",
+      "梦里约会"
+    ],
+    "context_before": [
+      {
+        "source_index": 2450,
+        "date": "2026-06-20",
+        "time": "10:58:34",
+        "speaker": "ta",
+        "text": "早安咯",
+        "quote": null
+      },
+      {
+        "source_index": 2451,
+        "date": "2026-06-20",
+        "time": "10:58:44",
+        "speaker": "ta",
+        "text": "昨晚睡的好么",
+        "quote": null
+      },
+      {
+        "source_index": 2452,
+        "date": "2026-06-20",
+        "time": "11:46:20",
+        "speaker": "我",
+        "text": "好！",
+        "quote": {
+          "speaker": "ta",
+          "text": "昨晚睡的好么"
+        }
+      },
+      {
+        "source_index": 2453,
+        "date": "2026-06-20",
+        "time": "11:46:27",
+        "speaker": "我",
+        "text": "我爸妈强行让我开机了",
+        "quote": null
+      },
+      {
+        "source_index": 2455,
+        "date": "2026-06-20",
+        "time": "12:07:49",
+        "speaker": "ta",
+        "text": "懂 梦里还在跟我约会呢 结果被打断了是吧",
+        "quote": {
+          "speaker": "我",
+          "text": "我爸妈强行让我开机了"
+        }
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 2459,
+        "date": "2026-06-20",
+        "time": "12:46:52",
+        "speaker": "ta",
+        "text": "哈哈哈 啥关键情节 说来听听",
+        "quote": {
+          "speaker": "我",
+          "text": "刚梦到关键情节就被打断了"
+        }
+      },
+      {
+        "source_index": 2460,
+        "date": "2026-06-20",
+        "time": "12:47:01",
+        "speaker": "ta",
+        "text": "是又上手了么。",
+        "quote": null
+      },
+      {
+        "source_index": 2463,
+        "date": "2026-06-20",
+        "time": "14:15:45",
+        "speaker": "我",
+        "text": "我做完美容现在又准备练瑜伽了",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "leave_unspoken",
+    "source_indices": [
+      2475,
+      2476
+    ],
+    "date": "2026-06-20",
+    "time": "16:09:08",
+    "reply": [
+      "别点了！！！",
+      "能不能只可意会啊啊啊啊"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方看破你一个暗示并点明",
+    "move": "先轻轻阻止被点破，再把含蓄本身变成一个梗",
+    "inferred_subtext": "可以意会，不必每次拆穿我",
+    "condition": "是用户认可的暗示，不把真实拒绝当作欲拒还迎",
+    "retrieval_hints": [
+      "看破",
+      "点破",
+      "意会",
+      "小心机",
+      "香水"
+    ],
+    "context_before": [
+      {
+        "source_index": 2466,
+        "date": "2026-06-20",
+        "time": "14:51:40",
+        "speaker": "ta",
+        "text": "妹妹真的是口嫌体直！！！",
+        "quote": null
+      },
+      {
+        "source_index": 2467,
+        "date": "2026-06-20",
+        "time": "14:52:04",
+        "speaker": "ta",
+        "text": "又臭美咯",
+        "quote": {
+          "speaker": "我",
+          "text": "我做完美容现在又准备练瑜伽了"
+        }
+      },
+      {
+        "source_index": 2468,
+        "date": "2026-06-20",
+        "time": "14:52:52",
+        "speaker": "ta",
+        "text": "刚要夸你做瑜伽真的很好 结果偷懒啊",
+        "quote": null
+      },
+      {
+        "source_index": 2470,
+        "date": "2026-06-20",
+        "time": "14:55:30",
+        "speaker": "ta",
+        "text": "能闻到你的香水味 也是有点小心机了",
+        "quote": null
+      },
+      {
+        "source_index": 2473,
+        "date": "2026-06-20",
+        "time": "16:08:54",
+        "speaker": "我",
+        "text": "刚醒",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "能闻到你的香水味 也是有点小心机了"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 2478,
+        "date": "2026-06-20",
+        "time": "18:35:16",
+        "speaker": "ta",
+        "text": "美丽没挡住啊",
+        "quote": null
+      },
+      {
+        "source_index": 2479,
+        "date": "2026-06-20",
+        "time": "18:35:38",
+        "speaker": "ta",
+        "text": "谁知道是有心的还是我想多了[愉快]",
+        "quote": {
+          "speaker": "我",
+          "text": "能不能只可意会啊啊啊啊"
+        }
+      },
+      {
+        "source_index": 2480,
+        "date": "2026-06-20",
+        "time": "18:35:59",
+        "speaker": "ta",
+        "text": "妹妹会花这么多心思么",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "meeting_reward",
+    "source_indices": [
+      2640,
+      2641
+    ],
+    "date": "2026-06-22",
+    "time": "12:21:52",
+    "reply": [
+      "那昨天的表现确实深得我心",
+      "下次见面给点奖励"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方问相处后满意不满意",
+    "move": "先肯定具体表现，再留一个下一次的轻期待",
+    "inferred_subtext": "我满意，也愿意继续相处",
+    "condition": "确有让用户满意的表现和见面意愿；不擅自定义奖励",
+    "retrieval_hints": [
+      "满意",
+      "昨天表现",
+      "奖励",
+      "下次见"
+    ],
+    "context_before": [
+      {
+        "source_index": 2632,
+        "date": "2026-06-22",
+        "time": "00:56:49",
+        "speaker": "ta",
+        "text": "妹妹口嫌体直实锤。",
+        "quote": null
+      },
+      {
+        "source_index": 2634,
+        "date": "2026-06-22",
+        "time": "02:19:00",
+        "speaker": "我",
+        "text": "那是你。",
+        "quote": {
+          "speaker": "ta",
+          "text": "看来妹妹今天很是满意且开心啊"
+        }
+      },
+      {
+        "source_index": 2635,
+        "date": "2026-06-22",
+        "time": "02:19:03",
+        "speaker": "我",
+        "text": "不是我",
+        "quote": null
+      },
+      {
+        "source_index": 2637,
+        "date": "2026-06-22",
+        "time": "10:20:06",
+        "speaker": "ta",
+        "text": "怎么 妹妹不满意啊",
+        "quote": null
+      },
+      {
+        "source_index": 2638,
+        "date": "2026-06-22",
+        "time": "10:20:52",
+        "speaker": "ta",
+        "text": "两份开心 快乐翻倍好吧",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "怎么 妹妹不满意啊"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 2643,
+        "date": "2026-06-22",
+        "time": "13:16:26",
+        "speaker": "ta",
+        "text": "你也太坏了",
+        "quote": null
+      },
+      {
+        "source_index": 2644,
+        "date": "2026-06-22",
+        "time": "13:17:08",
+        "speaker": "ta",
+        "text": "见面前两天告诉我多好",
+        "quote": {
+          "speaker": "我",
+          "text": "下次见面给点奖励"
+        }
+      },
+      {
+        "source_index": 2645,
+        "date": "2026-06-22",
+        "time": "13:18:05",
+        "speaker": "ta",
+        "text": "这让我猜俩礼拜啊",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "reward_attention",
+    "source_indices": [
+      2718,
+      2719,
+      2721,
+      2722
+    ],
+    "date": "2026-06-23",
+    "time": "12:31:54",
+    "reply": [
+      "看得出来你很期待了",
+      "要得就是这种效果",
+      "有多惦记奖励",
+      "就有多惦记我"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方接住了下一次奖励的期待",
+    "move": "承认期待被接住，再把惦记奖励接回惦记人",
+    "inferred_subtext": "我愿意和你共享这份期待",
+    "condition": "双方已有奖励梗；不制造空承诺，不预设具体亲密行为",
+    "retrieval_hints": [
+      "惦记",
+      "期待",
+      "奖励",
+      "效果"
+    ],
+    "context_before": [
+      {
+        "source_index": 2711,
+        "date": "2026-06-23",
+        "time": "00:55:10",
+        "speaker": "我",
+        "text": "我们下次去山姆吧",
+        "quote": null
+      },
+      {
+        "source_index": 2712,
+        "date": "2026-06-23",
+        "time": "00:55:28",
+        "speaker": "我",
+        "text": "山姆的巨好吃😋",
+        "quote": null
+      },
+      {
+        "source_index": 2714,
+        "date": "2026-06-23",
+        "time": "10:27:25",
+        "speaker": "ta",
+        "text": "不影响我的奖励的话 可以。",
+        "quote": {
+          "speaker": "我",
+          "text": "我们下次去山姆吧"
+        }
+      },
+      {
+        "source_index": 2715,
+        "date": "2026-06-23",
+        "time": "10:29:04",
+        "speaker": "ta",
+        "text": "晚上看我吃榴莲馋了嘛哈哈哈",
+        "quote": null
+      },
+      {
+        "source_index": 2716,
+        "date": "2026-06-23",
+        "time": "10:29:28",
+        "speaker": "ta",
+        "text": "厨艺真好 这火鸡面弄的 真有水平",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "不影响我的奖励的话 可以。"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 2723,
+        "date": "2026-06-23",
+        "time": "12:32:37",
+        "speaker": "我",
+        "text": "就是这样的！",
+        "quote": {
+          "speaker": "ta",
+          "text": "晚上看我吃榴莲馋了嘛哈哈哈"
+        }
+      },
+      {
+        "source_index": 2724,
+        "date": "2026-06-23",
+        "time": "12:32:56",
+        "speaker": "我",
+        "text": "顿时觉得火鸡面拉完了。",
+        "quote": null
+      },
+      {
+        "source_index": 2725,
+        "date": "2026-06-23",
+        "time": "14:43:35",
+        "speaker": "ta",
+        "text": "我算是发现了",
+        "quote": {
+          "speaker": "我",
+          "text": "要得就是这种效果"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "photo_focus",
+    "source_indices": [
+      2752,
+      2753,
+      2754
+    ],
+    "date": "2026-06-23",
+    "time": "17:19:46",
+    "reply": [
+      "慧眼识珠",
+      "也没打算让你看可爱猫猫",
+      "让你看的就是那个不一般的"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方夸照片里最特别的那个人",
+    "move": "接住夸奖，再承认展示的重点就是自己",
+    "inferred_subtext": "你看对了，我也想让你看到我",
+    "condition": "确有同一张照片与用户意愿；不能凭空添加照片",
+    "retrieval_hints": [
+      "照片里的你",
+      "不一般",
+      "好看",
+      "猫猫",
+      "慧眼"
+    ],
+    "context_before": [
+      {
+        "source_index": 2746,
+        "date": "2026-06-23",
+        "time": "16:44:15",
+        "speaker": "我",
+        "text": "前夫哥不配哈",
+        "quote": {
+          "speaker": "ta",
+          "text": "让前夫哥带带么"
+        }
+      },
+      {
+        "source_index": 2747,
+        "date": "2026-06-23",
+        "time": "16:45:01",
+        "speaker": "我",
+        "text": "前夫哥知道有这个机会都要翘嘴了。",
+        "quote": null
+      },
+      {
+        "source_index": 2749,
+        "date": "2026-06-23",
+        "time": "17:05:03",
+        "speaker": "ta",
+        "text": "猫很可爱 只是图里有感觉不一般的。",
+        "quote": {
+          "speaker": "我",
+          "text": "居然说德芙一般般"
+        }
+      },
+      {
+        "source_index": 2750,
+        "date": "2026-06-23",
+        "time": "17:05:20",
+        "speaker": "ta",
+        "text": "哈哈哈哈哈哈 这么卑微",
+        "quote": {
+          "speaker": "我",
+          "text": "前夫哥知道有这个机会都要翘嘴了。"
+        }
+      },
+      {
+        "source_index": 2751,
+        "date": "2026-06-23",
+        "time": "17:05:48",
+        "speaker": "ta",
+        "text": "那猫猫就扔家里？",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "猫很可爱 只是图里有感觉不一般的。"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 2755,
+        "date": "2026-06-23",
+        "time": "17:22:05",
+        "speaker": "我",
+        "text": "对 它有自助饮水机啥的",
+        "quote": {
+          "speaker": "ta",
+          "text": "那猫猫就扔家里？"
+        }
+      },
+      {
+        "source_index": 2757,
+        "date": "2026-06-23",
+        "time": "17:32:05",
+        "speaker": "ta",
+        "text": "这点小伎俩我还不知道",
+        "quote": {
+          "speaker": "我",
+          "text": "慧眼识珠"
+        }
+      },
+      {
+        "source_index": 2758,
+        "date": "2026-06-23",
+        "time": "17:32:33",
+        "speaker": "ta",
+        "text": "这不是为了满足你那不是控制欲的占有欲嘛",
+        "quote": {
+          "speaker": "我",
+          "text": "让你看的就是那个不一般的"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "listen_to_vent",
+    "source_indices": [
+      2806,
+      2807
+    ],
+    "date": "2026-06-23",
+    "time": "23:07:35",
+    "reply": [
+      "不要。",
+      "我最爱跟着一起吐槽了"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "warm",
+    "scene": "对方怕不开心的事影响你，想换成好玩的讲",
+    "move": "明确愿意听，并说自己也能参与吐槽",
+    "inferred_subtext": "你在我这里可以说真实的生活",
+    "condition": "对方只是担心影响你；若明确不想谈则尊重他的选择",
+    "retrieval_hints": [
+      "不开心的事",
+      "吐槽",
+      "不想影响你",
+      "想听"
+    ],
+    "context_before": [
+      {
+        "source_index": 2799,
+        "date": "2026-06-23",
+        "time": "23:03:57",
+        "speaker": "ta",
+        "text": "在那暗戳戳的点我",
+        "quote": null
+      },
+      {
+        "source_index": 2800,
+        "date": "2026-06-23",
+        "time": "23:04:23",
+        "speaker": "ta",
+        "text": "哎呦 这氛围好好 太有氛围感了～",
+        "quote": null
+      },
+      {
+        "source_index": 2801,
+        "date": "2026-06-23",
+        "time": "23:04:51",
+        "speaker": "ta",
+        "text": "习以为常了",
+        "quote": {
+          "speaker": "我",
+          "text": "刚洗完澡有点饥荒又点上了。"
+        }
+      },
+      {
+        "source_index": 2802,
+        "date": "2026-06-23",
+        "time": "23:05:26",
+        "speaker": "ta",
+        "text": "其实也没啥 不太开心的事就别听了",
+        "quote": {
+          "speaker": "我",
+          "text": "我要听"
+        }
+      },
+      {
+        "source_index": 2803,
+        "date": "2026-06-23",
+        "time": "23:05:47",
+        "speaker": "ta",
+        "text": "给你讲个好玩的吧",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "其实也没啥 不太开心的事就别听了"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 2823,
+        "date": "2026-06-23",
+        "time": "23:13:28",
+        "speaker": "我",
+        "text": "我的妈。",
+        "quote": null
+      },
+      {
+        "source_index": 2824,
+        "date": "2026-06-23",
+        "time": "23:13:34",
+        "speaker": "我",
+        "text": "想怎。",
+        "quote": null
+      },
+      {
+        "source_index": 2825,
+        "date": "2026-06-23",
+        "time": "23:13:40",
+        "speaker": "我",
+        "text": "那不行",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "one_person_focus",
+    "source_indices": [
+      2996,
+      2997
+    ],
+    "date": "2026-06-24",
+    "time": "22:31:49",
+    "reply": [
+      "现在两耳不闻窗外事",
+      "一心只有北京人"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方借玩笑说遇到帅哥留给朋友",
+    "move": "把注意力放回当前聊天对象",
+    "inferred_subtext": "我现在在意的是你",
+    "condition": "不主动引入竞争者；地域称呼须改为当前双方真实的称呼",
+    "retrieval_hints": [
+      "专一",
+      "心里只有",
+      "一心",
+      "注意力",
+      "想你"
+    ],
+    "context_before": [
+      {
+        "source_index": 2990,
+        "date": "2026-06-24",
+        "time": "21:43:40",
+        "speaker": "ta",
+        "text": "还有我喜欢的宝安",
+        "quote": {
+          "speaker": "我",
+          "text": "真的咱们就在南山福田美美待着吧"
+        }
+      },
+      {
+        "source_index": 2991,
+        "date": "2026-06-24",
+        "time": "21:43:51",
+        "speaker": "ta",
+        "text": "当然不包括宝安机场。",
+        "quote": null
+      },
+      {
+        "source_index": 2992,
+        "date": "2026-06-24",
+        "time": "21:44:06",
+        "speaker": "ta",
+        "text": "这么聒噪吗",
+        "quote": {
+          "speaker": "我",
+          "text": "幸好有降噪[愉快]"
+        }
+      },
+      {
+        "source_index": 2993,
+        "date": "2026-06-24",
+        "time": "21:46:40",
+        "speaker": "ta",
+        "text": "可能是这个地方比较小众。",
+        "quote": {
+          "speaker": "我",
+          "text": "不知道为啥广州也只有这一班的"
+        }
+      },
+      {
+        "source_index": 2994,
+        "date": "2026-06-24",
+        "time": "21:47:38",
+        "speaker": "ta",
+        "text": "在小众地方认识的帅哥记得留给姐姐",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "在小众地方认识的帅哥记得留给姐姐"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 2999,
+        "date": "2026-06-24",
+        "time": "22:32:54",
+        "speaker": "我",
+        "text": "好了北京人 我要上✈️了",
+        "quote": null
+      },
+      {
+        "source_index": 3000,
+        "date": "2026-06-24",
+        "time": "23:01:00",
+        "speaker": "ta",
+        "text": "哦呦 河南人教的老广嘛",
+        "quote": {
+          "speaker": "我",
+          "text": "一心只有北京人"
+        }
+      },
+      {
+        "source_index": 3001,
+        "date": "2026-06-24",
+        "time": "23:01:10",
+        "speaker": "ta",
+        "text": "说的北京人老脸一红",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "planned_interest",
+    "source_indices": [
+      3033
+    ],
+    "date": "2026-06-25",
+    "time": "14:46:04",
+    "reply": [
+      "毕竟也是蓄谋已久"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方肯定自己的眼光，双方都有好感",
+    "move": "用蓄谋已久短短接住",
+    "inferred_subtext": "这份好感也有我的主动选择",
+    "condition": "确有双方认可的好感，不凭空承诺长期计划",
+    "retrieval_hints": [
+      "眼光",
+      "蓄谋",
+      "心机",
+      "主动喜欢"
+    ],
+    "context_before": [
+      {
+        "source_index": 3027,
+        "date": "2026-06-25",
+        "time": "13:49:41",
+        "speaker": "我",
+        "text": "我们还没出门",
+        "quote": null
+      },
+      {
+        "source_index": 3028,
+        "date": "2026-06-25",
+        "time": "13:49:43",
+        "speaker": "我",
+        "text": "笑死了",
+        "quote": null
+      },
+      {
+        "source_index": 3029,
+        "date": "2026-06-25",
+        "time": "14:27:21",
+        "speaker": "ta",
+        "text": "我眼光还是很好的。",
+        "quote": null
+      },
+      {
+        "source_index": 3030,
+        "date": "2026-06-25",
+        "time": "14:27:35",
+        "speaker": "ta",
+        "text": "别说着说着又发了。",
+        "quote": {
+          "speaker": "我",
+          "text": "仅你可见"
+        }
+      },
+      {
+        "source_index": 3031,
+        "date": "2026-06-25",
+        "time": "14:28:14",
+        "speaker": "ta",
+        "text": "那肯定 毕竟是连高铁都没赶上的旅程",
+        "quote": {
+          "speaker": "我",
+          "text": "我们还没出门"
+        }
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "我眼光还是很好的。"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 3037,
+        "date": "2026-06-25",
+        "time": "15:30:44",
+        "speaker": "ta",
+        "text": "太好了 你终于能吃下一头牛了！",
+        "quote": null
+      },
+      {
+        "source_index": 3038,
+        "date": "2026-06-25",
+        "time": "15:30:53",
+        "speaker": "ta",
+        "text": "虽然不是跟我吃。",
+        "quote": null
+      },
+      {
+        "source_index": 3039,
+        "date": "2026-06-25",
+        "time": "15:31:08",
+        "speaker": "ta",
+        "text": "woc今天sz hk也巨巨巨热",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emotion_confirmed_by_user": false
+  },
+  {
+    "id": "wait_for_invitation",
+    "source_indices": [
+      363
+    ],
+    "date": "2026-05-10",
+    "time": "01:02:53",
+    "reply": [
+      "那等你生日月约我[旺柴]"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "new",
+      "familiar"
+    ],
+    "mode": "playful",
+    "scene": "双方已经聊到下一次见面，用户希望对方主动约",
+    "move": "用等待对方来约表达愿意赴约",
+    "inferred_subtext": "给你主动约我的入口",
+    "condition": "生日月只在当前确有这个话题时保留；没有具体日期时还需推进",
+    "retrieval_hints": [
+      "主动约",
+      "约我",
+      "生日月",
+      "下次",
+      "改天"
+    ],
+    "context_before": [
+      {
+        "source_index": 358,
+        "date": "2026-05-09",
+        "time": "23:19:39",
+        "speaker": "ta",
+        "text": "刚刚太快乐了",
+        "quote": null
+      },
+      {
+        "source_index": 359,
+        "date": "2026-05-09",
+        "time": "23:19:55",
+        "speaker": "ta",
+        "text": "现在突然有点不适应",
+        "quote": null
+      },
+      {
+        "source_index": 360,
+        "date": "2026-05-09",
+        "time": "23:36:31",
+        "speaker": "我",
+        "text": "感觉下次见面会更快乐",
+        "quote": null
+      },
+      {
+        "source_index": 361,
+        "date": "2026-05-10",
+        "time": "00:18:38",
+        "speaker": "ta",
+        "text": "这可是我生日月了",
+        "quote": null
+      },
+      {
+        "source_index": 362,
+        "date": "2026-05-10",
+        "time": "00:18:50",
+        "speaker": "ta",
+        "text": "可不准骗我哦",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 364,
+        "date": "2026-05-10",
+        "time": "01:27:35",
+        "speaker": "ta",
+        "text": "好的呀",
+        "quote": {
+          "speaker": "我",
+          "text": "那等你生日月约我[旺柴]"
+        }
+      },
+      {
+        "source_index": 365,
+        "date": "2026-05-10",
+        "time": "01:28:54",
+        "speaker": "ta",
+        "text": "那你生日月约谁呢[疑问]",
+        "quote": null
+      },
+      {
+        "source_index": 366,
+        "date": "2026-05-10",
+        "time": "10:16:48",
+        "speaker": "我",
+        "text": "那要看这个月的快乐密集程度咯",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "supported_goals": [
+      "concrete_invitation"
+    ],
+    "booking_step": "opening"
+  },
+  {
+    "id": "action_date",
+    "source_indices": [
+      638
+    ],
+    "date": "2026-05-17",
+    "time": "00:18:35",
+    "reply": [
+      "那行动派下下周可别耽误事了"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方已经给出想见面的信号但还没定安排",
+    "move": "用行动派称呼把期待转向行动",
+    "inferred_subtext": "我愿意再见，也希望你把安排提出",
+    "condition": "下下周必须来自真实安排，不能照搬旧时间",
+    "retrieval_hints": [
+      "行动派",
+      "主动约",
+      "具体哪天",
+      "安排",
+      "定时间",
+      "具体时间",
+      "改天",
+      "约哪天",
+      "定具体时间"
+    ],
+    "context_before": [
+      {
+        "source_index": 633,
+        "date": "2026-05-17",
+        "time": "00:16:34",
+        "speaker": "ta",
+        "text": "前夫哥",
+        "quote": null
+      },
+      {
+        "source_index": 634,
+        "date": "2026-05-17",
+        "time": "00:16:37",
+        "speaker": "ta",
+        "text": "掰扯掰扯",
+        "quote": null
+      },
+      {
+        "source_index": 635,
+        "date": "2026-05-17",
+        "time": "00:16:49",
+        "speaker": "我",
+        "text": "哈哈哈哈哈哈笑死了",
+        "quote": null
+      },
+      {
+        "source_index": 636,
+        "date": "2026-05-17",
+        "time": "00:16:52",
+        "speaker": "ta",
+        "text": "tmd",
+        "quote": null
+      },
+      {
+        "source_index": 637,
+        "date": "2026-05-17",
+        "time": "00:17:02",
+        "speaker": "ta",
+        "text": "真耽误事",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 639,
+        "date": "2026-05-17",
+        "time": "00:26:27",
+        "speaker": "ta",
+        "text": "放心 分寸肯定刚刚好～",
+        "quote": null
+      },
+      {
+        "source_index": 640,
+        "date": "2026-05-17",
+        "time": "00:38:13",
+        "speaker": "我",
+        "text": "good！",
+        "quote": null
+      },
+      {
+        "source_index": 641,
+        "date": "2026-05-17",
+        "time": "00:38:18",
+        "speaker": "我",
+        "text": "我朋友回来了",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "supported_goals": [
+      "concrete_invitation"
+    ],
+    "booking_step": "request_date"
+  },
+  {
+    "id": "heart_to_action",
+    "source_indices": [
+      1568
+    ],
+    "date": "2026-06-07",
+    "time": "17:36:56",
+    "reply": [
+      "心动不如行动"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方说期待解释或心动，用户希望推进邀约",
+    "move": "借心动一词把话题转成行动",
+    "inferred_subtext": "可以来约我，别只停留在表达期待",
+    "condition": "已存在心动或期待语境；下一步仍要问缺少的具体时间",
+    "retrieval_hints": [
+      "心动",
+      "行动",
+      "期待",
+      "主动邀约"
+    ],
+    "context_before": [
+      {
+        "source_index": 1561,
+        "date": "2026-06-07",
+        "time": "16:03:26",
+        "speaker": "我",
+        "text": "下次见面再跟你解释",
+        "quote": null
+      },
+      {
+        "source_index": 1563,
+        "date": "2026-06-07",
+        "time": "17:08:01",
+        "speaker": "ta",
+        "text": "那这次我懂了",
+        "quote": null
+      },
+      {
+        "source_index": 1564,
+        "date": "2026-06-07",
+        "time": "17:08:08",
+        "speaker": "ta",
+        "text": "想见我了[愉快]",
+        "quote": null
+      },
+      {
+        "source_index": 1566,
+        "date": "2026-06-07",
+        "time": "17:08:45",
+        "speaker": "ta",
+        "text": "那很期待你的解释",
+        "quote": {
+          "speaker": "我",
+          "text": "下次见面再跟你解释"
+        }
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 1569,
+        "date": "2026-06-07",
+        "time": "18:55:51",
+        "speaker": "ta",
+        "text": "妹妹很是想我",
+        "quote": null
+      },
+      {
+        "source_index": 1570,
+        "date": "2026-06-07",
+        "time": "18:56:00",
+        "speaker": "ta",
+        "text": "迫不及待了呀",
+        "quote": null
+      },
+      {
+        "source_index": 1571,
+        "date": "2026-06-07",
+        "time": "20:22:44",
+        "speaker": "我",
+        "text": "哥哥可得好好把握机会",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "supported_goals": [
+      "concrete_invitation"
+    ],
+    "booking_step": "opening"
+  },
+  {
+    "id": "available_windows",
+    "source_indices": [
+      1590,
+      1591
+    ],
+    "date": "2026-06-08",
+    "time": "12:22:53",
+    "reply": [
+      "周三？",
+      "或者下周也可以～"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "new",
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方已经问哪天有空",
+    "move": "给出真实可行的时间窗口",
+    "inferred_subtext": "我愿意见面，让你从可行时间里作安排",
+    "condition": "周三和下周只是旧原文，当前必须替换成用户真实空闲时间",
+    "retrieval_hints": [
+      "哪天有空",
+      "哪天晚上",
+      "时间窗口",
+      "周三",
+      "下周"
+    ],
+    "context_before": [
+      {
+        "source_index": 1583,
+        "date": "2026-06-07",
+        "time": "23:42:59",
+        "speaker": "我",
+        "text": "她跟我通了100个电话把行程安排得跟皇帝微服私访一样",
+        "quote": null
+      },
+      {
+        "source_index": 1585,
+        "date": "2026-06-07",
+        "time": "23:43:44",
+        "speaker": "我",
+        "text": "你在北京待到啥时候",
+        "quote": null
+      },
+      {
+        "source_index": 1586,
+        "date": "2026-06-08",
+        "time": "10:42:55",
+        "speaker": "ta",
+        "text": "我今天晚上回深圳",
+        "quote": null
+      },
+      {
+        "source_index": 1587,
+        "date": "2026-06-08",
+        "time": "10:44:20",
+        "speaker": "ta",
+        "text": "先看看你哪天晚上有空吧",
+        "quote": null
+      },
+      {
+        "source_index": 1589,
+        "date": "2026-06-08",
+        "time": "10:45:08",
+        "speaker": "ta",
+        "text": "好像知道我今天走一样",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "先看看你哪天晚上有空吧"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 1592,
+        "date": "2026-06-08",
+        "time": "12:24:14",
+        "speaker": "我",
+        "text": "哇真受不了了[流泪]懿姐家的猫也这样",
+        "quote": null
+      },
+      {
+        "source_index": 1594,
+        "date": "2026-06-08",
+        "time": "13:21:02",
+        "speaker": "ta",
+        "text": "明天到公司看看 不行的话就得下周咯",
+        "quote": {
+          "speaker": "我",
+          "text": "周三？"
+        }
+      },
+      {
+        "source_index": 1595,
+        "date": "2026-06-08",
+        "time": "13:22:57",
+        "speaker": "ta",
+        "text": "黄金时段都留给闺蜜和别的哥哥了",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "supported_goals": [
+      "concrete_invitation"
+    ],
+    "booking_step": "offer_real_availability"
+  },
+  {
+    "id": "choose_slot",
+    "source_indices": [
+      326
+    ],
+    "date": "2026-05-09",
+    "time": "18:40:40",
+    "reply": [
+      "你选一个？"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "new",
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "已经有两个可行选项，希望对方作选择",
+    "move": "把选择权交给对方",
+    "inferred_subtext": "在共同可行的选项中你来定",
+    "condition": "原文是在选餐厅；用于选时间必须当前真有两个空闲窗口",
+    "retrieval_hints": [
+      "你挑",
+      "你选",
+      "两个时间",
+      "选一个"
+    ],
+    "context_before": [
+      {
+        "source_index": 317,
+        "date": "2026-05-09",
+        "time": "18:25:53",
+        "speaker": "ta",
+        "text": "那等你到了选选",
+        "quote": null
+      },
+      {
+        "source_index": 320,
+        "date": "2026-05-09",
+        "time": "18:29:02",
+        "speaker": "ta",
+        "text": "没错滴",
+        "quote": null
+      },
+      {
+        "source_index": 321,
+        "date": "2026-05-09",
+        "time": "18:29:13",
+        "speaker": "ta",
+        "text": "就这么决定了",
+        "quote": null
+      },
+      {
+        "source_index": 322,
+        "date": "2026-05-09",
+        "time": "18:29:23",
+        "speaker": "我",
+        "text": "哈哈好",
+        "quote": null
+      },
+      {
+        "source_index": 325,
+        "date": "2026-05-09",
+        "time": "18:40:23",
+        "speaker": "我",
+        "text": "感觉这两家还可以",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 328,
+        "date": "2026-05-09",
+        "time": "18:43:01",
+        "speaker": "ta",
+        "text": "我去看看这个取个号！",
+        "quote": {
+          "speaker": "我",
+          "text": "[小程序]\n寿司処·小志(深圳湾万象城店)\n★★★★☆ 4.7\n¥246/人\n深圳湾 寿司\n[链接]"
+        }
+      },
+      {
+        "source_index": 329,
+        "date": "2026-05-09",
+        "time": "18:43:36",
+        "speaker": "ta",
+        "text": "要是排很久我们就去吃下面那家",
+        "quote": null
+      },
+      {
+        "source_index": 330,
+        "date": "2026-05-09",
+        "time": "18:45:01",
+        "speaker": "我",
+        "text": "好滴",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "supported_goals": [
+      "concrete_invitation"
+    ],
+    "booking_step": "let_him_choose"
+  },
+  {
+    "id": "confirm_evening",
+    "source_indices": [
+      2085
+    ],
+    "date": "2026-06-14",
+    "time": "17:39:30",
+    "reply": [
+      "那就周五晚？"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "new",
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "双方已把日期缩小到一个真实可行的晚上",
+    "move": "用简短问句确认日期和时段",
+    "inferred_subtext": "愿意确定下来",
+    "condition": "周五晚必须是当前真实选项；晚还不是具体钟点",
+    "retrieval_hints": [
+      "周五晚",
+      "哪天",
+      "确定日期",
+      "具体时间",
+      "有空一起吃饭"
+    ],
+    "context_before": [
+      {
+        "source_index": 2080,
+        "date": "2026-06-14",
+        "time": "16:09:28",
+        "speaker": "我",
+        "text": "还是咱们周末再去",
+        "quote": null
+      },
+      {
+        "source_index": 2081,
+        "date": "2026-06-14",
+        "time": "17:03:19",
+        "speaker": "ta",
+        "text": "没事 那咱周末再去吧",
+        "quote": null
+      },
+      {
+        "source_index": 2082,
+        "date": "2026-06-14",
+        "time": "17:03:30",
+        "speaker": "ta",
+        "text": "你这几天玩的也累了",
+        "quote": null
+      },
+      {
+        "source_index": 2083,
+        "date": "2026-06-14",
+        "time": "17:03:38",
+        "speaker": "ta",
+        "text": "下班好好休息好了",
+        "quote": null
+      },
+      {
+        "source_index": 2084,
+        "date": "2026-06-14",
+        "time": "17:39:07",
+        "speaker": "我",
+        "text": "okkk～",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 2086,
+        "date": "2026-06-14",
+        "time": "18:02:56",
+        "speaker": "ta",
+        "text": "好的哦",
+        "quote": {
+          "speaker": "我",
+          "text": "那就周五晚？"
+        }
+      },
+      {
+        "source_index": 2087,
+        "date": "2026-06-14",
+        "time": "18:03:13",
+        "speaker": "ta",
+        "text": "那这几天看看有啥推荐",
+        "quote": null
+      },
+      {
+        "source_index": 2088,
+        "date": "2026-06-14",
+        "time": "18:03:38",
+        "speaker": "ta",
+        "text": "果然闺蜜的话不能信 并不是很想我",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "supported_goals": [
+      "concrete_invitation"
+    ],
+    "booking_step": "confirm_date"
+  },
+  {
+    "id": "set_time_place",
+    "source_indices": [
+      2339
+    ],
+    "date": "2026-06-18",
+    "time": "22:55:37",
+    "reply": [
+      "6:30？在壹方城如何"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "new",
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方已提出明天见并问几点和哪里",
+    "move": "直接给一个可行的时间地点并留他确认",
+    "inferred_subtext": "我认真参与这次约会安排",
+    "condition": "6:30和原地点都需按当前真实安排替换",
+    "retrieval_hints": [
+      "几点见",
+      "明天几点",
+      "时间地点",
+      "约会时间"
+    ],
+    "context_before": [
+      {
+        "source_index": 2335,
+        "date": "2026-06-18",
+        "time": "22:38:03",
+        "speaker": "ta",
+        "text": "还是不想记的事情 就想不起来",
+        "quote": null
+      },
+      {
+        "source_index": 2336,
+        "date": "2026-06-18",
+        "time": "22:38:11",
+        "speaker": "ta",
+        "text": "明明就是我先问的",
+        "quote": null
+      },
+      {
+        "source_index": 2337,
+        "date": "2026-06-18",
+        "time": "22:38:28",
+        "speaker": "ta",
+        "text": "再问一个 明天几点 在哪见",
+        "quote": null
+      },
+      {
+        "source_index": 2338,
+        "date": "2026-06-18",
+        "time": "22:38:43",
+        "speaker": "ta",
+        "text": "估计这事也忘了",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "再问一个 明天几点 在哪见"
+      }
+    ],
+    "continuation_after": [
+      {
+        "source_index": 2340,
+        "date": "2026-06-18",
+        "time": "22:56:00",
+        "speaker": "我",
+        "text": "你有啥想吃的吗",
+        "quote": null
+      },
+      {
+        "source_index": 2341,
+        "date": "2026-06-18",
+        "time": "22:56:16",
+        "speaker": "我",
+        "text": "西餐？湘菜？粤菜？",
+        "quote": null
+      },
+      {
+        "source_index": 2342,
+        "date": "2026-06-18",
+        "time": "22:57:19",
+        "speaker": "我",
+        "text": "别管 一生要体面的双子",
+        "quote": {
+          "speaker": "ta",
+          "text": "明明就是我先问的"
+        }
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "supported_goals": [
+      "concrete_invitation"
+    ],
+    "booking_step": "confirm_time"
+  },
+  {
+    "id": "ask_time",
+    "source_indices": [
+      2568
+    ],
+    "date": "2026-06-21",
+    "time": "13:35:20",
+    "reply": [
+      "几点"
+    ],
+    "preferred": false,
+    "allowed_stages": [
+      "new",
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "约会日期已定，具体钟点还没定",
+    "move": "用最短的问题补齐时间",
+    "inferred_subtext": "可以落实，现在把几点确定",
+    "condition": "双方已决定见面；按当前关系可加一个自然的那字",
+    "retrieval_hints": [
+      "几点",
+      "几点钟",
+      "几点见",
+      "具体几点",
+      "哪天几点"
+    ],
+    "context_before": [
+      {
+        "source_index": 2562,
+        "date": "2026-06-21",
+        "time": "12:27:22",
+        "speaker": "ta",
+        "text": "6。",
+        "quote": {
+          "speaker": "我",
+          "text": "这边建议你先不要走对抗路。"
+        }
+      },
+      {
+        "source_index": 2563,
+        "date": "2026-06-21",
+        "time": "12:27:50",
+        "speaker": "ta",
+        "text": "刚醒 睡的不知天地为何物",
+        "quote": null
+      },
+      {
+        "source_index": 2565,
+        "date": "2026-06-21",
+        "time": "13:34:35",
+        "speaker": "我",
+        "text": "这么早",
+        "quote": {
+          "speaker": "ta",
+          "text": "刚醒 睡的不知天地为何物"
+        }
+      },
+      {
+        "source_index": 2566,
+        "date": "2026-06-21",
+        "time": "13:34:55",
+        "speaker": "我",
+        "text": "我们去吃啥？",
+        "quote": null
+      },
+      {
+        "source_index": 2567,
+        "date": "2026-06-21",
+        "time": "13:34:58",
+        "speaker": "我",
+        "text": "火锅？",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [],
+    "continuation_after": [
+      {
+        "source_index": 2569,
+        "date": "2026-06-21",
+        "time": "13:35:37",
+        "speaker": "我",
+        "text": "我准备继续睡了",
+        "quote": null
+      },
+      {
+        "source_index": 2571,
+        "date": "2026-06-21",
+        "time": "13:49:54",
+        "speaker": "ta",
+        "text": "不要 找一个我们都想吃的",
+        "quote": {
+          "speaker": "我",
+          "text": "火锅？"
+        }
+      },
+      {
+        "source_index": 2573,
+        "date": "2026-06-21",
+        "time": "13:50:52",
+        "speaker": "ta",
+        "text": "你再找一个 咱们选选",
+        "quote": null
+      }
+    ],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "supported_goals": [
+      "concrete_invitation"
+    ],
+    "booking_step": "request_time"
+  },
+  {
+    "id": "natural_impression_reframe",
+    "source_indices": [
+      2483,
+      2484
+    ],
+    "date": "2026-06-20",
+    "time": "19:04:20",
+    "reply": [
+      "那你就当是想多了",
+      "是无意沾染若有若无的体香"
+    ],
+    "preferred": true,
+    "allowed_stages": [
+      "familiar",
+      "close"
+    ],
+    "mode": "playful",
+    "scene": "对方猜测你留下的某种印象是否刻意安排",
+    "move": "把刻意的解释轻轻换成自然留下的印象，将物品话题转回人但保留余地",
+    "inferred_subtext": "允许对方自己领会亲近，不正面说明全部意图",
+    "condition": "轻松互动且当前已有相应线索；没有香味线索时迁移动作，不照搬体香或虚构接触；认真确认与真实不高兴时不用它回避",
+    "retrieval_hints": [
+      "香水",
+      "体香",
+      "气味",
+      "刻意",
+      "无意",
+      "想多",
+      "留白",
+      "暗示",
+      "记住偏好"
+    ],
+    "context_before": [
+      {
+        "source_index": 2470,
+        "date": "2026-06-20",
+        "time": "14:55:30",
+        "speaker": "ta",
+        "text": "能闻到你的香水味 也是有点小心机了",
+        "quote": null
+      },
+      {
+        "source_index": 2475,
+        "date": "2026-06-20",
+        "time": "16:09:08",
+        "speaker": "我",
+        "text": "别点了！！！",
+        "quote": null
+      },
+      {
+        "source_index": 2476,
+        "date": "2026-06-20",
+        "time": "16:09:47",
+        "speaker": "我",
+        "text": "能不能只可意会啊啊啊啊",
+        "quote": null
+      },
+      {
+        "source_index": 2479,
+        "date": "2026-06-20",
+        "time": "18:35:38",
+        "speaker": "ta",
+        "text": "谁知道是有心的还是我想多了[愉快]",
+        "quote": null
+      },
+      {
+        "source_index": 2480,
+        "date": "2026-06-20",
+        "time": "18:35:59",
+        "speaker": "ta",
+        "text": "妹妹会花这么多心思么",
+        "quote": null
+      }
+    ],
+    "addressed_messages": [
+      {
+        "speaker": "ta",
+        "text": "谁知道是有心的还是我想多了[愉快]"
+      }
+    ],
+    "continuation_after": [],
+    "source_type": "original",
+    "review_status": "context_reviewed",
+    "stage_assignment": "recommended_applicability_not_original_relationship_state",
+    "emphasized_by_user_on": "2026-10-10"
+  }
+]

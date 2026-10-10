@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-10",
+  "artifact": "/Users/huangbaoyi/Desktop/我的接话助手.html",
+  "launcher": "/Users/huangbaoyi/Desktop/打开接话助手.command",
+  "sample_counts": {
+    "annotated_original_cases": 60,
+    "approved_generated_examples": 4
+  },
+  "automated_checks_passed": 30,
+  "production_http_assets_verified": true,
+  "independent_account_empty_on_startup": true,
+  "owner_email_constraint_saved": true,
+  "existing_codex_credentials_read": false,
+  "live_model_calls": 0,
+  "paid_api_calls": 0,
+  "browser_visual_qa": "unverified_no_available_browser",
+  "real_iphone_qa": "not_yet_verified",
+  "real_user_oauth_and_generation": "awaiting_user_login",
+  "standalone_mode": "copy_scoped_task_to_own_chatgpt",
+  "mobile_live_mode": "same_wifi_with_mac_running",
+  "per_message_copy_verified_with_explicit_fixture": true,
+  "artifact_bytes": 110891,
+  "preview_servers_stopped": true
+}

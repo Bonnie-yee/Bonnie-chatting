@@ -1,0 +1,15 @@
+{
+  "round": "第三轮_精进与主动邀约",
+  "origin": "user",
+  "ratings": {
+    "scenario_1": "挺像",
+    "scenario_2": "挺像",
+    "scenario_3": {
+      "rejected_line": "那下次咱们也偷个懒",
+      "reported_reason": "我不会这样说",
+      "other_lines": "未逐句评价"
+    },
+    "scenario_4": "本轮未评价"
+  },
+  "not_original_user_dialogue": true
+}

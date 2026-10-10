@@ -1,0 +1,12 @@
+# This repository is private: samples and analyses are intentionally backed up.
+node_modules/
+data/private/runtime/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.pem
+*.key
+*.log
+*.zip
+coverage/

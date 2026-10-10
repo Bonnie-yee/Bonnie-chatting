@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-10",
+  "status": "local_changes_verified_external_steps_in_progress",
+  "style": {
+    "writer": "我",
+    "original_messages": 1068,
+    "groups": 459,
+    "ta_style_examples": 0,
+    "scent_source_indices": [
+      2475,
+      2476,
+      2483,
+      2484
+    ],
+    "scent_document_paragraph": 1126,
+    "annotated_cases": 61
+  },
+  "reference": {
+    "title": "参考",
+    "paragraphs": 1291,
+    "keyword_search_verified": true,
+    "preserves_original_order_and_duplicates": true,
+    "context_opens_entire_document": true,
+    "context_no_cutoff": true,
+    "locates_search_hit": true
+  },
+  "interface": {
+    "distance_selector": true,
+    "goal_selector": false,
+    "free_text_instruction": true
+  },
+  "speed": {
+    "one_model_request_for_image_and_reply": true,
+    "default_reasoning": "low",
+    "preferred_available_model": "gpt-6.1-sol",
+    "complete_latency_display": true,
+    "target_ms": 10000,
+    "hard_network_guarantee": false,
+    "own_live_service_not_connected": true
+  },
+  "project_pack_ready": true,
+  "github_requested_owner": "Bonnie-yee",
+  "github_destination_private": true,
+  "tests_passed": 33
+}

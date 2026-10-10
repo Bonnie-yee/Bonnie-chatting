@@ -1,0 +1,11 @@
+{
+  "feedback_origin": "user",
+  "assistant_scenarios_not_original_user_quotes": true,
+  "ratings": {
+    "scenario_1": "有趣程度不足，需继续改进",
+    "scenario_2": "用户认为很不错",
+    "scenario_3": "尚未评价",
+    "scenario_4": "用户认为很不错"
+  },
+  "additional_requirement": "对方没有先提出邀请时，也应从普通聊天找到共同吃饭的契机，让对方接出邀请，再推进到具体日期与钟点。"
+}

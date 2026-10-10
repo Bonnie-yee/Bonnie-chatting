@@ -1,0 +1,22 @@
+{
+  "origin": "user_uploaded_chat_screenshot",
+  "status": "awaiting_user_style_feedback",
+  "speaker_names_anonymized": true,
+  "visible_context": {
+    "ta": "哈哈哈哈可能这也有点奇妙的缘分在其中哦",
+    "quoted_user": "感觉你的礼物每次都能送到我心坎上",
+    "user_followups": [
+      "行吧那我们互拆对方的礼物盲盒了哈哈哈哈哈",
+      "你有点过于了解我了"
+    ],
+    "latest_ta_item": "下方表情被截断，未猜测其具体含义"
+  },
+  "candidate": [
+    "礼物盲盒可以拆",
+    "某人的小心思我就先不拆穿了"
+  ],
+  "candidate_origin": "assistant_generated_from_current_context",
+  "intent": "接住互拆礼物盲盒的共同梗，把拆礼物转为不拆穿用心，留给对方接话",
+  "not_original_user_quote": true,
+  "approved_for_style_reference": false
+}

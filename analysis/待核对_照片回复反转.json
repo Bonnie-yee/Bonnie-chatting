@@ -1,0 +1,13 @@
+{
+  "origin": "user_provided_new_example",
+  "status": "wording_confirmed",
+  "opening": "这拍的什么玩意儿",
+  "second_line_as_typed": "没有一张好看的",
+  "intended_effect": "大反转",
+  "clarification_needed": "第二句是否为没有一张不好看的，或后面还有完成反转的原句",
+  "eligible_for_reply_examples": false,
+  "existing_original_records_match": false,
+  "corrected_second_line": "没有一张不好看的",
+  "reversal_completed_in_second_message": true,
+  "eligible_for_style_reference": true
+}

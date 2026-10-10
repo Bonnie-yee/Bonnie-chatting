@@ -1,0 +1,105 @@
+[
+  {
+    "id": "approved_close_reframe_001",
+    "origin": "assistant_generated_user_approved",
+    "stage": "close",
+    "context": [
+      {
+        "speaker": "他",
+        "text": "跟你逛就没觉得累。"
+      }
+    ],
+    "reply": [
+      "你这是没走累",
+      "还是没跟我待够啊"
+    ],
+    "approval": {
+      "date": "2026-10-10",
+      "text": "这个非常好！"
+    },
+    "style_move": "接住表面话题，轻轻转向双方相处的感受，留给对方自己认领含义",
+    "usage_conditions": [
+      "双方已有好感，正在轻松互动",
+      "当前语境支持相处后的感受",
+      "不能把真实身体不适当作暧昧暗示"
+    ],
+    "not_an_original_user_quote": true
+  },
+  {
+    "id": "approved_familiar_understanding_001",
+    "origin": "assistant_generated_user_approved",
+    "stage": "familiar",
+    "context": [
+      {
+        "speaker": "他",
+        "text": "你有点过于了解我了"
+      }
+    ],
+    "reply": [
+      "还有好多没了解呢",
+      "光靠聊天哪够啊"
+    ],
+    "approval": {
+      "date": "2026-10-10",
+      "text": "这里面只有第5个能用"
+    },
+    "style_move": "围绕了解与聊天留下进一步相处的入口，不点破感情",
+    "not_an_original_user_quote": true
+  },
+  {
+    "id": "approved_familiar_leave_conclusion_open_001",
+    "origin": "assistant_generated_user_approved",
+    "stage": "familiar",
+    "context_origin": "user_specified_test_line",
+    "context": [
+      {
+        "speaker": "他",
+        "text": "你有点过于了解我了"
+      }
+    ],
+    "reply": [
+      "那这个结论先留着",
+      "见了面再对对答案"
+    ],
+    "approval": {
+      "date": "2026-10-10",
+      "text": "第二个最好，记住我喜欢的感觉好吗"
+    },
+    "strongest_preference_in_current_comparison": true,
+    "style_move": "承接当前话题，暂不把结论说满，给见面和继续相处留出自然的接话空间",
+    "usage_conditions": [
+      "关系处于认识一段时间的第二阶段",
+      "当前话题适合继续了解或见面核对，不凭空猜测对方心思",
+      "学习含蓄程度和接话方式，换场景时不机械套用对答案"
+    ],
+    "not_an_original_user_quote": true
+  },
+  {
+    "id": "approved_familiar_accept_compliment_with_reversal_001",
+    "origin": "assistant_generated_user_approved",
+    "stage": "familiar",
+    "stage_basis": "沿用本轮第二阶段测试，用户本次未另行指定阶段；不据此认定其他阶段均不可用。",
+    "context_origin": "user_specified_test_line",
+    "context": [
+      {
+        "speaker": "他",
+        "text": "某人真的很会挑礼物哦"
+      }
+    ],
+    "reply": [
+      "本来还想谦虚一下",
+      "你这么一夸我又不想了"
+    ],
+    "approval": {
+      "date": "2026-10-10",
+      "text": "满分答案，可以不用测试了"
+    },
+    "style_move": "顺着夸奖，以谦虚的预期和轻轻反转的自我调侃自然收下好意，保留对方真实反馈的空间。",
+    "usage_conditions": [
+      "对方正在轻松肯定具体行为",
+      "不将夸奖变成未来不能改口的约束",
+      "不凭空推断对方心理，也不强行将每句接话推进为邀约"
+    ],
+    "not_an_original_user_quote": true
+  }
+]

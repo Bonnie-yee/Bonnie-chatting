@@ -1,0 +1,2386 @@
+{
+  "label": "原句候选召回检查，不代表新对话生成质量",
+  "paraphrasedProbes": [
+    {
+      "query": "他说今天忙得好累，电量只剩1%了",
+      "stage": "new",
+      "expected": "revive",
+      "status": "candidates_for_context_review",
+      "candidates": [
+        {
+          "id": "revive",
+          "reply": [
+            "你等一下",
+            "我看120秒广告复活你"
+          ],
+          "score": 2.0942
+        }
+      ],
+      "expectedInTop5": true
+    },
+    {
+      "query": "他说要办年卡，之后让我多带带他",
+      "stage": "new",
+      "expected": "card_and_meal",
+      "status": "candidates_for_context_review",
+      "candidates": [
+        {
+          "id": "card_and_meal",
+          "reply": [
+            "先来个次卡康康诚意",
+            "浅收一顿饭～"
+          ],
+          "score": 1.7857
+        },
+        {
+          "id": "playful_fee",
+          "reply": [
+            "那我可要收费了哦"
+          ],
+          "score": 1.1458
+        }
+      ],
+      "expectedInTop5": true
+    },
+    {
+      "query": "他问：更在意谁送的，还是送什么礼物？",
+      "stage": "familiar",
+      "expected": "gift_two_values",
+      "status": "candidates_for_context_review",
+      "candidates": [
+        {
+          "id": "gift_two_values",
+          "reply": [
+            "“你送的”是在意的前提",
+            "“送的啥”是你多在意的答案"
+          ],
+          "score": 5.5498
+        }
+      ],
+      "expectedInTop5": true
+    },
+    {
+      "query": "他问我想不想他，前面我说了一天不联系是个问题",
+      "stage": "familiar",
+      "expected": "implicit_miss",
+      "status": "candidates_for_context_review",
+      "candidates": [
+        {
+          "id": "implicit_miss",
+          "reply": [
+            "不想哪来的问题"
+          ],
+          "score": 2.094
+        }
+      ],
+      "expectedInTop5": true
+    },
+    {
+      "query": "他问我是不是喜欢他，crush一号到底是谁",
+      "stage": "familiar",
+      "expected": "present_person",
+      "status": "candidates_for_context_review",
+      "candidates": [
+        {
+          "id": "present_person",
+          "reply": [
+            "在和我聊电影呢"
+          ],
+          "score": 4.968
+        }
+      ],
+      "expectedInTop5": true
+    },
+    {
+      "query": "他让我继续解释刚才的暗示，我想顺便约下次见面",
+      "stage": "familiar",
+      "expected": "meet_to_explain",
+      "status": "candidates_for_context_review",
+      "candidates": [
+        {
+          "id": "meet_to_explain",
+          "reply": [
+            "下次见面再跟你解释"
+          ],
+          "score": 4.5064
+        },
+        {
+          "id": "next_meeting",
+          "reply": [
+            "感觉下次见面会更快乐"
+          ],
+          "score": 1.5788
+        }
+      ],
+      "expectedInTop5": true
+    },
+    {
+      "query": "他说自己压力很大，愿意跟我分享焦虑",
+      "stage": "familiar",
+      "expected": "warm_understanding",
+      "status": "candidates_for_context_review",
+      "candidates": [
+        {
+          "id": "warm_understanding",
+          "reply": [
+            "今晚我也很开心你愿意跟我分享你的焦虑",
+            "只要了解彼此的想法其实很多事情都很好解决滴"
+          ],
+          "score": 2.5713
+        }
+      ],
+      "expectedInTop5": true
+    },
+    {
+      "query": "对方和我在玩提问接提问的斗嘴，他又只提问不回答",
+      "stage": "familiar",
+      "expected": "playful_ball",
+      "status": "candidates_for_context_review",
+      "candidates": [
+        {
+          "id": "playful_ball",
+          "reply": [
+            "你这个人惯会踢皮球的",
+            "不回答只提问！！！"
+          ],
+          "score": 2.944
+        },
+        {
+          "id": "clear_implicit",
+          "reply": [
+            "这么直白的回答都没让你开心！"
+          ],
+          "score": 1.2624
+        }
+      ],
+      "expectedInTop5": true
+    },
+    {
+      "query": "他说梦里约会的关键情节被打断了",
+      "stage": "close",
+      "expected": "dream_continuation",
+      "status": "candidates_for_context_review",
+      "candidates": [
+        {
+          "id": "dream_continuation",
+          "reply": [
+            "刚梦到关键情节就被打断了",
+            "不知道现实中能不能续上"
+          ],
+          "score": 4.0479
+        }
+      ],
+      "expectedInTop5": true
+    },
+    {
+      "query": "他有些吃醋，但我们是在互相开玩笑，都知道那个饺子梗",
+      "stage": "familiar",
+      "expected": "dumpling",
+      "status": "candidates_for_context_review",
+      "candidates": [
+        {
+          "id": "dumpling",
+          "reply": [
+            "这边建议您点盘饺子"
+          ],
+          "score": 2.3283
+        }
+      ],
+      "expectedInTop5": true
+    }
+  ],
+  "lastOtherMessagesOnly": [
+    {
+      "id": "mutual_praise",
+      "query": "那是因为你打的好 对你要求比较高\n打的是挺好\n跟我说了很多不光是打球",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "mutual_praise",
+          "reply": [
+            "没有没有你也打得好",
+            "互相学习哈哈哈"
+          ],
+          "score": 1.6317
+        },
+        {
+          "id": "turn_0026",
+          "reply": [
+            "我经常熬夜"
+          ],
+          "score": 1.478
+        }
+      ]
+    },
+    {
+      "id": "specific_praise",
+      "query": "完了 印象分爆减\n这种死装哥也确实存在[捂脸]",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "specific_praise",
+          "reply": [
+            "说明工作能力太强了"
+          ],
+          "score": 1.2044
+        },
+        {
+          "id": "turn_0045",
+          "reply": [
+            "所以可以准时下班"
+          ],
+          "score": 0.9867
+        },
+        {
+          "id": "turn_0040",
+          "reply": [
+            "但我看你也经常来打球啊"
+          ],
+          "score": 0.7218
+        }
+      ]
+    },
+    {
+      "id": "delayed_punchline",
+      "query": "就说英语了\n一般是三种语言混着说哈哈哈",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "delayed_punchline",
+          "reply": [
+            "哈哈我觉得北京话巨好玩儿",
+            "而且讲话贼幽默",
+            "比如你"
+          ],
+          "score": 1.272
+        }
+      ]
+    },
+    {
+      "id": "revive",
+      "query": "一会还得接我朋友 好累哦\n喜欢香港吗",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "revive",
+          "reply": [
+            "你等一下",
+            "我看120秒广告复活你"
+          ],
+          "score": 1.9229
+        }
+      ]
+    },
+    {
+      "id": "playful_fee",
+      "query": "那就交给你了\n每次听不懂商家说粤语\n都有一点点愧疚感",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "playful_fee",
+          "reply": [
+            "那我可要收费了哦"
+          ],
+          "score": 2.9635
+        },
+        {
+          "id": "turn_0194",
+          "reply": [
+            "先来个次卡康康诚意",
+            "浅收一顿饭～"
+          ],
+          "score": 1.6735
+        },
+        {
+          "id": "invite_degree",
+          "reply": [
+            "难道我要特别想你才会接受邀请吗？",
+            "一点点想就不会心动吗"
+          ],
+          "score": 1.4261
+        }
+      ]
+    },
+    {
+      "id": "card_and_meal",
+      "query": "我要办年卡！\n收！",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "card_and_meal",
+          "reply": [
+            "先来个次卡康康诚意",
+            "浅收一顿饭～"
+          ],
+          "score": 2.2586
+        }
+      ]
+    },
+    {
+      "id": "food_invitation",
+      "query": "啥时候回sz胡吃海喝\n不会外面太好吃不回来吧",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "food_invitation",
+          "reply": [
+            "有人带我吃好吃的我肯定回咯"
+          ],
+          "score": 3.9627
+        }
+      ]
+    },
+    {
+      "id": "soft_standard",
+      "query": "对吃的有啥忌口不\n那对人有什么要求嘛",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "soft_standard",
+          "reply": [
+            "好吃的我都爱",
+            "能得到上一句回答的人就勉强达标～"
+          ],
+          "score": 4.2345
+        }
+      ]
+    },
+    {
+      "id": "thanks_after_date",
+      "query": "这个确实太多了\n完全是吃不完",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "thanks_after_date",
+          "reply": [
+            "今天谢谢你请我吃好吃的还带给我礼物",
+            "好开心"
+          ],
+          "score": 1.3535
+        }
+      ]
+    },
+    {
+      "id": "next_meeting",
+      "query": "刚刚太快乐了\n现在突然有点不适应",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "next_meeting",
+          "reply": [
+            "感觉下次见面会更快乐"
+          ],
+          "score": 3.9041
+        }
+      ]
+    },
+    {
+      "id": "special_exception",
+      "query": "啧啧啧这么勉强哦\n弄的我都不知道你想让我回北京还是不想[疑问]",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "special_exception",
+          "reply": [
+            "是你我才忙里偷闲的",
+            "很给面子了！"
+          ],
+          "score": 2.5184
+        },
+        {
+          "id": "turn_0386",
+          "reply": [
+            "auv京爷！",
+            "这话说的",
+            "我准备去美容院睡大觉了"
+          ],
+          "score": 0.9008
+        }
+      ]
+    },
+    {
+      "id": "sleepless",
+      "query": "我在这等你\n拿铁味的啤酒喝完睡不着可怎么办",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "sleepless",
+          "reply": [
+            "为什么会睡不着",
+            "是因为酒还是因为人"
+          ],
+          "score": 3.9234
+        }
+      ]
+    },
+    {
+      "id": "clear_reward",
+      "query": "不贴心也没招啊\n怎么这么不信呢",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "clear_reward",
+          "reply": [
+            "这招巨巨巨巨加分好吗"
+          ],
+          "score": 2.4426
+        }
+      ]
+    },
+    {
+      "id": "score_reversal",
+      "query": "这么一看\n开始给人家打的分挺低啊！",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "score_reversal",
+          "reply": [
+            "那不得看",
+            "满分多少吗"
+          ],
+          "score": 1.3451
+        }
+      ]
+    },
+    {
+      "id": "self_pitch",
+      "query": "单纯在说别的男生是没什么机会的\n也算是帮你避雷吧",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "self_pitch",
+          "reply": [
+            "是吗 那你推销一下自己吧"
+          ],
+          "score": 1.5908
+        },
+        {
+          "id": "turn_0760",
+          "reply": [
+            "那这我就不太认同了 精准投放只能解决“让谁看见”",
+            "而产品价值能解决“看见后为什么非你不可”[旺柴]"
+          ],
+          "score": 1.0938
+        }
+      ]
+    },
+    {
+      "id": "value_distinction",
+      "query": "妹妹你知道嘛 好产品的销售关键在于客户的精准投放\n所以你觉得我的投放精准嘛[旺柴]",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "value_distinction",
+          "reply": [
+            "那这我就不太认同了 精准投放只能解决“让谁看见”",
+            "而产品价值能解决“看见后为什么非你不可”[旺柴]"
+          ],
+          "score": 5.4984
+        }
+      ]
+    },
+    {
+      "id": "like_acknowledgement",
+      "query": "反正当前是仅一人可见的\n那你就慢慢看慢慢选吧",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "like_acknowledgement",
+          "reply": [
+            "客户已知晓",
+            "正在增加好感度中^ ^"
+          ],
+          "score": 2.5902
+        }
+      ]
+    },
+    {
+      "id": "desired_care",
+      "query": "好 那就不担心你好啦\n路上下雨 让叔叔慢点开 注意安全！",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "desired_care",
+          "reply": [
+            "这不应该回“那很难不担心😕”嘛"
+          ],
+          "score": 2.8395
+        }
+      ]
+    },
+    {
+      "id": "reciprocity",
+      "query": "对呗 才知道嘛\n那我就收下了啊[得意]",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "reciprocity",
+          "reply": [
+            "那你的呢",
+            "不接受不平等条约"
+          ],
+          "score": 1.4342
+        },
+        {
+          "id": "turn_0805",
+          "reply": [
+            "是吗",
+            "今天的报备没有看见哦"
+          ],
+          "score": 1.293
+        }
+      ]
+    },
+    {
+      "id": "activate",
+      "query": "是啊 结果用户没激活\n当前都还是0人可见呢",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "activate",
+          "reply": [
+            "那现在用户申请激活",
+            "系统同意一下"
+          ],
+          "score": 3.6767
+        }
+      ]
+    },
+    {
+      "id": "win_loss",
+      "query": "刚退烧空调别吹太低\n好好玩吧",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "win_loss",
+          "reply": [
+            "赢了请你吃饭！",
+            "输了找你报销哈哈哈哈哈"
+          ],
+          "score": 1.2185
+        }
+      ]
+    },
+    {
+      "id": "reverse_want_to_meet",
+      "query": "那就看你的诚意了\n有没有想见我😊",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "reverse_want_to_meet",
+          "reply": [
+            "哦 看来你想见我 懂了",
+            "看你那么有诚意的远道而来",
+            "我就请你吃点好吃的叭"
+          ],
+          "score": 5.7192
+        }
+      ]
+    },
+    {
+      "id": "extra_gain",
+      "query": "怎么还在觉得我是奔着吃饭去的！\n还是说你就希望我只是去吃饭的[Emm]",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "extra_gain",
+          "reply": [
+            "我当然知道是想见我",
+            "但还想让你有点额外收获"
+          ],
+          "score": 3.3047
+        }
+      ]
+    },
+    {
+      "id": "warm_understanding",
+      "query": "缓解了我很大的压力\n之后我会把控好 希望你不要介意",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "warm_understanding",
+          "reply": [
+            "今晚我也很开心你愿意跟我分享你的焦虑",
+            "只要了解彼此的想法其实很多事情都很好解决滴"
+          ],
+          "score": 2.3826
+        }
+      ]
+    },
+    {
+      "id": "photo_value",
+      "query": "但凡我在这张肯定要被抢走\n早点睡吧 晚安噢",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "photo_value",
+          "reply": [
+            "这可是孤品",
+            "要竞价的"
+          ],
+          "score": 1.2527
+        },
+        {
+          "id": "turn_0954",
+          "reply": [
+            "仅你可见！",
+            "主要是要跟我爸妈竞价"
+          ],
+          "score": 0.8386
+        }
+      ]
+    },
+    {
+      "id": "invite_degree",
+      "query": "但可以告诉我你有多想让我去嘛[皱眉]\n听上去很不错嘛",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "invite_degree",
+          "reply": [
+            "难道我要特别想你才会接受邀请吗？",
+            "一点点想就不会心动吗"
+          ],
+          "score": 2.951
+        }
+      ]
+    },
+    {
+      "id": "care_before_work",
+      "query": "晚上突然要应酬 见不到 我晚点打电话说 问完跟你说\n哈哈哈哈哈行\n见到我就肯定一改对金融男的刻板印象～",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "care_before_work",
+          "reply": [
+            "好你先忙 少喝点哦身体最重要"
+          ],
+          "score": 2.7077
+        }
+      ]
+    },
+    {
+      "id": "truth_playful",
+      "query": "所以是发自内心的嘛\n我这还没结束呢",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "truth_playful",
+          "reply": [
+            "假一赔十"
+          ],
+          "score": 2.9528
+        },
+        {
+          "id": "turn_1147",
+          "reply": [
+            "去商k了吗"
+          ],
+          "score": 1.1254
+        }
+      ]
+    },
+    {
+      "id": "gift_two_values",
+      "query": "还是更在意送的啥\n[愉快]",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "gift_two_values",
+          "reply": [
+            "“你送的”是在意的前提",
+            "“送的啥”是你多在意的答案"
+          ],
+          "score": 2.8671
+        }
+      ]
+    },
+    {
+      "id": "implicit_miss",
+      "query": "问题出现了\n那你想我么\n要实话！",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "implicit_miss",
+          "reply": [
+            "不想哪来的问题"
+          ],
+          "score": 4.4391
+        }
+      ]
+    },
+    {
+      "id": "clear_implicit",
+      "query": "不想哪来的问题\n懂了懂了\n那今天找你开心嘛",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "clear_implicit",
+          "reply": [
+            "这么直白的回答都没让你开心！"
+          ],
+          "score": 1.769
+        },
+        {
+          "id": "dream_reverse",
+          "reply": [
+            "看来你经常梦到我！",
+            "懂了！！！"
+          ],
+          "score": 1.0737
+        },
+        {
+          "id": "thanks_after_date",
+          "reply": [
+            "今天谢谢你请我吃好吃的还带给我礼物",
+            "好开心"
+          ],
+          "score": 1.0582
+        },
+        {
+          "id": "turn_1400",
+          "reply": [
+            "有的人非要听答案",
+            "实则揣着明白装糊涂！",
+            "你几点的飞机"
+          ],
+          "score": 0.8218
+        }
+      ]
+    },
+    {
+      "id": "playful_knowledge",
+      "query": "这个问题还没回答呢\n算了 不勉强你 但还是更喜欢更直白点的[皱眉]",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "clear_implicit",
+          "reply": [
+            "这么直白的回答都没让你开心！"
+          ],
+          "score": 2.3709
+        },
+        {
+          "id": "playful_knowledge",
+          "reply": [
+            "有的人非要听答案",
+            "实则揣着明白装糊涂！"
+          ],
+          "score": 1.6336
+        },
+        {
+          "id": "special_exception",
+          "reply": [
+            "是你我才忙里偷闲的",
+            "很给面子了！"
+          ],
+          "score": 1.3079
+        }
+      ]
+    },
+    {
+      "id": "measured_invitation",
+      "query": "三分埋怨 七分邀请 0分埋冤\n不像某人那么喜欢打混双\n看不懂是邀请 还是狡辩 还是埋怨",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "measured_invitation",
+          "reply": [
+            "三分埋怨 七分邀请 0分埋冤",
+            "0分狡辩"
+          ],
+          "score": 5.9003
+        }
+      ]
+    },
+    {
+      "id": "meet_to_explain",
+      "query": "那你再偷偷解释解释呗\n好让我下次就能get到",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "meet_to_explain",
+          "reply": [
+            "下次见面再跟你解释"
+          ],
+          "score": 2.563
+        }
+      ]
+    },
+    {
+      "id": "dumpling",
+      "query": "约了多少哥哥了\n迫不及待了呀",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "dumpling",
+          "reply": [
+            "这边建议您点盘饺子"
+          ],
+          "score": 2.8767
+        }
+      ]
+    },
+    {
+      "id": "respectful_understanding",
+      "query": "估计也是没说啥好话\n怎么去长沙？",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "respectful_understanding",
+          "reply": [
+            "我能理解你的想法也尊重你的想法"
+          ],
+          "score": 1.301
+        }
+      ]
+    },
+    {
+      "id": "deep_communication",
+      "query": "那之后 我们是不是可以更深度和直接 交换一些想法  因为我之前还是觉得刚接触 气氛轻松愉快最重要 有些想法我不想让你觉得是在说教 你觉得呢\n我的地理水平在昨天已经暴露了 我能知道那么近吗[愉快]\n几点的车",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "deep_communication",
+          "reply": [
+            "可以 不过我也希望你能表达你最真实的想法 一开始我是觉得我们刚认识我就会比较排斥 但昨晚我也了解了你的一些想法 也希望我们是有深度沟通的 不过毕竟我的年龄经历摆在这 可能还是需要你引导和理解一下"
+          ],
+          "score": 3.0509
+        },
+        {
+          "id": "warm_understanding",
+          "reply": [
+            "今晚我也很开心你愿意跟我分享你的焦虑",
+            "只要了解彼此的想法其实很多事情都很好解决滴"
+          ],
+          "score": 1.1001
+        }
+      ]
+    },
+    {
+      "id": "priority_review",
+      "query": "只能说图里没有我的“菜”[愉快]\n一个姐姐带了五个哥哥嘛",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "priority_review",
+          "reply": [
+            "给你优先审阅权"
+          ],
+          "score": 1.2337
+        }
+      ]
+    },
+    {
+      "id": "food_review",
+      "query": "if 踩雷可以做到不埋怨。\n这个电影真得挺好看的\n如果要能跟crush一号看就好了",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "food_review",
+          "reply": [
+            "可以不抱怨你",
+            "但要锐评饭"
+          ],
+          "score": 3.8574
+        },
+        {
+          "id": "present_person",
+          "reply": [
+            "在和我聊电影呢"
+          ],
+          "score": 3.5052
+        }
+      ]
+    },
+    {
+      "id": "present_person",
+      "query": "那妹妹的crush一号呢",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "present_person",
+          "reply": [
+            "在和我聊电影呢"
+          ],
+          "score": 4.259
+        }
+      ]
+    },
+    {
+      "id": "time_priority",
+      "query": "那这几天看看有啥推荐\n果然闺蜜的话不能信 并不是很想我",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "time_priority",
+          "reply": [
+            "工作日这么多天",
+            "周末只有两天",
+            "宝贵的时间都是留给最想见的人"
+          ],
+          "score": 1.8231
+        }
+      ]
+    },
+    {
+      "id": "natural_praise",
+      "query": "古怪 那我是怎么近的呢\n还是说我没近上。",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "natural_praise",
+          "reply": [
+            "那还是你会",
+            "不然怎么夸你比较自然呢"
+          ],
+          "score": 1.3412
+        },
+        {
+          "id": "turn_2203",
+          "reply": [
+            "谁叫某人心机地发起聊天呢",
+            "年下就看破不说破"
+          ],
+          "score": 1.0787
+        }
+      ]
+    },
+    {
+      "id": "dream_reverse",
+      "query": "睡那么久应该是睡的不错吧\n梦到我了没",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "dream_reverse",
+          "reply": [
+            "看来你经常梦到我！",
+            "懂了！！！"
+          ],
+          "score": 3.5869
+        }
+      ]
+    },
+    {
+      "id": "playful_ball",
+      "query": "想我了还是梦到我了\n谁知道呢",
+      "status": "candidates_for_context_review",
+      "sourceFound": false,
+      "returned": [
+        {
+          "id": "dream_reverse",
+          "reply": [
+            "看来你经常梦到我！",
+            "懂了！！！"
+          ],
+          "score": 2.4983
+        }
+      ]
+    },
+    {
+      "id": "dream_continuation",
+      "query": "昨晚睡的好么\n懂 梦里还在跟我约会呢 结果被打断了是吧",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "dream_continuation",
+          "reply": [
+            "刚梦到关键情节就被打断了",
+            "不知道现实中能不能续上"
+          ],
+          "score": 1.7578
+        },
+        {
+          "id": "turn_2463",
+          "reply": [
+            "我做完美容现在又准备练瑜伽了",
+            "高精力年下是这样的"
+          ],
+          "score": 0.9079
+        },
+        {
+          "id": "dream_reverse",
+          "reply": [
+            "看来你经常梦到我！",
+            "懂了！！！"
+          ],
+          "score": 0.8263
+        }
+      ]
+    },
+    {
+      "id": "leave_unspoken",
+      "query": "能闻到你的香水味 也是有点小心机了\n刚要夸你做瑜伽真的很好 结果偷懒啊",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "leave_unspoken",
+          "reply": [
+            "别点了！！！",
+            "能不能只可意会啊啊啊啊"
+          ],
+          "score": 4.2894
+        }
+      ]
+    },
+    {
+      "id": "meeting_reward",
+      "query": "怎么 妹妹不满意啊\n两份开心 快乐翻倍好吧",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "meeting_reward",
+          "reply": [
+            "那昨天的表现确实深得我心",
+            "下次见面给点奖励"
+          ],
+          "score": 2.8372
+        },
+        {
+          "id": "next_meeting",
+          "reply": [
+            "感觉下次见面会更快乐"
+          ],
+          "score": 1.2523
+        },
+        {
+          "id": "thanks_after_date",
+          "reply": [
+            "今天谢谢你请我吃好吃的还带给我礼物",
+            "好开心"
+          ],
+          "score": 1.0499
+        }
+      ]
+    },
+    {
+      "id": "reward_attention",
+      "query": "不影响我的奖励的话 可以。\n晚上看我吃榴莲馋了嘛哈哈哈\n厨艺真好 这火鸡面弄的 真有水平",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "reward_attention",
+          "reply": [
+            "看得出来你很期待了",
+            "要得就是这种效果",
+            "有多惦记奖励",
+            "就有多惦记我"
+          ],
+          "score": 2.9655
+        },
+        {
+          "id": "meeting_reward",
+          "reply": [
+            "那昨天的表现确实深得我心",
+            "下次见面给点奖励"
+          ],
+          "score": 1.111
+        }
+      ]
+    },
+    {
+      "id": "photo_focus",
+      "query": "猫很可爱 只是图里有感觉不一般的。\n哈哈哈哈哈哈 这么卑微\n那猫猫就扔家里？",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "photo_focus",
+          "reply": [
+            "慧眼识珠",
+            "也没打算让你看可爱猫猫",
+            "让你看的就是那个不一般的"
+          ],
+          "score": 4.173
+        }
+      ]
+    },
+    {
+      "id": "listen_to_vent",
+      "query": "其实也没啥 不太开心的事就别听了\n给你讲个好玩的吧",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "listen_to_vent",
+          "reply": [
+            "不要。",
+            "我最爱跟着一起吐槽了"
+          ],
+          "score": 1.6096
+        },
+        {
+          "id": "thanks_after_date",
+          "reply": [
+            "今天谢谢你请我吃好吃的还带给我礼物",
+            "好开心"
+          ],
+          "score": 1.047
+        }
+      ]
+    },
+    {
+      "id": "one_person_focus",
+      "query": "在小众地方认识的帅哥记得留给姐姐\n可能是这个地方比较小众。",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "one_person_focus",
+          "reply": [
+            "现在两耳不闻窗外事",
+            "一心只有北京人"
+          ],
+          "score": 1.5359
+        }
+      ]
+    },
+    {
+      "id": "planned_interest",
+      "query": "我眼光还是很好的。\n别说着说着又发了。\n那肯定 毕竟是连高铁都没赶上的旅程",
+      "status": "candidates_for_context_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "planned_interest",
+          "reply": [
+            "毕竟也是蓄谋已久"
+          ],
+          "score": 2.8282
+        }
+      ]
+    }
+  ],
+  "fullContextProbes": [
+    {
+      "id": "mutual_praise",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "mutual_praise",
+          "source_indices": [
+            23,
+            24
+          ],
+          "score": 1.7694
+        },
+        {
+          "id": "turn_0026",
+          "source_indices": [
+            26
+          ],
+          "score": 1.1885
+        }
+      ]
+    },
+    {
+      "id": "specific_praise",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "specific_praise",
+          "source_indices": [
+            43
+          ],
+          "score": 2.9083
+        },
+        {
+          "id": "turn_0045",
+          "source_indices": [
+            45
+          ],
+          "score": 1.3366
+        }
+      ]
+    },
+    {
+      "id": "delayed_punchline",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "delayed_punchline",
+          "source_indices": [
+            130,
+            131,
+            132
+          ],
+          "score": 1.8324
+        }
+      ]
+    },
+    {
+      "id": "revive",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "revive",
+          "source_indices": [
+            113,
+            114
+          ],
+          "score": 2.6749
+        }
+      ]
+    },
+    {
+      "id": "playful_fee",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "playful_fee",
+          "source_indices": [
+            191
+          ],
+          "score": 3.2498
+        },
+        {
+          "id": "invite_degree",
+          "source_indices": [
+            1024,
+            1025
+          ],
+          "score": 1.402
+        }
+      ]
+    },
+    {
+      "id": "card_and_meal",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "card_and_meal",
+          "source_indices": [
+            194,
+            195
+          ],
+          "score": 3.1586
+        },
+        {
+          "id": "playful_fee",
+          "source_indices": [
+            191
+          ],
+          "score": 2.0975
+        },
+        {
+          "id": "invite_degree",
+          "source_indices": [
+            1024,
+            1025
+          ],
+          "score": 1.4687
+        }
+      ]
+    },
+    {
+      "id": "food_invitation",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "food_invitation",
+          "source_indices": [
+            278
+          ],
+          "score": 4.3173
+        }
+      ]
+    },
+    {
+      "id": "soft_standard",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "soft_standard",
+          "source_indices": [
+            283,
+            284
+          ],
+          "score": 4.6938
+        },
+        {
+          "id": "food_invitation",
+          "source_indices": [
+            278
+          ],
+          "score": 2.3585
+        }
+      ]
+    },
+    {
+      "id": "thanks_after_date",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "thanks_after_date",
+          "source_indices": [
+            349,
+            350
+          ],
+          "score": 1.8723
+        }
+      ]
+    },
+    {
+      "id": "next_meeting",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "next_meeting",
+          "source_indices": [
+            360
+          ],
+          "score": 4.435
+        }
+      ]
+    },
+    {
+      "id": "special_exception",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "special_exception",
+          "source_indices": [
+            381,
+            383
+          ],
+          "score": 4.803
+        }
+      ]
+    },
+    {
+      "id": "sleepless",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "sleepless",
+          "source_indices": [
+            573,
+            574
+          ],
+          "score": 4.1125
+        }
+      ]
+    },
+    {
+      "id": "clear_reward",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "clear_reward",
+          "source_indices": [
+            586
+          ],
+          "score": 2.8666
+        },
+        {
+          "id": "truth_playful",
+          "source_indices": [
+            1142
+          ],
+          "score": 1.7248
+        }
+      ]
+    },
+    {
+      "id": "score_reversal",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "score_reversal",
+          "source_indices": [
+            596,
+            597
+          ],
+          "score": 3.3975
+        }
+      ]
+    },
+    {
+      "id": "self_pitch",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "self_pitch",
+          "source_indices": [
+            755
+          ],
+          "score": 1.9344
+        },
+        {
+          "id": "turn_0760",
+          "source_indices": [
+            760,
+            761
+          ],
+          "score": 0.751
+        }
+      ]
+    },
+    {
+      "id": "value_distinction",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "value_distinction",
+          "source_indices": [
+            760,
+            761
+          ],
+          "score": 5.9067
+        }
+      ]
+    },
+    {
+      "id": "like_acknowledgement",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "value_distinction",
+          "source_indices": [
+            760,
+            761
+          ],
+          "score": 5.1093
+        },
+        {
+          "id": "like_acknowledgement",
+          "source_indices": [
+            764,
+            765
+          ],
+          "score": 3.43
+        }
+      ]
+    },
+    {
+      "id": "desired_care",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "desired_care",
+          "source_indices": [
+            789
+          ],
+          "score": 3.4257
+        }
+      ]
+    },
+    {
+      "id": "reciprocity",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "reciprocity",
+          "source_indices": [
+            801,
+            802
+          ],
+          "score": 4.3087
+        }
+      ]
+    },
+    {
+      "id": "activate",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "activate",
+          "source_indices": [
+            810,
+            811
+          ],
+          "score": 4.0875
+        }
+      ]
+    },
+    {
+      "id": "win_loss",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "win_loss",
+          "source_indices": [
+            840,
+            841
+          ],
+          "score": 1.9616
+        }
+      ]
+    },
+    {
+      "id": "reverse_want_to_meet",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "reverse_want_to_meet",
+          "source_indices": [
+            878,
+            879,
+            880
+          ],
+          "score": 6.4327
+        }
+      ]
+    },
+    {
+      "id": "extra_gain",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "extra_gain",
+          "source_indices": [
+            908,
+            909
+          ],
+          "score": 3.7905
+        }
+      ]
+    },
+    {
+      "id": "warm_understanding",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "warm_understanding",
+          "source_indices": [
+            941,
+            942
+          ],
+          "score": 2.9618
+        },
+        {
+          "id": "thanks_after_date",
+          "source_indices": [
+            349,
+            350
+          ],
+          "score": 1.0409
+        }
+      ]
+    },
+    {
+      "id": "photo_value",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "photo_value",
+          "source_indices": [
+            950,
+            951
+          ],
+          "score": 3.0036
+        },
+        {
+          "id": "invite_degree",
+          "source_indices": [
+            1024,
+            1025
+          ],
+          "score": 1.3983
+        }
+      ]
+    },
+    {
+      "id": "invite_degree",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "invite_degree",
+          "source_indices": [
+            1024,
+            1025
+          ],
+          "score": 3.352
+        }
+      ]
+    },
+    {
+      "id": "care_before_work",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "care_before_work",
+          "source_indices": [
+            1134
+          ],
+          "score": 3.1368
+        }
+      ]
+    },
+    {
+      "id": "truth_playful",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "truth_playful",
+          "source_indices": [
+            1142
+          ],
+          "score": 3.655
+        }
+      ]
+    },
+    {
+      "id": "gift_two_values",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "gift_two_values",
+          "source_indices": [
+            1376,
+            1377
+          ],
+          "score": 3.5117
+        },
+        {
+          "id": "natural_praise",
+          "source_indices": [
+            2197,
+            2198
+          ],
+          "score": 1.2301
+        }
+      ]
+    },
+    {
+      "id": "implicit_miss",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "implicit_miss",
+          "source_indices": [
+            1392
+          ],
+          "score": 4.9125
+        }
+      ]
+    },
+    {
+      "id": "clear_implicit",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "clear_implicit",
+          "source_indices": [
+            1397
+          ],
+          "score": 2.9538
+        },
+        {
+          "id": "dream_reverse",
+          "source_indices": [
+            2306,
+            2307
+          ],
+          "score": 1.0903
+        },
+        {
+          "id": "thanks_after_date",
+          "source_indices": [
+            349,
+            350
+          ],
+          "score": 1.0453
+        }
+      ]
+    },
+    {
+      "id": "playful_knowledge",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "clear_implicit",
+          "source_indices": [
+            1397
+          ],
+          "score": 4.7778
+        },
+        {
+          "id": "playful_knowledge",
+          "source_indices": [
+            1400,
+            1401
+          ],
+          "score": 1.9739
+        }
+      ]
+    },
+    {
+      "id": "measured_invitation",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "measured_invitation",
+          "source_indices": [
+            1542,
+            1544
+          ],
+          "score": 5.9471
+        }
+      ]
+    },
+    {
+      "id": "meet_to_explain",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "meet_to_explain",
+          "source_indices": [
+            1561
+          ],
+          "score": 3.1149
+        },
+        {
+          "id": "clear_implicit",
+          "source_indices": [
+            1397
+          ],
+          "score": 1.1467
+        }
+      ]
+    },
+    {
+      "id": "dumpling",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "dumpling",
+          "source_indices": [
+            1576
+          ],
+          "score": 3.5386
+        }
+      ]
+    },
+    {
+      "id": "respectful_understanding",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "respectful_understanding",
+          "source_indices": [
+            1722
+          ],
+          "score": 1.8296
+        }
+      ]
+    },
+    {
+      "id": "deep_communication",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "deep_communication",
+          "source_indices": [
+            1731
+          ],
+          "score": 3.0887
+        },
+        {
+          "id": "warm_understanding",
+          "source_indices": [
+            941,
+            942
+          ],
+          "score": 1.0935
+        }
+      ]
+    },
+    {
+      "id": "priority_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "priority_review",
+          "source_indices": [
+            1784
+          ],
+          "score": 3.6451
+        }
+      ]
+    },
+    {
+      "id": "food_review",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "food_review",
+          "source_indices": [
+            2008,
+            2009
+          ],
+          "score": 5.2961
+        },
+        {
+          "id": "present_person",
+          "source_indices": [
+            2031
+          ],
+          "score": 3.3994
+        }
+      ]
+    },
+    {
+      "id": "present_person",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "present_person",
+          "source_indices": [
+            2031
+          ],
+          "score": 5.0725
+        },
+        {
+          "id": "turn_2037",
+          "source_indices": [
+            2037,
+            2038,
+            2039
+          ],
+          "score": 1.8683
+        }
+      ]
+    },
+    {
+      "id": "time_priority",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "time_priority",
+          "source_indices": [
+            2090,
+            2091,
+            2092
+          ],
+          "score": 1.9968
+        },
+        {
+          "id": "confirm_evening",
+          "source_indices": [
+            2085
+          ],
+          "score": 1.6812
+        }
+      ]
+    },
+    {
+      "id": "natural_praise",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "natural_praise",
+          "source_indices": [
+            2197,
+            2198
+          ],
+          "score": 2.035
+        }
+      ]
+    },
+    {
+      "id": "dream_reverse",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "dream_reverse",
+          "source_indices": [
+            2306,
+            2307
+          ],
+          "score": 3.8861
+        }
+      ]
+    },
+    {
+      "id": "playful_ball",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "dream_reverse",
+          "source_indices": [
+            2306,
+            2307
+          ],
+          "score": 2.1564
+        },
+        {
+          "id": "playful_ball",
+          "source_indices": [
+            2330,
+            2331
+          ],
+          "score": 1.7436
+        },
+        {
+          "id": "reverse_want_to_meet",
+          "source_indices": [
+            878,
+            879,
+            880
+          ],
+          "score": 1.1487
+        },
+        {
+          "id": "turn_2321",
+          "source_indices": [
+            2321,
+            2322,
+            2323,
+            2324,
+            2325
+          ],
+          "score": 1.1338
+        },
+        {
+          "id": "card_and_meal",
+          "source_indices": [
+            194,
+            195
+          ],
+          "score": 1.0889
+        }
+      ]
+    },
+    {
+      "id": "dream_continuation",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "dream_continuation",
+          "source_indices": [
+            2457,
+            2458
+          ],
+          "score": 1.9388
+        },
+        {
+          "id": "turn_2463",
+          "source_indices": [
+            2463,
+            2464
+          ],
+          "score": 1.0552
+        },
+        {
+          "id": "dream_reverse",
+          "source_indices": [
+            2306,
+            2307
+          ],
+          "score": 0.807
+        }
+      ]
+    },
+    {
+      "id": "leave_unspoken",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "leave_unspoken",
+          "source_indices": [
+            2475,
+            2476
+          ],
+          "score": 4.4099
+        }
+      ]
+    },
+    {
+      "id": "meeting_reward",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "meeting_reward",
+          "source_indices": [
+            2640,
+            2641
+          ],
+          "score": 3.0371
+        },
+        {
+          "id": "next_meeting",
+          "source_indices": [
+            360
+          ],
+          "score": 1.2087
+        }
+      ]
+    },
+    {
+      "id": "reward_attention",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "reward_attention",
+          "source_indices": [
+            2718,
+            2719,
+            2721,
+            2722
+          ],
+          "score": 3.1094
+        },
+        {
+          "id": "meeting_reward",
+          "source_indices": [
+            2640,
+            2641
+          ],
+          "score": 1.138
+        }
+      ]
+    },
+    {
+      "id": "photo_focus",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "photo_focus",
+          "source_indices": [
+            2752,
+            2753,
+            2754
+          ],
+          "score": 4.4894
+        }
+      ]
+    },
+    {
+      "id": "listen_to_vent",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "listen_to_vent",
+          "source_indices": [
+            2806,
+            2807
+          ],
+          "score": 2.0096
+        },
+        {
+          "id": "thanks_after_date",
+          "source_indices": [
+            349,
+            350
+          ],
+          "score": 1.0323
+        }
+      ]
+    },
+    {
+      "id": "one_person_focus",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "one_person_focus",
+          "source_indices": [
+            2996,
+            2997
+          ],
+          "score": 1.9225
+        }
+      ]
+    },
+    {
+      "id": "planned_interest",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "planned_interest",
+          "source_indices": [
+            3033
+          ],
+          "score": 2.8881
+        }
+      ]
+    },
+    {
+      "id": "wait_for_invitation",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "next_meeting",
+          "source_indices": [
+            360
+          ],
+          "score": 4.759
+        },
+        {
+          "id": "wait_for_invitation",
+          "source_indices": [
+            363
+          ],
+          "score": 4.2858
+        },
+        {
+          "id": "meet_to_explain",
+          "source_indices": [
+            1561
+          ],
+          "score": 1.7882
+        }
+      ]
+    },
+    {
+      "id": "action_date",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "action_date",
+          "source_indices": [
+            638
+          ],
+          "score": 1.8197
+        },
+        {
+          "id": "turn_0640",
+          "source_indices": [
+            640,
+            641,
+            642,
+            643,
+            644,
+            645
+          ],
+          "score": 1.0063
+        }
+      ]
+    },
+    {
+      "id": "heart_to_action",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "meet_to_explain",
+          "source_indices": [
+            1561
+          ],
+          "score": 3.1295
+        },
+        {
+          "id": "heart_to_action",
+          "source_indices": [
+            1568
+          ],
+          "score": 3.0761
+        },
+        {
+          "id": "reverse_want_to_meet",
+          "source_indices": [
+            878,
+            879,
+            880
+          ],
+          "score": 1.5962
+        },
+        {
+          "id": "next_meeting",
+          "source_indices": [
+            360
+          ],
+          "score": 1.539
+        },
+        {
+          "id": "wait_for_invitation",
+          "source_indices": [
+            363
+          ],
+          "score": 1.2869
+        }
+      ]
+    },
+    {
+      "id": "available_windows",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "available_windows",
+          "source_indices": [
+            1590,
+            1591
+          ],
+          "score": 3.4674
+        }
+      ]
+    },
+    {
+      "id": "choose_slot",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "choose_slot",
+          "source_indices": [
+            326
+          ],
+          "score": 1.6978
+        },
+        {
+          "id": "turn_0322",
+          "source_indices": [
+            322
+          ],
+          "score": 0.9027
+        },
+        {
+          "id": "turn_0330",
+          "source_indices": [
+            330
+          ],
+          "score": 0.8204
+        }
+      ]
+    },
+    {
+      "id": "confirm_evening",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "confirm_evening",
+          "source_indices": [
+            2085
+          ],
+          "score": 1.8665
+        },
+        {
+          "id": "time_priority",
+          "source_indices": [
+            2090,
+            2091,
+            2092
+          ],
+          "score": 1.3454
+        },
+        {
+          "id": "specific_praise",
+          "source_indices": [
+            43
+          ],
+          "score": 1.0433
+        },
+        {
+          "id": "revive",
+          "source_indices": [
+            113,
+            114
+          ],
+          "score": 0.795
+        }
+      ]
+    },
+    {
+      "id": "set_time_place",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "set_time_place",
+          "source_indices": [
+            2339
+          ],
+          "score": 3.3961
+        }
+      ]
+    },
+    {
+      "id": "ask_time",
+      "sourceFound": true,
+      "returned": [
+        {
+          "id": "ask_time",
+          "source_indices": [
+            2568
+          ],
+          "score": 1.8714
+        }
+      ]
+    }
+  ],
+  "invitationGoalProbes": [
+    {
+      "query": "他说下次有空一起吃饭，我想让他主动定具体哪天",
+      "booking_state": "need_date",
+      "booking_steps": [
+        "request_date"
+      ],
+      "sources": [
+        638
+      ],
+      "availability": []
+    },
+    {
+      "query": "我们已经确定周六见面，还没有确定几点",
+      "booking_state": "need_time",
+      "booking_steps": [
+        "request_time"
+      ],
+      "sources": [
+        2568
+      ],
+      "availability": [
+        "周六下午四点以后"
+      ]
+    },
+    {
+      "query": "他问我哪天晚上有空，我周五或周日晚有空",
+      "booking_state": "offer_availability",
+      "booking_steps": [
+        "offer_real_availability"
+      ],
+      "sources": [
+        1590,
+        1591
+      ],
+      "availability": [
+        "周五晚",
+        "周日晚"
+      ]
+    }
+  ]
+}

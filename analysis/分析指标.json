@@ -1,0 +1,11 @@
+{
+  "eligibleOwnMessages": 1068,
+  "eligibleMedianCharacters": 8,
+  "eligibleAtMost20Characters": 1029,
+  "eligibleAtMost20Percent": 96.3,
+  "replyGroups": 459,
+  "oneMessageGroups": 145,
+  "multipleMessageGroups": 314,
+  "preferredUniqueMessages": 389,
+  "annotationCases": 60
+}
