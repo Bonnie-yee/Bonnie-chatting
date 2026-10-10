@@ -1,0 +1,5 @@
+{
+  "name":"bonnie-private-reference-gateway",
+  "private":true,
+  "type":"module"
+}

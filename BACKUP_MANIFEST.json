@@ -59,6 +59,11 @@
       "sha256": "08111703286bf2e3ab33d5aa1010a254b916547331abf1a71fcd42fe75ec249c"
     },
     {
+      "path": "analysis/大陆香港免费部署方案.md",
+      "bytes": 1756,
+      "sha256": "8a9a5221e6d848f2ba76128cdee0e0318cf81ea614dddfd6c841107c029f86f6"
+    },
+    {
       "path": "analysis/完成校验.json",
       "bytes": 1325,
       "sha256": "af6276795e0fd85a7fe60f4a6b2522c4f2bb354bfbfe56c841a18c3d647b315c"
@@ -344,6 +349,51 @@
       "sha256": "7fd8b5aefcf902edda478520d2db00b27b527d37b7ac43ee32349fabd26423ae"
     },
     {
+      "path": "free-gateway/README.md",
+      "bytes": 1011,
+      "sha256": "c2082341bcb74d9a6daabc3ac85bb0853aa2fda38e176c497eae7f639871e366"
+    },
+    {
+      "path": "free-gateway/cloud-functions/api/meta.js",
+      "bytes": 82,
+      "sha256": "e73520792e3968596a0aa22dd1ed85c356520fa602ce3f0a0a543b47efc52b71"
+    },
+    {
+      "path": "free-gateway/cloud-functions/api/proxy.mjs",
+      "bytes": 1409,
+      "sha256": "1331ff4d1f34ec25d18efbfde56beb11089c0689235b4d51ea41819e380f3343"
+    },
+    {
+      "path": "free-gateway/cloud-functions/api/rules.js",
+      "bytes": 83,
+      "sha256": "5bdf7a618fd931b04e84afb769fd0c0a9146cc4eeb2d47a0b3a4bb5165ca7abf"
+    },
+    {
+      "path": "free-gateway/cloud-functions/api/vault.js",
+      "bytes": 83,
+      "sha256": "00d23e046dbc8aef206bc5d7eac252921c9e2caacda0e853fa07deb51c267375"
+    },
+    {
+      "path": "free-gateway/edgeone.json",
+      "bytes": 60,
+      "sha256": "633216b0c801064e9de78cfee4124ff192866cb27b95852c38e08e4aeb56233b"
+    },
+    {
+      "path": "free-gateway/package.json",
+      "bytes": 85,
+      "sha256": "c4fb3dd8770161c35a7b54fd84de3e48082caa9beaf1cfb46e3d994bbc3b58a9"
+    },
+    {
+      "path": "free-gateway/public/index.html",
+      "bytes": 7636,
+      "sha256": "2e1d879f80ab05429857869db8e409a38099251bc36ea0494ad9f69f059e6be7"
+    },
+    {
+      "path": "free-gateway/public/robots.txt",
+      "bytes": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
       "path": "gpt_project/00_项目指令.txt",
       "bytes": 9604,
       "sha256": "9bba3e748677a80fffe153d4eab6cb72add596498250b8f61845ee207330126c"
@@ -370,8 +420,8 @@
     },
     {
       "path": "gpt_project/05_软件代码仅供维护.md",
-      "bytes": 253742,
-      "sha256": "f531ebada40286141b3bb791fb0174db0c7115b71e054a825bf5f5973cd36f10"
+      "bytes": 259048,
+      "sha256": "fdab2f9125272a686a0408b7a683be8db738a0c0e254b7c79ac86c77e4ae21a0"
     },
     {
       "path": "gpt_project/06_最新校正.txt",
@@ -427,6 +477,11 @@
       "path": "gpt_project/新聊天记录_ta版_可编辑版.docx",
       "bytes": 46500,
       "sha256": "21ccc6555b0e3e87efb3289fdecff955b870558ea92b2f6503acc74a1caa0b51"
+    },
+    {
+      "path": "gpt_project/邦尼兔独立网页_访问密码.txt",
+      "bytes": 292,
+      "sha256": "83cef49c6f948205ca4e40aec5f18a75057367a1c8041b52a67c35ec15840ce9"
     },
     {
       "path": "mobile-site/.openai/hosting.json",
@@ -522,6 +577,11 @@
       "path": "scripts/build-cloud-worker.mjs",
       "bytes": 2396,
       "sha256": "a6e2c8eb547feb5b1f9213cffe8e59ac88868dd361461ec5e1ca219ed995d485"
+    },
+    {
+      "path": "scripts/build-free-gateway.mjs",
+      "bytes": 1007,
+      "sha256": "2494a6147cd579958ac2b9ca7510fc8b80068b314b56da37aca9fa816a4ac498"
     },
     {
       "path": "scripts/build-html.mjs",
@@ -627,6 +687,11 @@
       "path": "tests/corpus.test.mjs",
       "bytes": 8571,
       "sha256": "376ddc113730e968de7069fc50d829807760221fb7c95e2821013d4ee0cb8adf"
+    },
+    {
+      "path": "tests/free-gateway.test.mjs",
+      "bytes": 1587,
+      "sha256": "d5730a3120cd0840fa8b9dd67608a36c841f037d1782f47aa06d2de5f449f160"
     },
     {
       "path": "tests/html.test.mjs",

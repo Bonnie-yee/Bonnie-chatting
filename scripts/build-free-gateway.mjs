@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(fileURLToPath(new URL('..',import.meta.url)));
+let html=await fs.readFile(path.join(root,'web/password-lock.html'),'utf8');
+const client=(await fs.readFile(path.join(root,'web/password-client.js'),'utf8')).replaceAll("'/vault-meta.json'","'/api/meta'").replaceAll("'/vault.json'","'/api/vault'").replaceAll("'/rules.enc.json'","'/api/rules'");
+html=html.replace('/*__PASSWORD_CLIENT__*/',()=>client);
+if(html.includes('"paragraphs":[{')||html.includes('huangbaoyi03@gmail.com'))throw new Error('Private data in gateway frontend');
+const out=path.join(root,'free-gateway/public');await fs.mkdir(out,{recursive:true});await fs.writeFile(path.join(out,'index.html'),html);await fs.writeFile(path.join(out,'robots.txt'),'User-agent: *\nDisallow: /\n');
+console.log(JSON.stringify({gateway_ready:true,deployed:false,private_chat_data_embedded:false,bytes:Buffer.byteLength(html)}));
