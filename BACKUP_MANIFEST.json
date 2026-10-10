@@ -190,8 +190,8 @@
     },
     {
       "path": "artifacts/邦尼🐰的🐶军师.html",
-      "bytes": 374560,
-      "sha256": "4c3456c20f201ee23a5f93d6d4496d2e2918f13b1e7fb3c017d0bd8314292013"
+      "bytes": 374515,
+      "sha256": "9a554319953eee5eef90d631057681a6075845c7feb69754345e3aa54d8049de"
     },
     {
       "path": "artifacts/邦尼🐰的🐶军师_云端.html",
@@ -300,13 +300,13 @@
     },
     {
       "path": "dist/index.html",
-      "bytes": 10572,
-      "sha256": "c2c863e734ff9d6a38230f5be9f14c56306a38826cbc690d34e1f26eb4934c10"
+      "bytes": 10527,
+      "sha256": "7707cc0b06dfe30ffae0938f1284a79e73918f1ecf7a0bfd09ad2e331409d1c4"
     },
     {
       "path": "dist/standalone.html",
-      "bytes": 374560,
-      "sha256": "4c3456c20f201ee23a5f93d6d4496d2e2918f13b1e7fb3c017d0bd8314292013"
+      "bytes": 374515,
+      "sha256": "9a554319953eee5eef90d631057681a6075845c7feb69754345e3aa54d8049de"
     },
     {
       "path": "dist/style.css",
@@ -415,8 +415,8 @@
     },
     {
       "path": "mobile-site/dist/index.html",
-      "bytes": 375065,
-      "sha256": "28feac3634536c4e0b409ed3a9d0e9d12e8102c058afb72daa1f44cba45510a9"
+      "bytes": 375020,
+      "sha256": "4120cec4aec2284de99ceee5e459d6ee5e22d04bd265386ea14b434e1f82260b"
     },
     {
       "path": "mobile-site/dist/manifest.webmanifest",
@@ -425,18 +425,18 @@
     },
     {
       "path": "mobile-site/dist/server/index.js",
-      "bytes": 440305,
-      "sha256": "2b73d7fbdced7c2d7922c4304959898b88f9543803d9407213afc82afef1f0ed"
+      "bytes": 440257,
+      "sha256": "8c5b6b9d8367b16ca779f7f1315fe4968a0a58868f284e51e0d94b727303a867"
     },
     {
       "path": "mobile-site/dist/sw.js",
       "bytes": 1423,
-      "sha256": "54ad7fc6114d613081dea555a5b74c212fab1dc38d6c33801efaced901f926b0"
+      "sha256": "45114d848479298baa80ae1a3acff27d0c35df80640c12e6304f6118220b7b3f"
     },
     {
       "path": "mobile-site/worker/index.js",
-      "bytes": 440305,
-      "sha256": "2b73d7fbdced7c2d7922c4304959898b88f9543803d9407213afc82afef1f0ed"
+      "bytes": 440257,
+      "sha256": "8c5b6b9d8367b16ca779f7f1315fe4968a0a58868f284e51e0d94b727303a867"
     },
     {
       "path": "package-lock.json",
@@ -570,8 +570,8 @@
     },
     {
       "path": "web/index.html",
-      "bytes": 10572,
-      "sha256": "c2c863e734ff9d6a38230f5be9f14c56306a38826cbc690d34e1f26eb4934c10"
+      "bytes": 10527,
+      "sha256": "7707cc0b06dfe30ffae0938f1284a79e73918f1ecf7a0bfd09ad2e331409d1c4"
     },
     {
       "path": "web/mobile-sw.js",
