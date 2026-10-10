@@ -1,7 +1,7 @@
 {
   "display_name": "Bonnie🐰chatting",
   "visibility": "private",
-  "cloud_revision": 6,
+  "cloud_revision": 7,
   "files": [
     {
       "path": ".gitattributes",
@@ -190,8 +190,8 @@
     },
     {
       "path": "artifacts/邦尼🐰的🐶军师.html",
-      "bytes": 375574,
-      "sha256": "98328bed401a535f11e5cb269d7701af775fcfe83da805cb6e741410634b0f61"
+      "bytes": 377111,
+      "sha256": "ef5b613f54aa6b9c6080c6fdb3aae219dc3c800f976eed0cd7a3ae5f1234e578"
     },
     {
       "path": "artifacts/邦尼🐰的🐶军师_云端.html",
@@ -305,8 +305,8 @@
     },
     {
       "path": "dist/standalone.html",
-      "bytes": 375574,
-      "sha256": "98328bed401a535f11e5cb269d7701af775fcfe83da805cb6e741410634b0f61"
+      "bytes": 377111,
+      "sha256": "ef5b613f54aa6b9c6080c6fdb3aae219dc3c800f976eed0cd7a3ae5f1234e578"
     },
     {
       "path": "dist/style.css",
@@ -415,8 +415,8 @@
     },
     {
       "path": "mobile-site/dist/index.html",
-      "bytes": 376079,
-      "sha256": "86e5f5a3a275ecb1f4ab18d7feede57576db03a0384ec4e289a796b615fdd249"
+      "bytes": 377616,
+      "sha256": "2e2afa1db22795a2f8887ab8052daf90ed0f9f93488a3d37d10ec1fcc139bc93"
     },
     {
       "path": "mobile-site/dist/manifest.webmanifest",
@@ -425,18 +425,18 @@
     },
     {
       "path": "mobile-site/dist/server/index.js",
-      "bytes": 441317,
-      "sha256": "ddd2e167414dc72e22f4cdf01b7a89c18b7c7b77e7e937c669558a027ddb3d22"
+      "bytes": 442855,
+      "sha256": "5712ed7dc80fab3212fe3acd5db8cca1302a1f3217e5625728da3ad7f5b8e7ea"
     },
     {
       "path": "mobile-site/dist/sw.js",
       "bytes": 1423,
-      "sha256": "4178164009739ab7960f90d904e419825502f9c91e6fc072c4983f6c69db3de5"
+      "sha256": "5619b62ef578ed3f75280dd524ea5c640598c0002458a62d1a60afd9e8d1b62c"
     },
     {
       "path": "mobile-site/worker/index.js",
-      "bytes": 441317,
-      "sha256": "ddd2e167414dc72e22f4cdf01b7a89c18b7c7b77e7e937c669558a027ddb3d22"
+      "bytes": 442855,
+      "sha256": "5712ed7dc80fab3212fe3acd5db8cca1302a1f3217e5625728da3ad7f5b8e7ea"
     },
     {
       "path": "package-lock.json",
@@ -525,8 +525,8 @@
     },
     {
       "path": "sync/current_rules.json",
-      "bytes": 9412,
-      "sha256": "e4861f14e1493dd20482c518e9f2d1dc4407ee1fd5724d3d966a36793289f042"
+      "bytes": 12348,
+      "sha256": "48f1562623ea151d06bbe27030d9f16a7a148d7389781b656d91611520146f6e"
     },
     {
       "path": "tests/app.test.mjs",
