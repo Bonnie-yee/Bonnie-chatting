@@ -25,9 +25,9 @@
     {
       "project_id": "appgprj_6acc6b1c10b88191a9f3e5aff7190f18",
       "url": "https://bunny-work-preview-1012.eagerrobin8.chatgpt.site",
-      "version": 1,
+      "version": 2,
       "audience": "custom",
-      "source_commit": "3253f6421d88e284bfb7f0faa7402fc738bfaa7e"
+      "source_commit": "52a4b431ef7711943bdb8e9541d12fdf4f6c0314"
     },
     {
       "project_id": "appgprj_6ac9e6f5fa4c81918b1a1156bae5ec7d",
@@ -43,5 +43,17 @@
       "audience": "public",
       "source_commit": "973a437a24fa247515c0ac09299ac2df28a4de48"
     }
-  ]
+  ],
+  "browser_checks": {
+    "desktop": "passed",
+    "responsive_375px": "passed; live preview and literal task summary operated",
+    "actual_phone_wechat": "not_tested",
+    "gpt_application": "not_modified"
+  },
+  "github_actions": {
+    "commit": "d36e2e1518ca8955f1116120964e77ad478864ba",
+    "conclusion": "success",
+    "url": "https://github.com/Bonnie-yee/Bonnie-chatting/actions/runs/38208987659"
+  },
+  "desktop_synced": true
 }
