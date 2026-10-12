@@ -36,13 +36,22 @@
   "mainland_free_access": "not_deployed",
   "leadership_dandang": {
     "review_commit": "be0e76f7fe7ddc7c7dc11c1d2c6773e5ec87c058",
-    "installed": false,
+    "installed": true,
     "api_enabled": false,
     "merged_into_bunny": false,
     "license_file_found": false,
-    "build": "Swift release build and ad-hoc signature verification passed; app prepared only"
+    "build": "Swift release build and ad-hoc signature verification passed; app prepared only",
+    "installed_path": "/Applications/Leadership.app",
+    "release_build_verified": true,
+    "code_signature_verified": true,
+    "native_ui_verification": "menu-bar-only app: native UI binding timed out; process running verified",
+    "api_key_added": false,
+    "accessibility_granted_by_agent": false,
+    "installation_consent": "User explicitly approved standalone installation with AI off",
+    "gpt_connection": "Discussing official OpenAI API versus new Sign in with ChatGPT plan usage; not enabled"
   },
   "git_history_rewritten": false,
   "http_anonymous_runtime_check": "Native Chrome displays Bunny Chatting password gate; no GPT sign-in prompt. Plain HTTP client received 403.",
-  "production_password_decryption": "not_verified_this_session"
+  "production_password_decryption": "not_verified_this_session",
+  "git_history_cleanup_decision": "User explicitly chose to retain history and clean current contents only"
 }
