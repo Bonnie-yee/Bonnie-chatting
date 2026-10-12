@@ -18,7 +18,7 @@ const knowledge={policy,stages,approved:ownApproved,userExamples:ownProvided,cas
 try { const cloud=await readJson('sync/current_rules.json'); const {feedbackRules,approvedFeedbackExamples}=await import('../app/cloud-feedback.mjs'); knowledge.cloudRules=feedbackRules(cloud); knowledge.cloudPartnerRules=feedbackRules(cloud,'practice_partner'); knowledge.cloudRevision=cloud.revision; knowledge.cloudApproved=approvedFeedbackExamples(cloud); } catch(error) { if(error.code!=='ENOENT')throw error; }
 const data = JSON.stringify(knowledge).replaceAll('刘子睿', 'ta').replaceAll('<', '\\u003c');
 const standalone = html.replace('<link rel="stylesheet" href="/style.css">', `<style>${css}</style>`).replace('<script src="/app.js" defer></script>', `<script>window.REPLY_LOCAL_KNOWLEDGE=${data};</script>\n<script>${js}</script>`);
-const output = process.argv[2] ? path.resolve(process.argv[2]) : path.join(os.homedir(), 'Desktop', '邦尼🐰的🐶军师.html');
+const output = process.argv[2] ? path.resolve(process.argv[2]) : path.join(os.homedir(), 'Desktop', 'Bunny Chatting.html');
 await fs.mkdir(path.dirname(output), { recursive: true });
 await fs.writeFile(output, standalone, { mode: 0o600 }); await fs.chmod(output, 0o600);
 await fs.mkdir(path.join(root, 'dist'), { recursive: true });

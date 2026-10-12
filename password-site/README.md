@@ -1,4 +1,4 @@
-# 邦尼兔独立密码网页
+# Bunny Chatting 独立密码网页
 
 网址：https://bonnie-bunny-vault-1011.eagerrobin8.chatgpt.site
 

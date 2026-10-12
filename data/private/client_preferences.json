@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11",
+  "updated_at": "2026-10-12",
   "plan_reported_by_user": "Plus",
   "expected_account_email": "huangbaoyi03@gmail.com",
   "current_codex_account_owned_by_user": true,
@@ -8,12 +8,12 @@
   "reuse_existing_codex_credentials": false,
   "paid_api_fallback": false,
   "codex_ownership_source": "user_corrected_on_2026-10-10",
-  "project_name": "Bonnie🐰Chatting",
+  "project_name": "Bunny Chatting",
   "project_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/project",
   "mobile_site_url": "https://bonnie-bunny-adviser-1010.eagerrobin8.chatgpt.site",
   "practice_enabled": true,
   "practice_chat_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6ac9ec8d-51c4-83ea-9a35-b966c1849edc",
-  "github_display_name": "Bonnie🐰chatting",
+  "github_display_name": "Bunny Chatting",
   "github_repository_target": "Bonnie-yee/Bonnie-chatting",
   "synchronize_every_revision": [
     "private_github",
@@ -35,5 +35,6 @@
   "reference_work_chat_url": "https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6aca5c2d-76cc-83ea-8b52-6844afd706f0",
   "password_site_url": "https://bonnie-bunny-vault-1011.eagerrobin8.chatgpt.site",
   "password_site_project_id": "appgprj_6aca84a89d7881919fb6d8566c5a9408",
-  "password_site_access": "anonymous_encrypted_password_view"
+  "password_site_access": "anonymous_encrypted_password_view",
+  "work_branch_status": "paused_at_user_boundary"
 }

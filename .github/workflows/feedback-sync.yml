@@ -23,14 +23,14 @@ jobs:
           cache: npm
       - run: npm ci --ignore-scripts
       - name: Build portable HTML from current feedback
-        run: node scripts/build-html.mjs artifacts/邦尼🐰的🐶军师.html
+        run: node scripts/build-html.mjs "artifacts/Bunny Chatting.html"
       - name: Build mobile snapshot and private Worker
-        run: node scripts/build-mobile-site.mjs artifacts/邦尼🐰的🐶军师.html
+        run: node scripts/build-mobile-site.mjs "artifacts/Bunny Chatting.html"
       - name: Build password website snapshot
         run: node scripts/build-password-site.mjs
       - name: Validate author boundaries and sync logic
         env:
-          BONNIE_HTML_PATH: artifacts/邦尼🐰的🐶军师.html
+          BONNIE_HTML_PATH: artifacts/Bunny Chatting.html
         run: npm test
       - name: Preserve generated backup
         run: |
@@ -42,7 +42,7 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           node scripts/write-backup-manifest.mjs
-          git add -f artifacts/邦尼🐰的🐶军师.html mobile-site/worker/index.js mobile-site/dist password-site/worker/index.js password-site/dist dist BACKUP_MANIFEST.json
+          git add -f "artifacts/Bunny Chatting.html" mobile-site/worker/index.js mobile-site/dist password-site/worker/index.js password-site/dist dist BACKUP_MANIFEST.json
           if ! git diff --cached --quiet; then
             git commit -m "Build assistant backup from saved feedback"
             git pull --rebase origin main

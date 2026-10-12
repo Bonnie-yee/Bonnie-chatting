@@ -1,10 +1,10 @@
-# Bonnie🐰chatting
+# Bunny Chatting
 
-邦尼🐰的🐶军师：私人聊天参考、接话与练习。GitHub 仓库必须保持 Private。
+Bunny Chatting：私人聊天参考、接话与练习。GitHub 仓库必须保持 Private。
 
 ## 使用入口
 
-- [本人 GPT 项目：Bonnie🐰Chatting](https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/project)
+- [本人 GPT 项目：Bunny Chatting](https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/project)
 - [GPT-6.1 Sol 工作入口](https://chatgpt.com/g/g-p-6ac9c47bbb348191a347feea9ab2d54c/c/6aca54fc-055c-83ea-9f75-89ed88e7e989)
 - [私人手机网页](https://bonnie-bunny-adviser-1010.eagerrobin8.chatgpt.site)：参考、全文关键词搜索、完整上下文和练习入口。不依赖 Mac 开机或同一 Wi-Fi。
 - [GitHub 私有备份](https://github.com/Bonnie-yee/Bonnie-chatting)
@@ -19,7 +19,7 @@
 
 ## 自动同步
 
-私人 Site 已有云端持久规则库和 MCP 工具，插件名「邦尼🐰的🐶军师」。本人 GPT 已实际保存 5 条反馈并提交到 GitHub sync/current_rules.json；云端网页读取同一份规则。
+私人 Site 已有云端持久规则库和 MCP 工具，平台展示名称已更新为 Bunny Chatting，已连接插件的名称可能仍显示旧名称。云端第 7 版与 sync/current_rules.json 已核对一致；云端网页读取同一份规则。
 
 1. 新工作对话读取 bonnie_get_rules。
 2. 明确反馈调用 bonnie_record_feedback，本人回复与虚构对手偏好分开。
@@ -52,4 +52,6 @@ data/private/、gpt_project/、source_documents/、artifacts/ 只在私人仓库
 
 访问密码单独保存在桌面，不进入本仓库。网页使用服务器校验、有限尝试与加密内容；AI 回复仍由原 GPT 工作对话生成。原手机 Site 保持 owner-only。真实反馈通过固定云端 relay 同步，失败时保留 pending 并重试。维护资料见 `password-site/README.md`。
 
-桌面统一入口：`邦尼兔网页版.webloc`；离线 HTML 仅保留 `邦尼🐰的🐶军师.html`。旧桌面云端 HTML 和旧备份已移入废纸篓，清理记录在 `analysis/旧版本清理记录.json`。
+桌面统一入口：`Bunny Chatting.webloc`；离线 HTML 仅保留 `Bunny Chatting.html`。旧桌面云端 HTML 和旧备份已移入废纸篓，清理记录在 `analysis/旧版本清理记录.json`。
+
+2026-10-12：两个现有 Site 已更新并发布 Bunny Chatting，原网址和访问策略保留。用户要求 GPT 保持原状，GPT 仍显示 Bonnie🐰Chatting，不再修改其指令、Sources 或模型；不能宣称全平台改名完成。当前仓库及未来项目包排除访问密码，历史 Git 提交仍可能保留旧密码文件，未重写历史。

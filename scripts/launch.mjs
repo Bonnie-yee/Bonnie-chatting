@@ -14,6 +14,6 @@ try {
 if (!link) {
   const app = await createReplyServer(); link = app.macLink;
   process.on('SIGINT', () => app.server.close()); process.on('SIGTERM', () => app.server.close());
-  console.log('邦尼🐰的🐶军师已启动。手机和这台 Mac 连同一个 Wi-Fi 后，可扫描页面里的二维码。关闭此窗口会停止服务。');
+  console.log('Bunny Chatting已启动。手机和这台 Mac 连同一个 Wi-Fi 后，可扫描页面里的二维码。关闭此窗口会停止服务。');
 }
 spawn('open', [link], { stdio: 'ignore' }).unref();

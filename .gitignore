@@ -10,3 +10,9 @@ data/private/runtime/
 *.log
 *.zip
 coverage/
+
+# Preserve access passwords only in the separate local desktop file.
+**/*访问密码*.txt
+**/*access-password*.txt
+*.tgz
+previews/

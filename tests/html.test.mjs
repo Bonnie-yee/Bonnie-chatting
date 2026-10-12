@@ -5,7 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { JSDOM } from 'jsdom';
 
-const html=await fs.readFile(process.env.BONNIE_HTML_PATH||path.join(os.homedir(),'Desktop','邦尼🐰的🐶军师.html'),'utf8');
+const html=await fs.readFile(process.env.BONNIE_HTML_PATH||path.join(os.homedir(),'Desktop','Bunny Chatting.html'),'utf8');
 function openArtifact(t,{copyWorks=true,source=html,url='file:///Users/example/Desktop/reply-assistant.html'}={}) {
   let copied='',networkCalls=0;
   const dom=new JSDOM(source,{url,runScripts:'dangerously',beforeParse(window){
@@ -20,7 +20,7 @@ const settle=()=>new Promise(resolve=>setTimeout(resolve,0));
 
 test('standalone HTML clearly uses its own ChatGPT handoff and never accesses account APIs', async t=>{
   const {dom,getCopied,getNetworkCalls}=openArtifact(t); const document=dom.window.document;
-  assert.equal(document.title,'邦尼🐰的🐶军师');
+  assert.equal(document.title,'Bunny Chatting');
   assert.equal(document.getElementById('login').hidden,true);
   assert.equal(document.getElementById('model').disabled,true);
   assert.ok(document.getElementById('generate').textContent.includes('复制任务'));
