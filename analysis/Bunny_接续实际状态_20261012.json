@@ -39,8 +39,10 @@
     "installed": false,
     "api_enabled": false,
     "merged_into_bunny": false,
-    "license_file_found": false
+    "license_file_found": false,
+    "build": "Swift release build and ad-hoc signature verification passed; app prepared only"
   },
   "git_history_rewritten": false,
-  "http_anonymous_runtime_check": "plain HTTP client blocked with 403; browser verification pending"
+  "http_anonymous_runtime_check": "Native Chrome displays Bunny Chatting password gate; no GPT sign-in prompt. Plain HTTP client received 403.",
+  "production_password_decryption": "not_verified_this_session"
 }
