@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-12",
+  "scope": "independent_private_work_preview_only",
+  "ai_enabled": false,
+  "mac_accessibility_granted_by_agent": false,
+  "leadership_test_process_closed": true,
+  "gpt_modified": false,
+  "romance_rules_and_samples_unchanged": true,
+  "cloud_revision": 7,
+  "tests": {
+    "relationship_and_entry": 57,
+    "work_preview_isolation": 4,
+    "failed": 0
+  },
+  "preview_source_directory": "/Users/huangbaoyi/Desktop/担当工作页预览",
+  "work_source_imported_into_bunny": false,
+  "work_prompts_uploaded_to_gpt": false,
+  "work_input_storage": "none; current-page DOM and memory only",
+  "work_network_inference": "none; CSP connect-src none",
+  "work_browser_check": "published private page visible after identity-only login; no chat history or plan-usage scopes",
+  "desktop_sync_note": "Uses published GitHub artifact; verify after push, avoid relying on mutable desktop file during build",
+  "git_history_rewritten": false,
+  "mainland_free_access": "not_deployed",
+  "sites": [
+    {
+      "project_id": "appgprj_6acc6b1c10b88191a9f3e5aff7190f18",
+      "url": "https://bunny-work-preview-1012.eagerrobin8.chatgpt.site",
+      "version": 1,
+      "audience": "custom",
+      "source_commit": "3253f6421d88e284bfb7f0faa7402fc738bfaa7e"
+    },
+    {
+      "project_id": "appgprj_6ac9e6f5fa4c81918b1a1156bae5ec7d",
+      "url": "https://bonnie-bunny-adviser-1010.eagerrobin8.chatgpt.site",
+      "version": 14,
+      "audience": "custom",
+      "source_commit": "ef220f2d80ddcb8d2ab8a041e7593f33b8883e2a"
+    },
+    {
+      "project_id": "appgprj_6aca84a89d7881919fb6d8566c5a9408",
+      "url": "https://bonnie-bunny-vault-1011.eagerrobin8.chatgpt.site",
+      "version": 6,
+      "audience": "public",
+      "source_commit": "973a437a24fa247515c0ac09299ac2df28a4de48"
+    }
+  ]
+}

@@ -20,13 +20,13 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 4014,
-      "sha256": "99cf8731ecaf77fca5c53e52119fb477682d9cdfb9a4a8573ae6ae587b45192b"
+      "bytes": 4710,
+      "sha256": "11525050ccdec98c127c6480bf2578ef35c4f49b28b813f9bf381bdb2609539e"
     },
     {
       "path": "README.md",
-      "bytes": 4675,
-      "sha256": "1d949abd57c12a209cd0eb3c6603f741bedd2434ab0ce9b59db3f5442891385a"
+      "bytes": 5061,
+      "sha256": "5345023bef545bd1c8ee9dbd05da0ac7db710dd59988225c33086386278c37f0"
     },
     {
       "path": "analysis/60个重点样本.md",
@@ -47,6 +47,11 @@
       "path": "analysis/Bunny_旧版本清理记录.json",
       "bytes": 2201,
       "sha256": "abcdc9cf0b665bb826b9e3698182c4eb68134580344175666c42542d7635dbdd"
+    },
+    {
+      "path": "analysis/Bunny_独立工作预览核验_20261012.json",
+      "bytes": 1815,
+      "sha256": "d4b00cf80e282dfefe5a820dba830ceec5aec026bd30cbbede3765cab0dff041"
     },
     {
       "path": "analysis/HTML与独立账号接入校验.json",
@@ -240,8 +245,8 @@
     },
     {
       "path": "artifacts/Bunny Chatting.html",
-      "bytes": 377542,
-      "sha256": "a148d343807ae7b48247ed7067658d2cff5304956261eba21b87e85dfa7ac431"
+      "bytes": 378407,
+      "sha256": "be0bfc01f1c58d0be88e4dc112c5bc790ccebae75db78d872872ef949ab3a5ce"
     },
     {
       "path": "artifacts/Bunny Chatting.webloc",
@@ -310,8 +315,8 @@
     },
     {
       "path": "data/private/client_preferences.json",
-      "bytes": 2105,
-      "sha256": "acbf6b00b54f1b1b7afa069085fdb2907ba124ebc7dda4da4d532faec0e091be"
+      "bytes": 2349,
+      "sha256": "c283154d2e82aeb059e5f05b789209c4851255ed2a1e56a4c7bcca42558e4649"
     },
     {
       "path": "data/private/conversation.json",
@@ -350,23 +355,23 @@
     },
     {
       "path": "dist/index.html",
-      "bytes": 10499,
-      "sha256": "c69b8eda67ab83be64b451b0a88c60a1c89df26c8479c94d329b460d94b59443"
+      "bytes": 10779,
+      "sha256": "ed22e0452e43e9074bd2c9121795e7b45492d54c398b593a4574450276055372"
     },
     {
       "path": "dist/standalone.html",
-      "bytes": 377542,
-      "sha256": "a148d343807ae7b48247ed7067658d2cff5304956261eba21b87e85dfa7ac431"
+      "bytes": 378407,
+      "sha256": "be0bfc01f1c58d0be88e4dc112c5bc790ccebae75db78d872872ef949ab3a5ce"
     },
     {
       "path": "dist/style.css",
-      "bytes": 11164,
-      "sha256": "7fd8b5aefcf902edda478520d2db00b27b527d37b7ac43ee32349fabd26423ae"
+      "bytes": 11749,
+      "sha256": "8279be9862dd04ca6ab46809c263c8c08fbff7a8507ed05ed1c937f39933c352"
     },
     {
       "path": "docs/BUNNY_CHATTING_预览说明.md",
-      "bytes": 1085,
-      "sha256": "f44a544867ee8678d8140642a11a6d56dbc8e464dfec501937990a7d1fe1317b"
+      "bytes": 1413,
+      "sha256": "538c9b25146f26129de477d9f609ec04600b72eab8ac3592a15523c6dc6d311d"
     },
     {
       "path": "docs/CODEX_通用主提示词_V2.0.md",
@@ -445,8 +450,8 @@
     },
     {
       "path": "gpt_project/05_软件代码仅供维护.md",
-      "bytes": 263273,
-      "sha256": "13c854b512f2a40c1c648598495ceddc2ea864bb86bb2595a252967765e71602"
+      "bytes": 265962,
+      "sha256": "2a21e51f27ede251d010aca36add672ee5030eb037cde3662503a344f6b1c59d"
     },
     {
       "path": "gpt_project/06_最新校正.txt",
@@ -490,8 +495,8 @@
     },
     {
       "path": "gpt_project/README_怎么放进GPT项目.md",
-      "bytes": 1497,
-      "sha256": "74b16e3447701d8dc542e3b51a7acaad7f1dab125279e91795c6248b326da3c4"
+      "bytes": 1688,
+      "sha256": "edd4520cf54d3b38d90c0433a85bb33f95b500ad27be3c9b94f5306afa3cb685"
     },
     {
       "path": "gpt_project/打开Bunny Chatting.command",
@@ -530,8 +535,8 @@
     },
     {
       "path": "mobile-site/dist/index.html",
-      "bytes": 378049,
-      "sha256": "b23d9cea2647bad5bc59b505071c39d9cea5a0fdcfc5537c49e9685b6695b44c"
+      "bytes": 378914,
+      "sha256": "7999cf58a06a2abc14f78c5cdf40a25fd9952a40dbf9f32a527cf1f3ca5aeed0"
     },
     {
       "path": "mobile-site/dist/manifest.webmanifest",
@@ -540,18 +545,18 @@
     },
     {
       "path": "mobile-site/dist/server/index.js",
-      "bytes": 445244,
-      "sha256": "669289694c02d5fe5a9efef1f9d6212d67c7e26c680840cf83926264a78d71a6"
+      "bytes": 446125,
+      "sha256": "2d5866d6e96f753e6e614fdbd76f32299977ae927c0cfce39265b4fcb21ae0c3"
     },
     {
       "path": "mobile-site/dist/sw.js",
       "bytes": 1423,
-      "sha256": "e5953ff7db4b49d440d92d5a38e2de4608b3a9baf4b476169e58fbf5a3fa5204"
+      "sha256": "20a4b675206362497cb70f2ae37078635938ed55f7b663123458547634bbe2e4"
     },
     {
       "path": "mobile-site/worker/index.js",
-      "bytes": 445244,
-      "sha256": "669289694c02d5fe5a9efef1f9d6212d67c7e26c680840cf83926264a78d71a6"
+      "bytes": 446125,
+      "sha256": "2d5866d6e96f753e6e614fdbd76f32299977ae927c0cfce39265b4fcb21ae0c3"
     },
     {
       "path": "package-lock.json",
@@ -585,8 +590,8 @@
     },
     {
       "path": "password-site/dist/server/index.js",
-      "bytes": 451806,
-      "sha256": "ce445aa75633e9d5920991e609723841be622f47ddae743d03de57491551d3fc"
+      "bytes": 452687,
+      "sha256": "b5609a7f5001992370c7f4ff4832f73c5073301567549a96c1770018cbf39f5b"
     },
     {
       "path": "password-site/vault-config.json",
@@ -595,8 +600,8 @@
     },
     {
       "path": "password-site/worker/index.js",
-      "bytes": 451806,
-      "sha256": "ce445aa75633e9d5920991e609723841be622f47ddae743d03de57491551d3fc"
+      "bytes": 452687,
+      "sha256": "b5609a7f5001992370c7f4ff4832f73c5073301567549a96c1770018cbf39f5b"
     },
     {
       "path": "scripts/backup-policy.mjs",
@@ -635,8 +640,8 @@
     },
     {
       "path": "scripts/export-project-pack.mjs",
-      "bytes": 9183,
-      "sha256": "d437680dfb7b7e7f2eaae5790f4ffe583b1ccf584822ca1819e289650a54d666"
+      "bytes": 9374,
+      "sha256": "6995863ac4d4cfd7cb5dd98266ab955f8bdfaeb9c2374713d9420a439e5fa38f"
     },
     {
       "path": "scripts/launch.mjs",
@@ -749,6 +754,11 @@
       "sha256": "2b28d185f6d57aa64842fbd7c79b24a83855ba27afad6707bf65053e68a3cc46"
     },
     {
+      "path": "tests/work-entry.test.mjs",
+      "bytes": 1418,
+      "sha256": "88c0fddd027f07a74ecc985dba948319df1b04ca86e86aec525d54956d56882b"
+    },
+    {
       "path": "web/app.js",
       "bytes": 26374,
       "sha256": "6c0c6f88f8a9c65f6189533de19fae1ae8230bca883483a7b2938e33854e0e52"
@@ -760,8 +770,8 @@
     },
     {
       "path": "web/index.html",
-      "bytes": 10499,
-      "sha256": "c69b8eda67ab83be64b451b0a88c60a1c89df26c8479c94d329b460d94b59443"
+      "bytes": 10779,
+      "sha256": "ed22e0452e43e9074bd2c9121795e7b45492d54c398b593a4574450276055372"
     },
     {
       "path": "web/mobile-sw.js",
@@ -785,8 +795,8 @@
     },
     {
       "path": "web/style.css",
-      "bytes": 11164,
-      "sha256": "7fd8b5aefcf902edda478520d2db00b27b527d37b7ac43ee32349fabd26423ae"
+      "bytes": 11749,
+      "sha256": "8279be9862dd04ca6ab46809c263c8c08fbff7a8507ed05ed1c937f39933c352"
     }
   ]
 }

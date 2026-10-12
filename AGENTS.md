@@ -25,3 +25,7 @@ GPT 目标当前为 `Bunny Chatting`（原名 `Bonnie🐰的狗头军师`），�
 # 2026-10-12 最新接续范围
 
 用户明确要求 GPT 现在很好，不要再改动。停止 GPT 项目名称、指令、Sources 和设置的后续写入；原工作对话已只读核对 GPT-6.1 Sol 显式锁定、极高。改名提交未得到成功保存确认，已取消未保存编辑，实际 GPT 名称仍为 Bonnie🐰Chatting。不要把全平台改名说成完成。工作与感情合并继续暂停；SecondServ/leadership-dandang 仅重新核查独立安装的接口、权限、费用和许可，未安装、未接 API。
+
+# 2026-10-12 独立工作预览的实际授权
+
+担当已独立安装到 /Applications/Leadership.app，AI 未接入，未由助手授予辅助功能权限；本次验证启动的后台进程已关闭。用户另行明确选择独立工作页预览，Bunny 网页仅放外链，AI 关闭。工作预览位于 /Users/huangbaoyi/Desktop/担当工作页预览，Site ID 为 appgprj_6acc6b1c10b88191a9f3e5aff7190f18。它保持仅本人访问，不保存或上传输入，不连接感情样本、规则、反馈接口或 GPT。不得把工作页源码或提示词加入本感情仓库、GPT Sources 或维护包。旧双分支草稿继续暂停。GPT 保持原状，不重新上传任何 Sources。

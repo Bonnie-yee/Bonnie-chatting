@@ -36,5 +36,8 @@
   "password_site_url": "https://bonnie-bunny-vault-1011.eagerrobin8.chatgpt.site",
   "password_site_project_id": "appgprj_6aca84a89d7881919fb6d8566c5a9408",
   "password_site_access": "anonymous_encrypted_password_view",
-  "work_branch_status": "paused_at_user_boundary"
+  "work_branch_status": "paused_at_user_boundary",
+  "independent_work_preview_url": "https://bunny-work-preview-1012.eagerrobin8.chatgpt.site",
+  "independent_work_preview_project_id": "appgprj_6acc6b1c10b88191a9f3e5aff7190f18",
+  "independent_work_preview_status": "preview_only_ai_disabled"
 }

@@ -55,3 +55,7 @@ data/private/、gpt_project/、source_documents/、artifacts/ 只在私人仓库
 桌面统一入口：`Bunny Chatting.webloc`；离线 HTML 仅保留 `Bunny Chatting.html`。旧桌面云端 HTML 和旧备份已移入废纸篓，清理记录在 `analysis/旧版本清理记录.json`。
 
 2026-10-12：两个现有 Site 已更新并发布 Bunny Chatting，原网址和访问策略保留。用户要求 GPT 保持原状，GPT 仍显示 Bonnie🐰Chatting，不再修改其指令、Sources 或模型；不能宣称全平台改名完成。当前仓库及未来项目包排除访问密码，历史 Git 提交仍可能保留旧密码文件，未重写历史。
+
+## 独立工作页预览
+
+用户明确批准的工作预览仅通过网页外链打开：https://bunny-work-preview-1012.eagerrobin8.chatgpt.site 。本站不导入工作代码、提示词或反馈，原 GPT 保持原样。工作预览 AI 关闭、输入不保存，保持仅本人访问；首次访问需要自己的 ChatGPT 身份登录，不申请聊天记录或 AI 使用权限。
