@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-12",
+  "gpt": {
+    "edit_status": "paused_by_latest_user_instruction",
+    "name": "Bonnie🐰Chatting",
+    "sources": "not_modified_or_recounted",
+    "instruction_edit": "unsaved_edits_cancelled",
+    "model": "GPT-6.1 Sol",
+    "model_selection": "explicitly_locked_observed_in_UI",
+    "mode": "Work",
+    "reasoning": "xhigh_observed_in_UI",
+    "privacy_or_memory_modified": false
+  },
+  "websites": {
+    "mobile": {
+      "title": "Bunny Chatting",
+      "version": 13,
+      "deployment": "succeeded",
+      "access": "owner-only",
+      "url": "https://bonnie-bunny-adviser-1010.eagerrobin8.chatgpt.site"
+    },
+    "password": {
+      "title": "Bunny Chatting",
+      "version": 5,
+      "deployment": "succeeded",
+      "access": "public-password-gate",
+      "url": "https://bonnie-bunny-vault-1011.eagerrobin8.chatgpt.site"
+    }
+  },
+  "cloud_revision": 7,
+  "sample_hashes_unchanged": true,
+  "tests": {
+    "passed": 56,
+    "failed": 0
+  },
+  "mainland_free_access": "not_deployed",
+  "leadership_dandang": {
+    "review_commit": "be0e76f7fe7ddc7c7dc11c1d2c6773e5ec87c058",
+    "installed": false,
+    "api_enabled": false,
+    "merged_into_bunny": false,
+    "license_file_found": false
+  },
+  "git_history_rewritten": false,
+  "http_anonymous_runtime_check": "plain HTTP client blocked with 403; browser verification pending"
+}

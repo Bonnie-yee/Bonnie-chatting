@@ -39,6 +39,11 @@
       "sha256": "1f0a731e558d6702e1c3d22035dd2b888630379a934151d0d36ee5ac1ee04ae8"
     },
     {
+      "path": "analysis/Bunny_接续实际状态_20261012.json",
+      "bytes": 1371,
+      "sha256": "8dae38b8abed731eccd06252673dbeeee2ab1bfb9fad1603bb2ad1b93bc0e0d0"
+    },
+    {
       "path": "analysis/Bunny_旧版本清理记录.json",
       "bytes": 2201,
       "sha256": "abcdc9cf0b665bb826b9e3698182c4eb68134580344175666c42542d7635dbdd"
@@ -440,8 +445,8 @@
     },
     {
       "path": "gpt_project/05_软件代码仅供维护.md",
-      "bytes": 263297,
-      "sha256": "fad5eb075b95ea4d1d5e38dc54130b67edb076c6e14e124b3a007df8b615235e"
+      "bytes": 263273,
+      "sha256": "13c854b512f2a40c1c648598495ceddc2ea864bb86bb2595a252967765e71602"
     },
     {
       "path": "gpt_project/06_最新校正.txt",
@@ -630,8 +635,8 @@
     },
     {
       "path": "scripts/export-project-pack.mjs",
-      "bytes": 9207,
-      "sha256": "1af6c7330264b9b035bd4b8bc530d8ca19b480b91f1825017fae8eac1215d4c1"
+      "bytes": 9183,
+      "sha256": "d437680dfb7b7e7f2eaae5790f4ffe583b1ccf584822ca1819e289650a54d666"
     },
     {
       "path": "scripts/launch.mjs",
@@ -665,8 +670,8 @@
     },
     {
       "path": "scripts/verify-password-site.mjs",
-      "bytes": 2627,
-      "sha256": "a922cc7a1597b709e07a0e921eccca0dfddefcfbf083e19a67d3f67443cc74d0"
+      "bytes": 2797,
+      "sha256": "96ae417c26722b74f1bb4a17551fc7f61e8b55fa83e76d490cd486ac6aee87fd"
     },
     {
       "path": "scripts/write-backup-manifest.mjs",
